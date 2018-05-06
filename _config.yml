@@ -93,3 +93,28 @@ algolia:
   apiKey: 'b6200d6165855d0c8c5b935a5df9efc9'
   indexName: 'hexoBlog'
   chunkSize: 5000
+
+  
+# Hexo Beautify
+beautify:
+  types:
+    - html
+    - css
+    - js
+  exclude:
+    - '*.min.css'
+    - '*.min.js'
+  html:
+    'indent_inner_html': false
+    'indent_size': 2
+    'indent_with_tabs': false
+    # More Options (https://github.com/beautify-web/js-beautify/blob/master/README.md)
+  css:
+    'indent_size': 2
+    'newline_between_rules': true
+    'indent_with_tabs': false
+    # More Options (https://github.com/beautify-web/js-beautify/blob/master/README.md)
+  js:
+    'indent_size': 2
+    'indent_with_tabs': false
+    # More Options (https://github.com/beautify-web/js-beautify/blob/master/README.md)
