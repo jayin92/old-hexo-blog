@@ -43,7 +43,7 @@ highlight:
   line_number: true
   auto_detect: false
   tab_replace:
-  
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
@@ -52,7 +52,7 @@ index_generator:
   path: ''
   per_page: 10
   order_by: -date
-  
+
 # Category & Tag
 default_category: uncategorized
 category_map:
@@ -94,7 +94,7 @@ algolia:
   indexName: 'hexoBlog'
   chunkSize: 5000
 
-  
+
 # Hexo Beautify
 beautify:
   types:
@@ -118,3 +118,6 @@ beautify:
     'indent_size': 2
     'indent_with_tabs': false
     # More Options (https://github.com/beautify-web/js-beautify/blob/master/README.md)
+
+since: 2018
+disqus_shortname: jayin92-github-io
