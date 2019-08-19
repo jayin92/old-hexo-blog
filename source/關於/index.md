@@ -8,9 +8,7 @@ date: 2018-05-06 11:08:51
     - 數學
     - 物理
     - 化學
-    - **以下可能十分稀少**
-    - 英文
-    - 國文
+    - 生物
 * 程式類
     - Python
         - Django
@@ -25,8 +23,17 @@ date: 2018-05-06 11:08:51
     - 可能涵蓋以上內容
 
 ##關於我
-升高一的準高中生(2018 05 06)
+Just call me Jayinnn
 
+https://about.me/jayinnn
 
-桃園市立建國國中數理資優班官網: http://spemath.ckjhs.tyc.edu.tw
+武陵高中科學班高二
+曾任：
+- 圖書資訊股長
+- 班代
+- 班長
+
+intersting in informatics, physics, algorithms
+
 GitHub: https://github.com/jayin92
+Telegram: https://t.me/jayinnn
