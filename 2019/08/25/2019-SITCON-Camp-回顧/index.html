@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.2.1">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"jayin92.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
+
+  <meta name="description" content="前言一開始不知道有SITCON 夏令營這個活動，是同學拉我去的（因為團報有優惠www），而且這個營隊沒有衝到我去美國的時間，所以就腦衝一波了。 其實很早之前就知道SITCON這個年會，原本今年也要去參加的，但因為沒有注意報名的時間所以就錯過了QQ。 報名的時候就把以前做過的專案打上去，再說說自己想要透過這次的機會更好的了解資訊圈，結果就很幸運的上了www。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="2019 SITCON Camp 回顧">
+<meta property="og:url" content="https://jayin92.github.io/2019/08/25/2019-SITCON-Camp-%E5%9B%9E%E9%A1%A7/index.html">
+<meta property="og:site_name" content="Jayinnn&#39;s Blog">
+<meta property="og:description" content="前言一開始不知道有SITCON 夏令營這個活動，是同學拉我去的（因為團報有優惠www），而且這個營隊沒有衝到我去美國的時間，所以就腦衝一波了。 其實很早之前就知道SITCON這個年會，原本今年也要去參加的，但因為沒有注意報名的時間所以就錯過了QQ。 報名的時候就把以前做過的專案打上去，再說說自己想要透過這次的機會更好的了解資訊圈，結果就很幸運的上了www。">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://lh3.googleusercontent.com/7ilgCqbdtfAMrYwLU6gOhsMIJPHXRnOu09p4gJ4SWGcXmTC-TsUSoNDb3PFQPjd-Bu46aBx0UiIDGhJHpWAaOhX-VvcCuL6KW8aM2RqWGWpcA2qvb9j7A2fOFziiDxR-2jJ5tFyCLT4W--UEI9jPSUUMgOFrB1er1ggrb3R8QhgnSCo9soyE9GrQo7-QugXVIC6I_RoUD1JOFUi8YLBZhezFgOr7aXZNrvtsB8XuF5tNqlrSp5wBbT53eH8tbJYTrPOMpMOAPivp61BZdt0-qPNG8yxXqzajtw-2UZcHV2K2WOP_V8JSd8ERb-AZXCb9jD1E0gqrVfy6OeTfu2t_uh_EpSWWQ5h5epbIc-33ie6SHUoFtuv2NfgiLCK2AyFfKbloBnyCMQstOQNrMVKIqUQ4MDpoJQ-kp-C8a_uq--HiYomqUHjzAl45jftnrVdR933vHcOpFJDk44wm7tObbAarpd6Y0Fu5zsmnB0CUcfrKVL81eE5ByRSqCWSkcgcEe0ZNCiWjMNX_S9jZJuV6D7rCtx2r445L51IeSeGgO4sUrg9u72sa5FK1BnAhj5EkNzSJ_h4bMk8PAEW0FgEvVwyfU81VsgcB0QwORMK8WT-TBe2xEqLqTI0i_RKYA-mN7DIGZrO03n-84EdGq1U1efoF0ZzKBet5=w474-h944-no">
+<meta property="og:image" content="https://lh3.googleusercontent.com/W2I_LyKxRP65zxhO1XSBZJhaoSR9spLdTXJFQE6MHdjDlSdue4_Y4AozM2lgV9bUQHn8MeWPqkaKY0tKRVOYnLT3Crg5nF2wmHaC7Xw_pszVQeDleIqz2-2NfZTPEv2oaFbt989cbh7GYoxXMGZLIjaohp8EgeAXBi1pociMVgXT5ehEw8YIC60x0QbVFjExYkyglObXmtuFdf3ej9AyLH31_hiRSAVzQ9L2vS7TIFEJu3wkuS17MinIDuC66Ntt4AjRiCX9MMrDctkJbZv1Uou6rbDCQGVDkm_0gCZyR1HCIr0RPMlbtgJ2hemj4BpOjYi_Qco3CmZumXEGQxEUNwlhd6QyhrRqzwHzrARtqsMRGQB-pvtdkMjnqN4ghHKqMcLcS6BIWQdl9-BJGi1ppPxRk_7so7WNRbykUTclmI34Ae-YD-H9Cr74KEbPcT1x2MlhYu5uG4gAqkvAnLBJW4u0su4N6i-ZfuRtIyKe_tjnDwyfgvEVU_0adGCDJV_fr21PizqqGEkdtKTT9g_BvNrPxQYtLJkE6L6bmjkE3S2zn5jW_4y_HjjYxUKq3eDh1LrQqZvbDzHlg4LIvVkj-0I8JARdN-MI65kAn6rFc_wVTQgbxecqukGjqdNguv1Af3o_sy_ZG9ujj2xHr8rMZv26DdOfzA75=w473-h944-no">
+<meta property="og:image" content="https://lh3.googleusercontent.com/oAXtAqVOZiZFfSrlcobsNVjrc8svpCKLZOypwi4GEE7Bq4Rd1nEQfQnKuDm9my12GfHNuPU6bVKXRJ7kE_I_r2aM7xncpH1Np0OrZAL0bk1526bP3XpA7R6OB-jkgWEjyqMQowglZk_0VPCiI9jDsVXN0j4Q7NxvBiewOOSVc_RUXhPf4mqvWY8AL-W72J73mdpSBSAXd0_rMJ4PNj8AYMgVZjiVuyf0rmiixpXb6YieUGqqS4N-TtAY5bvK8Es0aobinq0CzNJnU2-YwaFl8qgb2V5cN1ncUvtiCp95C0WWY405rOcUdzCNT7gi6fSX2Sg8lQQjVuFX3K14al1hO0VHbtarp87AquYlrZuBtwNo2pzTDCD2hvIA-3oMazRyIE3cgR4SRqjqGimdrf2wopad9x_ZCicTVP9eCL4CiHPSPoWTkknEmTRI3rwRBTi_23emSQuylZjZK4CmZODMKuWelm_wDd9sxifDGrhzA1rciI8QRExyIXfQAjRDY1NMBXu-P5oOHwYU0NqOwc608AV5kltybaUAvVnzy5HetPu6S9PYwQWw_jaZXIYFkKghMBlNwggAo5jonMmqG6sCNFX_1F3dGSrjVyhnEEqJ4AqeSz53BePohCCj9nlhW3Igk8nXHbBdXn5FbIePLhhLJR6edKL-KJj0=w1416-h944-no">
+<meta property="article:published_time" content="2019-08-25T10:16:02.000Z">
+<meta property="article:modified_time" content="2020-07-10T14:08:59.832Z">
+<meta property="article:author" content="Jayinnn">
+<meta property="article:tag" content="SITCON">
+<meta property="article:tag" content="心得">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://lh3.googleusercontent.com/7ilgCqbdtfAMrYwLU6gOhsMIJPHXRnOu09p4gJ4SWGcXmTC-TsUSoNDb3PFQPjd-Bu46aBx0UiIDGhJHpWAaOhX-VvcCuL6KW8aM2RqWGWpcA2qvb9j7A2fOFziiDxR-2jJ5tFyCLT4W--UEI9jPSUUMgOFrB1er1ggrb3R8QhgnSCo9soyE9GrQo7-QugXVIC6I_RoUD1JOFUi8YLBZhezFgOr7aXZNrvtsB8XuF5tNqlrSp5wBbT53eH8tbJYTrPOMpMOAPivp61BZdt0-qPNG8yxXqzajtw-2UZcHV2K2WOP_V8JSd8ERb-AZXCb9jD1E0gqrVfy6OeTfu2t_uh_EpSWWQ5h5epbIc-33ie6SHUoFtuv2NfgiLCK2AyFfKbloBnyCMQstOQNrMVKIqUQ4MDpoJQ-kp-C8a_uq--HiYomqUHjzAl45jftnrVdR933vHcOpFJDk44wm7tObbAarpd6Y0Fu5zsmnB0CUcfrKVL81eE5ByRSqCWSkcgcEe0ZNCiWjMNX_S9jZJuV6D7rCtx2r445L51IeSeGgO4sUrg9u72sa5FK1BnAhj5EkNzSJ_h4bMk8PAEW0FgEvVwyfU81VsgcB0QwORMK8WT-TBe2xEqLqTI0i_RKYA-mN7DIGZrO03n-84EdGq1U1efoF0ZzKBet5=w474-h944-no">
+
+<link rel="canonical" href="https://jayin92.github.io/2019/08/25/2019-SITCON-Camp-%E5%9B%9E%E9%A1%A7/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-tw'
+  };
+</script>
+
+  <title>2019 SITCON Camp 回顧 | Jayinnn's Blog</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">Jayinnn's Blog</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>About</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-tw">
+    <link itemprop="mainEntityOfPage" href="https://jayin92.github.io/2019/08/25/2019-SITCON-Camp-%E5%9B%9E%E9%A1%A7/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="https://scontent.ftpe7-1.fna.fbcdn.net/v/t1.0-9/14055204_1061057720642958_6526263328196543664_n.jpg?_nc_cat=110&_nc_sid=09cbfe&_nc_ohc=22-25QmXwTQAX_r_5Ve&_nc_ht=scontent.ftpe7-1.fna&oh=d0fd992fe4e1e9ab2214637d42813c01&oe=5F2C9C99">
+      <meta itemprop="name" content="Jayinnn">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jayinnn's Blog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          2019 SITCON Camp 回顧
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2019-08-25 18:16:02" itemprop="dateCreated datePublished" datetime="2019-08-25T18:16:02+08:00">2019-08-25</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2020-07-10 22:08:59" itemprop="dateModified" datetime="2020-07-10T22:08:59+08:00">2020-07-10</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/SITCON/" itemprop="url" rel="index"><span itemprop="name">SITCON</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>一開始不知道有SITCON 夏令營這個活動，是同學拉我去的（因為團報有優惠www），而且這個營隊沒有衝到我去美國的時間，所以就腦衝一波了。</p>
+<p>其實很早之前就知道SITCON這個年會，原本今年也要去參加的，但因為沒有注意報名的時間所以就錯過了QQ。</p>
+<p>報名的時候就把以前做過的專案打上去，再說說自己想要透過這次的機會更好的了解資訊圈，結果就很幸運的上了www。</p>
+<a id="more"></a>
+<h2 id="Day-0"><a href="#Day-0" class="headerlink" title="Day 0"></a>Day 0</h2><p>因為不想Day 1早起趕去桃園火車站坐火車，所以Day 0就跟同學先過去海大了。</p>
+<p><img src="https://lh3.googleusercontent.com/7ilgCqbdtfAMrYwLU6gOhsMIJPHXRnOu09p4gJ4SWGcXmTC-TsUSoNDb3PFQPjd-Bu46aBx0UiIDGhJHpWAaOhX-VvcCuL6KW8aM2RqWGWpcA2qvb9j7A2fOFziiDxR-2jJ5tFyCLT4W--UEI9jPSUUMgOFrB1er1ggrb3R8QhgnSCo9soyE9GrQo7-QugXVIC6I_RoUD1JOFUi8YLBZhezFgOr7aXZNrvtsB8XuF5tNqlrSp5wBbT53eH8tbJYTrPOMpMOAPivp61BZdt0-qPNG8yxXqzajtw-2UZcHV2K2WOP_V8JSd8ERb-AZXCb9jD1E0gqrVfy6OeTfu2t_uh_EpSWWQ5h5epbIc-33ie6SHUoFtuv2NfgiLCK2AyFfKbloBnyCMQstOQNrMVKIqUQ4MDpoJQ-kp-C8a_uq--HiYomqUHjzAl45jftnrVdR933vHcOpFJDk44wm7tObbAarpd6Y0Fu5zsmnB0CUcfrKVL81eE5ByRSqCWSkcgcEe0ZNCiWjMNX_S9jZJuV6D7rCtx2r445L51IeSeGgO4sUrg9u72sa5FK1BnAhj5EkNzSJ_h4bMk8PAEW0FgEvVwyfU81VsgcB0QwORMK8WT-TBe2xEqLqTI0i_RKYA-mN7DIGZrO03n-84EdGq1U1efoF0ZzKBet5=w474-h944-no" alt=""></p>
+<p>因為報到時間最晚到9點，所以我就提議去逛個基隆廟口夜市，順便吃個晚餐。因為不知道火車站可以寄放行李，所以我跟同學就拖著行李逛了一個半小時的廟口夜市，吃了天婦羅、蚵仔煎、三鮮羹還有三兄弟豆花（這個吃最飽www）。</p>
+<p><img src="https://lh3.googleusercontent.com/W2I_LyKxRP65zxhO1XSBZJhaoSR9spLdTXJFQE6MHdjDlSdue4_Y4AozM2lgV9bUQHn8MeWPqkaKY0tKRVOYnLT3Crg5nF2wmHaC7Xw_pszVQeDleIqz2-2NfZTPEv2oaFbt989cbh7GYoxXMGZLIjaohp8EgeAXBi1pociMVgXT5ehEw8YIC60x0QbVFjExYkyglObXmtuFdf3ej9AyLH31_hiRSAVzQ9L2vS7TIFEJu3wkuS17MinIDuC66Ntt4AjRiCX9MMrDctkJbZv1Uou6rbDCQGVDkm_0gCZyR1HCIr0RPMlbtgJ2hemj4BpOjYi_Qco3CmZumXEGQxEUNwlhd6QyhrRqzwHzrARtqsMRGQB-pvtdkMjnqN4ghHKqMcLcS6BIWQdl9-BJGi1ppPxRk_7so7WNRbykUTclmI34Ae-YD-H9Cr74KEbPcT1x2MlhYu5uG4gAqkvAnLBJW4u0su4N6i-ZfuRtIyKe_tjnDwyfgvEVU_0adGCDJV_fr21PizqqGEkdtKTT9g_BvNrPxQYtLJkE6L6bmjkE3S2zn5jW_4y_HjjYxUKq3eDh1LrQqZvbDzHlg4LIvVkj-0I8JARdN-MI65kAn6rFc_wVTQgbxecqukGjqdNguv1Af3o_sy_ZG9ujj2xHr8rMZv26DdOfzA75=w473-h944-no" alt=""></p>
+<p>搭公車去海大的時候，直接被站牌戳一波，同一個站竟然有兩個站牌???，直接看著兩班車開過去QQ。</p>
+<p>大概晚上八點到達海大，房間已經有兩個室友了，因為跟他們超級不熟，所以Day 0在房間都沒有在講話，有夠尷尬的QQ。</p>
+<p>不得不說海大宿舍的衛浴真的超級新，跟房間差有夠多，合理推測應該是有整修過。</p>
+<h2 id="Day-1"><a href="#Day-1" class="headerlink" title="Day 1"></a>Day 1</h2><p>Day 1早上就是報到和破冰，還有各種處罰QQ，我和另一個隊員因為打輸德國蟑螂，所以被處罰在全部人面前跟他互喊「喔，我的羅密歐」、「喔，我的茱麗葉」，有夠羞恥的，第一次參加營隊第一天就那麼刺激的。</p>
+<p>下午就是基礎的Python語法，之前因為已經有接觸過Python了，所以課程還蠻間單的。因為不想上課太無聊，所以就打打共筆，順便複習語法。不得不說這上課的速度真的有點嚇到我，要不是有點基礎，我大概會直接躺在地上陣亡ㄅ。</p>
+<p>晚上繼續上Python，速度還是一樣恐怖，怕爆。</p>
+<h2 id="Day-2"><a href="#Day-2" class="headerlink" title="Day 2"></a>Day 2</h2><p>早上吃完早餐後，直接讓我們比賽telegram上的遊戲，一開始以為會前三，結果最後直接被虐爆，最後好像才第六名吧QQ。</p>
+<p>遊戲玩完後，上的是網路、HTTP、RESTful 的基礎觀念，之前有看過有關網路的維基百科條目，但沒有系統性的了解過。這堂課用ncat跟Wireshark讓我們了解網路的運作原理，我覺得超棒！！！</p>
+<p>午餐吃完後，是splitline大大的課，大大講解了一些資訊安全的基本觀念，讓我這個對資安一點概念的人有了一些基本的觀念。</p>
+<p>接著繼續上Python的語法，好像是上函數，反正上的一樣還是很快。晚上原本是神秘活動的，但因為Day 3放颱風假，沒辦法到電腦教室上課，所以就把Day 3早上的package management、pip &amp; requests、handle json data跟神秘活動互調，變得下午和整個晚上都在上Python，大家都快累死了QQ。</p>
+<p>至於黑客松的主題也在Day 2討論出來了，反正就是一個Ubike路徑規劃機器人，我自己覺得蠻實用的。</p>
+<h2 id="Day-3"><a href="#Day-3" class="headerlink" title="Day 3"></a>Day 3</h2><p>因為Day 3放颱風假，所以Day 3十點起來就好，這真的超爽，因為前幾天都要7點起來。多睡三個小時真的差很多，早上起來精神超好的。</p>
+<p>Day 3早上的神秘活動是把全部人關在小房間裡，然後解謎，解完四個謎題就可以玩類似知識王的小遊戲，不過裡面都是資訊題拉，但bug有點小多，甚至有一題有兩個選項是一模一樣的，但只有一個選項是對的，可悲的是我們每次都選錯 = =</p>
+<p>接著又被關在另外一個小房間吃午餐＋討論黑客松，討論的時間其實好像都在裝oh my zsh和稍微教一下Github要怎麼用（？）</p>
+<p>下午也是神秘活動，其實就是RPG拉，裡面有些關還蠻有趣的，特別是git的那個。我要來抱怨拼QR Code的那關，那個剪的也太碎，而且為什麼我們這小有3塊拉 = =</p>
+<p>晚上因為風雨其實蠻小的，所以就跑回電腦教室上telegram bot的課程了，我們這次是使用python-telegram-bot這個Python Library。課程就介紹一下python-telegram-bot的語法，跟怎麼跟BotFather申請機器人。因為發覺我們機器人要做出來好像會有點小趕，所以我大概花了一個小時就把後面的投影片看了一下，把講師的練習做一做，就直接開始試做了。但因為那時候連後端都還沒開始寫，所以只是先熟悉一下library的語法和研究一下webhook(到最後還是沒用)。</p>
+<h2 id="Day-4"><a href="#Day-4" class="headerlink" title="Day 4"></a>Day 4</h2><p>早上是社群闖關，我去PyCon的攤位靠回答一題水題（？）拿了一件PyCOn 2017的衣服（那件衣服真的好看），又去GDP的攤位靠Kahoot又拿了一件TensorFlow的衣服，可是那件是XL的，有點太大了QQ。</p>
+<p>裡面也有很多很有趣的社群，像Mozilla是推廣一個叫<a href="https://voice.mozilla.org/zh-TW" target="_blank" rel="noopener">Common Voice</a>的計劃，就是收集志願者的聲音，讓機器可以學會真人說話的專案，讓你可以很方便的就對社會做出貢獻（？），我自己是覺得還蠻有意義的。</p>
+<p>下午是資訊大神的見面會，我選擇了PCMan和Birdman（其實是因為聽過PCMan，而且覺得他很神奇才選這場的）。</p>
+<p>PCMan以前是榮總的風濕免疫科的主治醫生，因為聯考前發現自己對資訊有興趣，但因為覺得可以先走醫學看看，所以就跑去陽明醫了，後來就一直在醫學界了。後來當了主治醫生好幾年後，發現自己還是沒有對醫學那麼的感興趣，所以就跑去台大念資工研究所了，現在在Appier任職資深工程師。</p>
+<p>Birdman則是一位已經創立三家公司的創業家，前兩家的公司都被外商公司收購了，現在第三家公司：奧義智慧，則專注在資安方面。他主要分享一些他作為老闆的一些看法及想法。</p>
+<p>晚上就是黑客松時間 aka 瘋狂寫code時間，我和另外一位同學負責後端，我做PTX的部份，他做Google Maps，我的工作就是將Ubike站點的資料包裝成一個容易使用的函數，和把整個後端整合起來。這邊可以提一下，我們機器人有一個部份是搜尋最近的站點ㄇ，那個部份我是用爆搜的，因為分析了一下全台站點數並沒有很多(1747)，用經緯度算距離也不是一件很難的事情。最後證明我是對的，整個爆搜的時間小到可以忽略。後端整個做完大概花了我和另一個隊員一個半小時ㄅ，正當我們以為今天晚上不用熬夜的時候，我們發現前端的分工似乎有點問題，進度有點緩慢，所以我就莫名其妙跳到前端了，後來直接熬夜把整個程式在8個小時硬幹出來(python-telegram-bot那個Handler真的很煩，沒把它remove掉竟然會衝突= =)</p>
+<h2 id="Day-5"><a href="#Day-5" class="headerlink" title="Day 5"></a>Day 5</h2><p>到了最後一天，今天是機器人發表的時間，我Day 5大概7點就起床了ㄅ，因為還沒處理用戶跟用戶間會打架的問題，後來用user_data解決了，但這個問題解決完之後，發現還有一些流程的小bug還沒修。這些bug我一直修到中午都還沒修完（我甚至沒吃什麼午餐），後來想說算了，如果最後demo有問題重開就好www，結果demo的時候真的有問題，只能直接重開了QQ</p>
+<h2 id="心得"><a href="#心得" class="headerlink" title="心得"></a>心得</h2><p>這是我參加過課程最硬的營隊，也是唯一一次在營期中熬夜到三點的。</p>
+<p>To 隊輔們：真的很感謝隊輔腋毛、任禎，在這五天努力的照顧我們，也提供我們很多關於黑客松的想法，真的謝謝你們！！！</p>
+<p>To 小隊員們：謝謝你們這幾天對於專案的幫忙，你們真的超棒。也特別感謝靖軒提供中央大學的server，讓機器人暫時有地方可以放著。</p>
+<p>這次程式開發的經驗真的讓我了解到什麼叫跟時間賽跑，我從來沒有打code打到凌晨3點，早上7點起來繼續的經驗。而且做出來的成品是真的可以用的，就真的非常非常有成就感，期望以後還有機會體驗到這種開發的經驗。</p>
+<p>SITCON 2020 我會去的！！！（當工人感覺不錯呢）</p>
+<p><img src="https://lh3.googleusercontent.com/oAXtAqVOZiZFfSrlcobsNVjrc8svpCKLZOypwi4GEE7Bq4Rd1nEQfQnKuDm9my12GfHNuPU6bVKXRJ7kE_I_r2aM7xncpH1Np0OrZAL0bk1526bP3XpA7R6OB-jkgWEjyqMQowglZk_0VPCiI9jDsVXN0j4Q7NxvBiewOOSVc_RUXhPf4mqvWY8AL-W72J73mdpSBSAXd0_rMJ4PNj8AYMgVZjiVuyf0rmiixpXb6YieUGqqS4N-TtAY5bvK8Es0aobinq0CzNJnU2-YwaFl8qgb2V5cN1ncUvtiCp95C0WWY405rOcUdzCNT7gi6fSX2Sg8lQQjVuFX3K14al1hO0VHbtarp87AquYlrZuBtwNo2pzTDCD2hvIA-3oMazRyIE3cgR4SRqjqGimdrf2wopad9x_ZCicTVP9eCL4CiHPSPoWTkknEmTRI3rwRBTi_23emSQuylZjZK4CmZODMKuWelm_wDd9sxifDGrhzA1rciI8QRExyIXfQAjRDY1NMBXu-P5oOHwYU0NqOwc608AV5kltybaUAvVnzy5HetPu6S9PYwQWw_jaZXIYFkKghMBlNwggAo5jonMmqG6sCNFX_1F3dGSrjVyhnEEqJ4AqeSz53BePohCCj9nlhW3Igk8nXHbBdXn5FbIePLhhLJR6edKL-KJj0=w1416-h944-no" alt=""></p>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/SITCON/" rel="tag"># SITCON</a>
+              <a href="/tags/%E5%BF%83%E5%BE%97/" rel="tag"># 心得</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2019/08/22/%E7%AC%AC%E4%B8%80%E5%80%8BTelegram-Bot-BikeAnywhereBot/" rel="prev" title="第一個Telegram Bot:@BikeAnywhereBot">
+      <i class="fa fa-chevron-left"></i> 第一個Telegram Bot:@BikeAnywhereBot
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Day-0"><span class="nav-number">2.</span> <span class="nav-text">Day 0</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Day-1"><span class="nav-number">3.</span> <span class="nav-text">Day 1</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Day-2"><span class="nav-number">4.</span> <span class="nav-text">Day 2</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Day-3"><span class="nav-number">5.</span> <span class="nav-text">Day 3</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Day-4"><span class="nav-number">6.</span> <span class="nav-text">Day 4</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Day-5"><span class="nav-number">7.</span> <span class="nav-text">Day 5</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#心得"><span class="nav-number">8.</span> <span class="nav-text">心得</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Jayinnn"
+      src="https://scontent.ftpe7-1.fna.fbcdn.net/v/t1.0-9/14055204_1061057720642958_6526263328196543664_n.jpg?_nc_cat=110&_nc_sid=09cbfe&_nc_ohc=22-25QmXwTQAX_r_5Ve&_nc_ht=scontent.ftpe7-1.fna&oh=d0fd992fe4e1e9ab2214637d42813c01&oe=5F2C9C99">
+  <p class="site-author-name" itemprop="name">Jayinnn</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">8</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">8</span>
+        <span class="site-state-item-name">categories</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">14</span>
+        <span class="site-state-item-name">tags</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/jayin92" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;jayin92" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://t.me/jayinnn" title="Telegram → https:&#x2F;&#x2F;t.me&#x2F;jayinnn" rel="noopener" target="_blank"><i class="fab fa-telegram fa-fw"></i>Telegram</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.facebook.com/jayinnn" title="Facebook → https:&#x2F;&#x2F;www.facebook.com&#x2F;jayinnn" rel="noopener" target="_blank"><i class="fab fa-facebook fa-fw"></i>Facebook</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://instagram.com/jayinnn" title="Instagram → https:&#x2F;&#x2F;instagram.com&#x2F;jayinnn" rel="noopener" target="_blank"><i class="fab fa-instagram fa-fw"></i>Instagram</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Jayinnn</span>
+</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a>
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+      
+
+<script>
+  if (typeof MathJax === 'undefined') {
+    window.MathJax = {
+      loader: {
+          load: ['[tex]/mhchem'],
+        source: {
+          '[tex]/amsCd': '[tex]/amscd',
+          '[tex]/AMScd': '[tex]/amscd'
+        }
+      },
+      tex: {
+        inlineMath: {'[+]': [['$', '$']]},
+          packages: {'[+]': ['mhchem']},
+        tags: 'ams'
+      },
+      options: {
+        renderActions: {
+          findScript: [10, doc => {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+              const display = !!node.type.match(/; *mode=display/);
+              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+              const text = document.createTextNode('');
+              node.parentNode.replaceChild(text, node);
+              math.start = {node: text, delim: '', n: 0};
+              math.end = {node: text, delim: '', n: 0};
+              doc.math.push(math);
+            });
+          }, '', false],
+          insertedScript: [200, () => {
+            document.querySelectorAll('mjx-container').forEach(node => {
+              let target = node.parentNode;
+              if (target.nodeName.toLowerCase() === 'li') {
+                target.parentNode.classList.add('has-jax');
+              }
+            });
+          }, '', false]
+        }
+      }
+    };
+    (function () {
+      var script = document.createElement('script');
+      script.src = '//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
+      script.defer = true;
+      document.head.appendChild(script);
+    })();
+  } else {
+    MathJax.startup.document.state(0);
+    MathJax.texReset();
+    MathJax.typeset();
+  }
+</script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+
+    
+
+  
+
+</body>
+</html>
