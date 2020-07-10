@@ -20,23 +20,24 @@
     var CONFIG = {"hostname":"jayin92.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="Github Repo: https:&#x2F;&#x2F;github.com&#x2F;jayin92&#x2F;UBikeAnywhereBot  動機我自己有時候到外縣市遊玩或參加各種活動的時候，常常會使用Ubike當作交通工具，但因為不熟當地的地形和Ubike站點的位置，常常會需要用手機在瀏覽器和地圖之間瘋狂切換才能找到正確的站點及正確的路線，讓我十分困擾。而且在騎乘自行車時做出上述的動作更是十分危險。所以當時在SITCO">
+  <meta name="description" content="介紹大家都知道巴斯卡公式是排列組合中一個十分有用的公式，都叫做巴斯卡公式了，可想而知一定跟巴斯卡三角形有關係">
 <meta property="og:type" content="article">
-<meta property="og:title" content="第一個Telegram Bot:@BikeAnywhereBot">
-<meta property="og:url" content="https://jayin92.github.io/2019/08/22/%E7%AC%AC%E4%B8%80%E5%80%8BTelegram-Bot-BikeAnywhereBot/index.html">
+<meta property="og:title" content="證明巴斯卡定理">
+<meta property="og:url" content="https://jayin92.github.io/%E8%AD%89%E6%98%8E%E5%B7%B4%E6%96%AF%E5%8D%A1%E5%AE%9A%E7%90%86/index.html">
 <meta property="og:site_name" content="Jayinnn&#39;s Blog">
-<meta property="og:description" content="Github Repo: https:&#x2F;&#x2F;github.com&#x2F;jayin92&#x2F;UBikeAnywhereBot  動機我自己有時候到外縣市遊玩或參加各種活動的時候，常常會使用Ubike當作交通工具，但因為不熟當地的地形和Ubike站點的位置，常常會需要用手機在瀏覽器和地圖之間瘋狂切換才能找到正確的站點及正確的路線，讓我十分困擾。而且在騎乘自行車時做出上述的動作更是十分危險。所以當時在SITCO">
+<meta property="og:description" content="介紹大家都知道巴斯卡公式是排列組合中一個十分有用的公式，都叫做巴斯卡公式了，可想而知一定跟巴斯卡三角形有關係">
 <meta property="og:locale" content="zh_TW">
-<meta property="article:published_time" content="2019-08-22T07:59:05.000Z">
+<meta property="og:image" content="https://jayin92.github.io/image/Pascal">
+<meta property="article:published_time" content="2018-05-05T00:02:50.000Z">
 <meta property="article:modified_time" content="2020-07-10T14:37:49.696Z">
 <meta property="article:author" content="Jayinnn">
-<meta property="article:tag" content="Python">
-<meta property="article:tag" content="SITCON">
-<meta property="article:tag" content="Telegram">
-<meta property="article:tag" content="Chat Bot">
+<meta property="article:tag" content="數學">
+<meta property="article:tag" content="證明">
+<meta property="article:tag" content="排列組合">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://jayin92.github.io/image/Pascal">
 
-<link rel="canonical" href="https://jayin92.github.io/2019/08/22/%E7%AC%AC%E4%B8%80%E5%80%8BTelegram-Bot-BikeAnywhereBot/">
+<link rel="canonical" href="https://jayin92.github.io/%E8%AD%89%E6%98%8E%E5%B7%B4%E6%96%AF%E5%8D%A1%E5%AE%9A%E7%90%86/">
 
 
 <script id="page-configurations">
@@ -49,7 +50,7 @@
   };
 </script>
 
-  <title>第一個Telegram Bot:@BikeAnywhereBot | Jayinnn's Blog</title>
+  <title>證明巴斯卡定理 | Jayinnn's Blog</title>
   
 
 
@@ -169,7 +170,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-tw">
-    <link itemprop="mainEntityOfPage" href="https://jayin92.github.io/2019/08/22/%E7%AC%AC%E4%B8%80%E5%80%8BTelegram-Bot-BikeAnywhereBot/">
+    <link itemprop="mainEntityOfPage" href="https://jayin92.github.io/%E8%AD%89%E6%98%8E%E5%B7%B4%E6%96%AF%E5%8D%A1%E5%AE%9A%E7%90%86/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="https://scontent.ftpe7-1.fna.fbcdn.net/v/t1.0-9/14055204_1061057720642958_6526263328196543664_n.jpg?_nc_cat=110&_nc_sid=09cbfe&_nc_ohc=22-25QmXwTQAX_r_5Ve&_nc_ht=scontent.ftpe7-1.fna&oh=d0fd992fe4e1e9ab2214637d42813c01&oe=5F2C9C99">
@@ -182,7 +183,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          第一個Telegram Bot:@BikeAnywhereBot
+          證明巴斯卡定理
         </h1>
 
         <div class="post-meta">
@@ -192,7 +193,7 @@
               </span>
               <span class="post-meta-item-text">Posted on</span>
 
-              <time title="Created: 2019-08-22 15:59:05" itemprop="dateCreated datePublished" datetime="2019-08-22T15:59:05+08:00">2019-08-22</time>
+              <time title="Created: 2018-05-05 08:02:50" itemprop="dateCreated datePublished" datetime="2018-05-05T08:02:50+08:00">2018-05-05</time>
             </span>
               <span class="post-meta-item">
                 <span class="post-meta-item-icon">
@@ -207,11 +208,11 @@
               </span>
               <span class="post-meta-item-text">In</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E8%B3%87%E8%A8%8A/" itemprop="url" rel="index"><span itemprop="name">資訊</span></a>
+                  <a href="/categories/%E6%95%B8%E5%AD%B8/" itemprop="url" rel="index"><span itemprop="name">數學</span></a>
                 </span>
                   , 
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E8%B3%87%E8%A8%8A/Python/" itemprop="url" rel="index"><span itemprop="name">Python</span></a>
+                  <a href="/categories/%E6%95%B8%E5%AD%B8/%E8%AD%89%E6%98%8E/" itemprop="url" rel="index"><span itemprop="name">證明</span></a>
                 </span>
             </span>
 
@@ -226,41 +227,14 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <blockquote>
-<p>Github Repo: <a href="https://github.com/jayin92/UBikeAnywhereBot" target="_blank" rel="noopener">https://github.com/jayin92/UBikeAnywhereBot</a></p>
-</blockquote>
-<h2 id="動機"><a href="#動機" class="headerlink" title="動機"></a>動機</h2><p>我自己有時候到外縣市遊玩或參加各種活動的時候，常常會使用Ubike當作交通工具，但因為不熟當地的地形和Ubike站點的位置，常常會需要用手機在瀏覽器和地圖之間瘋狂切換才能找到正確的站點及正確的路線，讓我十分困擾。而且在騎乘自行車時做出上述的動作更是十分危險。所以當時在SITCON夏令營時，就覺得這個需求其實蠻迫切的，所以就決定我們黑客松的主題。</p>
-<h2 id="介紹"><a href="#介紹" class="headerlink" title="介紹"></a>介紹</h2><p>這個Telegram Bot是我在SITCON夏令營做的一個Ubike站點路徑規劃機器人，這個機器人主要可以幫你找到離出發地和目的地最近且可用的兩個Ubike站點，並且回傳導航路線給用戶，也同時會傳送給用戶那兩個站點目前的車輛數和空位數。</p>
+        <h2 id="介紹"><a href="#介紹" class="headerlink" title="介紹"></a>介紹</h2><p>大家都知道巴斯卡公式是排列組合中一個十分有用的公式，都叫做巴斯卡公式了，可想而知一定跟巴斯卡三角形有關係<br><img src="/image/Pascal's triangle.png" width=50% height=50%></p>
 <a id="more"></a>
-
-<h2 id="Telegram"><a href="#Telegram" class="headerlink" title="Telegram ?"></a>Telegram ?</h2><blockquote><p>Telegram是一個跨平台的即時通訊軟體，它的用戶端是自由及開放原始碼軟體，但是它的伺服器是專有軟體。使用者可以相互交換加密與自毀訊息，傳送相片、影片等所有類型檔案。官方提供手機版（Android、iOS、Windows Phone）、電腦版（Windows、macOS、Linux）和網頁版等多種平台用戶端；同時官方開放應用程式介面，因此擁有許多第三方的用戶端可供選擇，其中多款內建中文。</p>
-<footer><strong>Wikipedia</strong><cite><a href="https://zh.wikipedia.org/zh-tw/Telegram" target="_blank" rel="noopener">zh.wikipedia.org/zh-tw/Telegram</a></cite></footer></blockquote>
-
-<p>Telegram 就是一個通訊軟體，但功能十分強大，不管是高達1.5GB的最大檔案上傳大小、優秀的群組管理功能、端對端的加密、所有聊天資料雲端備份（就不會出現某通訊軟體，換手機聊天紀錄全部消失的問題）、多設備同時登入等等…</p>
-<p>而且更重要的是，我們可以利用官方所提供的API來建立我們自己的機器人，更棒的是，網路上已經有可以直接使用的Python Library：<a href="python-telegram-bot">https://github.com/python-telegram-bot/python-telegram-bot</a>，這讓開發的過程更加容易。</p>
-<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p>安裝Telegram後，可以利用以下網址使用我們的機器人<br><a href="https://t.me/bikeanywherebot" target="_blank" rel="noopener">https://t.me/bikeanywherebot</a></p>
-<p>Bot 首先會詢問使用者的出發地及目的地（支援模糊搜尋），並利用政府所提供的PTX API取的全台Ubike站點名稱、經緯度、已停車輛、空位，再利用經緯度及已停車輛或空位算出與出發地和目的地可用且最近的Ubike站點，在將這四個位置輸入Google Maps的導航，就完成了一次操作。</p>
-<p>更詳細的說明也可以參考我們的簡報：<a href="https://docs.google.com/presentation/d/1lNG2SYwuUna-86FPnBUql_JN1xgufkv2j6Hai_BKe2E/edit" target="_blank" rel="noopener">https://docs.google.com/presentation/d/1lNG2SYwuUna-86FPnBUql_JN1xgufkv2j6Hai_BKe2E/edit</a></p>
-<h2 id="Library"><a href="#Library" class="headerlink" title="Library"></a>Library</h2><p>我們在這個專案主要用了下面幾個library:</p>
-<ul>
-<li><code>telegram</code> (就是python-telegram-bot)</li>
-<li><code>requests</code> 抓api的資料</li>
-<li><code>json</code> 將json檔變成Python原生的字典</li>
-<li><code>configparser</code> 讀取config.ini</li>
-</ul>
-<h2 id="API"><a href="#API" class="headerlink" title="API"></a>API</h2><p>我們在這個project主要用到了兩個API，一個是Google的Firebase，用來生成Dynamic Link。還有一個是政府的PTX(Public Transport Data eXchange)平台，用來查詢Ubike的站點位置，即時的車輛數等等…</p>
-<p>我們一開始並沒有找到PTX這個整合性的平台，而是先找到了各縣市的Ubike開放資料，而且並不是每個縣市的資料開放平台都有Ubike的資料。這讓我們很困擾，因為我們要花很多時間處理各個縣市不統一的資料形式，而且還要申請不同縣市資料平台的API Key。但幸好後來有一位小隊員找到政府的PTX平台，上面有所有擁有公共自行車站點的縣市的資料，而且只需要一個API Key，這讓資料的取得相當的方便。</p>
-<p>我們的導航網址是利用網址分析的方式產出的，格式大概長這樣：<br><a href="https://www.google.com/maps/dir/?api=1&origin=海洋大學&destination=臺灣大學&waypoints=臺北動物園|臺北101&travelmode=driving" target="_blank" rel="noopener">https://www.google.com/maps/dir/?api=1&amp;origin=海洋大學&amp;destination=臺灣大學&amp;waypoints=臺北動物園|臺北101&amp;travelmode=driving</a></p>
-<ul>
-<li>origin: 起點 (可以是座標、地點名稱、Google的placeID)</li>
-<li>destination: 終點 (可以是座標、地點名稱、Google的placeID)</li>
-<li>waypoints: 中途點 (格式與上面相同，中途點間用<code>|</code>分隔)</li>
-<li>travelmode: 導航模式 (driving, walking, motorcycling, etc…)<br>所以上面那段網址點進去後，會出現Google Maps的導航畫面，路線是 <strong>海洋大學 -&gt; 臺北動物園 -&gt; 臺北101 -&gt; 臺灣大學</strong> 而導航模式是開車。</li>
-</ul>
-<p>可以發現，這串網址如果直接發給用戶會相當的難看，而且並不會直接導向到Google Maps的APP，當我試著用各家的縮網址服務時，隊友找到了一個叫Dynamic Link的東西。Dynamic Link是一個由Google Firebase提供的服務，它不僅可以縮網址，而且網址的域名還是自訂的(<a href="https://bikeanywhere.page.link" target="_blank" rel="noopener">https://bikeanywhere.page.link</a>)，更強的是，它可以自動導向到Google Maps的APP，用戶不用再做其他的動作，這東西簡直就是完美。</p>
-<h2 id="開發"><a href="#開發" class="headerlink" title="開發"></a>開發</h2><p>我們大概從營隊第四天才開始做開發的動作ㄅ，前面都在收集資料。而且我們在第三天的晚上才開始教python-telegram-bot這個library怎麼使用的，因為我真的很怕我們的專案做不出來QQ。所以我大概花了一個小時就把後面的投影片看了一下，把講師的練習做一做，就直接開始試做了。但因為那時候連後端都還沒開始寫，所以只是先熟悉一下library的語法和研究一下webhook(到最後還是沒用)。</p>
-<p>後來第四天晚上，我們全組才正式開始做UbikeAnywhereBot，我和另外一位同學負責後端，我做PTX的部份，他做Google Maps，我的工作就是將Ubike站點的資料包裝成一個容易使用的函數，和把整個後端整合起來。這邊可以提一下，我們機器人不是有一個部份是搜尋最近的站點ㄇ，其實那個部份我是用爆搜的，因為分析了一下全台站點數並沒有很多(1747)，用經緯度算距離也不是一件很難的事情。最後證明我是對的，整個爆搜的時間小到可以忽略。後端整個做完大概花了我和另一個隊員一個半小時ㄅ，正當我們以為今天晚上不用熬夜的時候，我們發現前端的分工似乎有點問題，進度有點緩慢，所以我就莫名其妙跳到前端了，後來直接熬夜把整個程式在8個小時硬幹出來(python-telegram-bot那個Handler真的很煩，沒把它remove掉竟然會衝突= =)到了星期五早上就是瘋狂的修bug，解決各個用戶會打架的問題(user_data超棒)，雖然到最後demo的時候還是有點小爆炸，但整體我還是很滿意拉嘻嘻。</p>
-<h2 id="心得"><a href="#心得" class="headerlink" title="心得"></a>心得</h2><p>原本想說用個黑客松應該會學到專案分工，但好像還是沒有分到什麼工QQ，但這次程式開發的經驗真的讓我了解到什麼叫跟時間賽跑，我從來沒有打code打到凌晨3點，早上7點起來繼續的經驗。而且做出來的成品是真的可以用的，就真的非常非常有成就感，期望以後還有機會體驗到這種開發的經驗。</p>
+<p>其實巴斯卡三角形也可以被寫成以下形式：<br>![](/image/Pascal’s trianglewithc.png “巴斯卡三角形&lt;組合形式&gt; source:<a href="https://www.quora.com/Why-does-Pascals-Triangle-work&quot;" target="_blank" rel="noopener">https://www.quora.com/Why-does-Pascals-Triangle-work&quot;</a>)<br>大家都知道巴斯卡三角形有以下性質:<br>![](/image/Pascal’s trianglepro.png “巴斯卡三角形的性質 source:<a href="https://www.quora.com/Why-does-Pascals-Triangle-work&quot;" target="_blank" rel="noopener">https://www.quora.com/Why-does-Pascals-Triangle-work&quot;</a>)<br>於是我們可以利用巴斯卡三角形推導出以下等式:<br>$$\begin{equation}C_{k}^{n+1} = C_{k-1}^{n}+C_{k}^{n}\end{equation}$$<br>舉個例子來說的話就是:<br>$$C_{5}^{10} = C_{4}^{9}+C_{5}^{9}$$<br>這個例子可以上面的巴斯卡三角形的組合形式中找到</p>
+<h2 id="從結果推導出的證明"><a href="#從結果推導出的證明" class="headerlink" title="從結果推導出的證明"></a>從結果推導出的證明</h2><p>組合的定義:<br>$$C_{k}^{n} = \frac{n!}{k!(n-k)!}$$<br>故(1)可改寫為:<br>$$\begin{equation}\frac{(n+1)!}{k!(n-k+1)!}=\frac{n!}{(k-1)!(n-k+1)!}+\frac{n!}{k!(n-k)!}\end{equation}$$<br>開始推導:<br>$$<br>\frac{(n+1)!}{k!(n-k+1)!}=\frac{n!}{(k-1)!(n-k+1)!}+\frac{n!}{k!(n-k)!}\<br>(n+1)!=\frac{n!k!}{(k-1)!}+\frac{n!(n-k+1)!}{(n-k)!}\<br>\frac{(n+1)!}{n!}=\frac{k!}{(k-1)!}+\frac{(n-k+1)!}{(n-k)!}\<br>n+1=\frac{k!}{(k-1)!}+\frac{(n-k+1)!}{(n-k)!}\<br>n+1=k+\frac{(n-k)!(n-k+1)}{(n-k)!}\<br>n+1=k+(n-k+1)\<br>n+1=n+1<br>$$</p>
+<p>等號兩邊相等，故巴斯卡公式成立。</p>
+<p>但是我認為這個證法不夠精確，我已經先假設巴斯卡公式成立再去證明它的確成立，正確的證法應該要從源頭來下手。</p>
+<h2 id="從源頭推導出巴斯卡公式"><a href="#從源頭推導出巴斯卡公式" class="headerlink" title="從源頭推導出巴斯卡公式"></a>從源頭推導出巴斯卡公式</h2><p>我認為這個證明有點曲折，希望有更好的證法</p>
+<p>$$<br>原式=C_{k-1}^{n}+C_{k}^{n}\<br>=\frac{n!}{(k-1)!(n-k+1)!}+\frac{n!}{k!(n-k)!}\<br>=\frac{n!}{\frac{k!}{k}(n-k)!(n-k+1)}+\frac{n!}{k!(n-k)!}\<br>=\frac{n!k}{k!(n-k)!(n-k+1)}+\frac{n!}{k!(n-k)!}\<br>=\frac{n!}{k!(n-k)!}(\frac{k}{n-k+1}+1)\<br>=\frac{n!}{k!(n-k)!}(\frac{k+(n-k+1)}{n-k+1})\<br>=\frac{n!}{k!(n-k)!}(\frac{n+1}{n-k+1})\<br>=\frac{n!(n+1)}{k!(n-k)!(n-k+1)}\<br>=\frac{(n+1)!}{k!((n+1)-k)!}\<br>=C_{k}^{n+1}<br>$$</p>
 
     </div>
 
@@ -270,10 +244,9 @@
 
       <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/Python/" rel="tag"># Python</a>
-              <a href="/tags/SITCON/" rel="tag"># SITCON</a>
-              <a href="/tags/Telegram/" rel="tag"># Telegram</a>
-              <a href="/tags/Chat-Bot/" rel="tag"># Chat Bot</a>
+              <a href="/tags/%E6%95%B8%E5%AD%B8/" rel="tag"># 數學</a>
+              <a href="/tags/%E8%AD%89%E6%98%8E/" rel="tag"># 證明</a>
+              <a href="/tags/%E6%8E%92%E5%88%97%E7%B5%84%E5%90%88/" rel="tag"># 排列組合</a>
           </div>
 
         
@@ -281,13 +254,10 @@
 
         
     <div class="post-nav">
+      <div class="post-nav-item"></div>
       <div class="post-nav-item">
-    <a href="/2019/08/20/%E8%90%AC%E6%9C%89%E5%BC%95%E5%8A%9B%E5%AE%9A%E5%BE%8B-vs-%E5%BA%AB%E4%BE%96%E5%AE%9A%E5%BE%8B/" rel="prev" title="萬有引力定律 vs 庫侖定律">
-      <i class="fa fa-chevron-left"></i> 萬有引力定律 vs 庫侖定律
-    </a></div>
-      <div class="post-nav-item">
-    <a href="/2019/08/25/2019-SITCON-Camp-%E5%9B%9E%E9%A1%A7/" rel="next" title="2019 SITCON Camp 回顧">
-      2019 SITCON Camp 回顧 <i class="fa fa-chevron-right"></i>
+    <a href="/%E6%9C%89%E9%97%9CBarnsley-Fern/" rel="next" title="有關Barnsley Fern">
+      有關Barnsley Fern <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
@@ -347,7 +317,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#動機"><span class="nav-number">1.</span> <span class="nav-text">動機</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#介紹"><span class="nav-number">2.</span> <span class="nav-text">介紹</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Telegram"><span class="nav-number">3.</span> <span class="nav-text">Telegram ?</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#使用"><span class="nav-number">4.</span> <span class="nav-text">使用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Library"><span class="nav-number">5.</span> <span class="nav-text">Library</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#API"><span class="nav-number">6.</span> <span class="nav-text">API</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#開發"><span class="nav-number">7.</span> <span class="nav-text">開發</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#心得"><span class="nav-number">8.</span> <span class="nav-text">心得</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#介紹"><span class="nav-number">1.</span> <span class="nav-text">介紹</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#從結果推導出的證明"><span class="nav-number">2.</span> <span class="nav-text">從結果推導出的證明</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#從源頭推導出巴斯卡公式"><span class="nav-number">3.</span> <span class="nav-text">從源頭推導出巴斯卡公式</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 

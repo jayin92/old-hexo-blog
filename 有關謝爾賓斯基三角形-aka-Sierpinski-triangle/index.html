@@ -20,23 +20,22 @@
     var CONFIG = {"hostname":"jayin92.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="引言萬有引力定律和庫侖定律分別是力學及電學中重要的定律，我們都知道萬有引力定律是由牛頓歸納出的，而庫侖定律顯然就是由庫侖。萬有引力定律的發表時間約早庫侖定律100年，且這兩條定律都與平方反比定律有關，這篇網誌主要描述這兩條定律，及為了驗證這兩條定律而發展出的實驗。 萬有引力定律萬有引力定律是由牛頓於1687年出版的《自然哲學的數學原理》首次發表的，他描述了任兩物體之間都會有吸引力，且此吸引力正比於">
+  <meta name="description" content="介紹在上一篇文章中，我們知道Barnsley Fern與這次介紹的謝爾賓斯基三角形都是碎形 照慣例(XD)我們再次引用Wikipedia的內容 謝爾賓斯基三角形（英語：Sierpinski triangle）是一種碎形，由波蘭數學家謝爾賓斯基在1915年提出。它是自相似集的例子。 Wikipediazh.wikipedia.org&#x2F;wiki&#x2F;謝爾賓斯基三角形 我們這次所介紹的繪圖方法，維基百科把它">
 <meta property="og:type" content="article">
-<meta property="og:title" content="萬有引力定律 vs 庫侖定律">
-<meta property="og:url" content="https://jayin92.github.io/2019/08/20/%E8%90%AC%E6%9C%89%E5%BC%95%E5%8A%9B%E5%AE%9A%E5%BE%8B-vs-%E5%BA%AB%E4%BE%96%E5%AE%9A%E5%BE%8B/index.html">
+<meta property="og:title" content="有關謝爾賓斯基三角形 aka Sierpinski triangle">
+<meta property="og:url" content="https://jayin92.github.io/%E6%9C%89%E9%97%9C%E8%AC%9D%E7%88%BE%E8%B3%93%E6%96%AF%E5%9F%BA%E4%B8%89%E8%A7%92%E5%BD%A2-aka-Sierpinski-triangle/index.html">
 <meta property="og:site_name" content="Jayinnn&#39;s Blog">
-<meta property="og:description" content="引言萬有引力定律和庫侖定律分別是力學及電學中重要的定律，我們都知道萬有引力定律是由牛頓歸納出的，而庫侖定律顯然就是由庫侖。萬有引力定律的發表時間約早庫侖定律100年，且這兩條定律都與平方反比定律有關，這篇網誌主要描述這兩條定律，及為了驗證這兩條定律而發展出的實驗。 萬有引力定律萬有引力定律是由牛頓於1687年出版的《自然哲學的數學原理》首次發表的，他描述了任兩物體之間都會有吸引力，且此吸引力正比於">
+<meta property="og:description" content="介紹在上一篇文章中，我們知道Barnsley Fern與這次介紹的謝爾賓斯基三角形都是碎形 照慣例(XD)我們再次引用Wikipedia的內容 謝爾賓斯基三角形（英語：Sierpinski triangle）是一種碎形，由波蘭數學家謝爾賓斯基在1915年提出。它是自相似集的例子。 Wikipediazh.wikipedia.org&#x2F;wiki&#x2F;謝爾賓斯基三角形 我們這次所介紹的繪圖方法，維基百科把它">
 <meta property="og:locale" content="zh_TW">
-<meta property="og:image" content="https://jayin92.github.io/image/CavendishFig04.jpg">
-<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Bcoulomb.png/400px-Bcoulomb.png">
-<meta property="article:published_time" content="2019-08-20T04:47:09.000Z">
+<meta property="article:published_time" content="2018-05-10T15:04:05.000Z">
 <meta property="article:modified_time" content="2020-07-10T14:37:49.696Z">
 <meta property="article:author" content="Jayinnn">
-<meta property="article:tag" content="物理">
+<meta property="article:tag" content="數學">
+<meta property="article:tag" content="Python">
+<meta property="article:tag" content="碎形">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://jayin92.github.io/image/CavendishFig04.jpg">
 
-<link rel="canonical" href="https://jayin92.github.io/2019/08/20/%E8%90%AC%E6%9C%89%E5%BC%95%E5%8A%9B%E5%AE%9A%E5%BE%8B-vs-%E5%BA%AB%E4%BE%96%E5%AE%9A%E5%BE%8B/">
+<link rel="canonical" href="https://jayin92.github.io/%E6%9C%89%E9%97%9C%E8%AC%9D%E7%88%BE%E8%B3%93%E6%96%AF%E5%9F%BA%E4%B8%89%E8%A7%92%E5%BD%A2-aka-Sierpinski-triangle/">
 
 
 <script id="page-configurations">
@@ -49,7 +48,7 @@
   };
 </script>
 
-  <title>萬有引力定律 vs 庫侖定律 | Jayinnn's Blog</title>
+  <title>有關謝爾賓斯基三角形 aka Sierpinski triangle | Jayinnn's Blog</title>
   
 
 
@@ -169,7 +168,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-tw">
-    <link itemprop="mainEntityOfPage" href="https://jayin92.github.io/2019/08/20/%E8%90%AC%E6%9C%89%E5%BC%95%E5%8A%9B%E5%AE%9A%E5%BE%8B-vs-%E5%BA%AB%E4%BE%96%E5%AE%9A%E5%BE%8B/">
+    <link itemprop="mainEntityOfPage" href="https://jayin92.github.io/%E6%9C%89%E9%97%9C%E8%AC%9D%E7%88%BE%E8%B3%93%E6%96%AF%E5%9F%BA%E4%B8%89%E8%A7%92%E5%BD%A2-aka-Sierpinski-triangle/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="https://scontent.ftpe7-1.fna.fbcdn.net/v/t1.0-9/14055204_1061057720642958_6526263328196543664_n.jpg?_nc_cat=110&_nc_sid=09cbfe&_nc_ohc=22-25QmXwTQAX_r_5Ve&_nc_ht=scontent.ftpe7-1.fna&oh=d0fd992fe4e1e9ab2214637d42813c01&oe=5F2C9C99">
@@ -182,7 +181,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          萬有引力定律 vs 庫侖定律
+          有關謝爾賓斯基三角形 aka Sierpinski triangle
         </h1>
 
         <div class="post-meta">
@@ -192,7 +191,7 @@
               </span>
               <span class="post-meta-item-text">Posted on</span>
 
-              <time title="Created: 2019-08-20 12:47:09" itemprop="dateCreated datePublished" datetime="2019-08-20T12:47:09+08:00">2019-08-20</time>
+              <time title="Created: 2018-05-10 23:04:05" itemprop="dateCreated datePublished" datetime="2018-05-10T23:04:05+08:00">2018-05-10</time>
             </span>
               <span class="post-meta-item">
                 <span class="post-meta-item-icon">
@@ -207,7 +206,11 @@
               </span>
               <span class="post-meta-item-text">In</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E7%89%A9%E7%90%86/" itemprop="url" rel="index"><span itemprop="name">物理</span></a>
+                  <a href="/categories/%E6%95%B8%E5%AD%B8/" itemprop="url" rel="index"><span itemprop="name">數學</span></a>
+                </span>
+                  , 
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%95%B8%E5%AD%B8/%E7%A2%8E%E5%BD%A2/" itemprop="url" rel="index"><span itemprop="name">碎形</span></a>
                 </span>
             </span>
 
@@ -222,24 +225,25 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>萬有引力定律和庫侖定律分別是力學及電學中重要的定律，我們都知道萬有引力定律是由牛頓歸納出的，而庫侖定律顯然就是由庫侖。萬有引力定律的發表時間約早庫侖定律100年，且這兩條定律都與平方反比定律有關，這篇網誌主要描述這兩條定律，及為了驗證這兩條定律而發展出的實驗。</p>
-<h2 id="萬有引力定律"><a href="#萬有引力定律" class="headerlink" title="萬有引力定律"></a>萬有引力定律</h2><p>萬有引力定律是由牛頓於1687年出版的《自然哲學的數學原理》首次發表的，他描述了任兩物體之間都會有吸引力，且此吸引力正比於此兩物體質量乘積，反比於兩物體距離平方。</p>
-<p>此定律是由牛頓之歸納推理的經驗觀察得出的一般物理規律，若萬有引力定律不是現在這個形式，則太陽系上的行星就不會以橢圓軌道運行了。</p>
-<p>但知道其正比關係對實際的計算可說一點用也沒有，因為我們並不能計算出實際的數值，我們需要測量出一個常數，使我們能夠定量的計算出兩物體之間的作用力。</p>
-<p>這個常數現在稱為萬有引力常數，代號為G，最早是由物理學及化學家卡文迪西於1797年間接測量出來。</p>
+        <h2 id="介紹"><a href="#介紹" class="headerlink" title="介紹"></a>介紹</h2><p>在上一篇文章中，我們知道Barnsley Fern與這次介紹的謝爾賓斯基三角形都是碎形</p>
+<p>照慣例(XD)我們再次引用Wikipedia的內容</p>
+<blockquote><p>謝爾賓斯基三角形（英語：Sierpinski triangle）是一種碎形，由波蘭數學家謝爾賓斯基在1915年提出。它是自相似集的例子。</p>
+<footer><strong>Wikipedia</strong><cite><a href="https://zh.wikipedia.org/wiki/謝爾賓斯基三角形" target="_blank" rel="noopener">zh.wikipedia.org/wiki/謝爾賓斯基三角形</a></cite></footer></blockquote>
+<p>我們這次所介紹的繪圖方法，維基百科把它稱作Chaos Game。也就是隨機的方法。</p>
 <a id="more"></a>
-<h2 id="卡文迪西扭秤實驗"><a href="#卡文迪西扭秤實驗" class="headerlink" title="卡文迪西扭秤實驗"></a>卡文迪西扭秤實驗</h2><p>卡文迪西被稱作牛頓之後最偉大的科學家之一，因其首次發現庫侖定律及歐姆定律(但都沒有公布)，且精確的測量了地球的密度(透過這個實驗我們可以間接算出萬有引力常數G)。</p>
-<p><img src="/image/CavendishFig04.jpg" alt="" title="卡文迪西扭秤實驗"></p>
-<p>卡文迪西是透過一個稱作扭秤的實驗工具，其構造大概長這樣，由兩顆大球、兩顆小球、一條已知扭轉係數的絲線、光源及精準的游標尺所組成的。</p>
-<p>因為萬有引力，所以大小球之間就會有一個吸引力，而這個吸引力就會對中間的絲線產生一個力矩，使絲線扭轉，因為絲線本身被扭轉的時候也會產生一個力矩，這個力矩的大小就是此時扭轉的角度乘上此絲線的扭轉係數。直到某個角度時，絲線產生的力矩剛好與萬有引力產生的力矩相等時，木棒就會停止轉動，這時只要測量絲線扭轉的角度，就可以知道萬有引力產生的力矩，進而反推吸引力，我們就可以透過這個數值測量出地球的重量，且因為當時的人已經知道地球的半徑，所以也可以推出密度。</p>
-<p>後人用卡文迪西的數據反推萬有引力常數，發現其數值與2014年的數據差距不到1%，可以說是相當精準。</p>
-<h2 id="庫侖定律"><a href="#庫侖定律" class="headerlink" title="庫侖定律"></a>庫侖定律</h2><p>庫侖定律是由法國物理學家查爾斯·庫侖於1785年發現，其指出了空間中兩個靜止的點電荷，其交互作用力與電量乘積成正比，與其距離平方成反比。</p>
-<p>不難發現其形式與牛頓的萬有引力定律形式幾乎相等。</p>
-<p>其實在1770年代早期，卡文迪西就利用巧秒的實驗得出了帶電體之間的作用力依賴於帶電量與距離，並得出靜電力與距離的$2\pm \frac{1}{50}$次方成反比，只是卡文迪什沒有公布這個結果。</p>
-<p>後來庫侖在1785年使用庫侖扭秤，發現兩點電荷之間的交互作用力也是平方反比定律。</p>
-<h2 id="庫侖扭秤"><a href="#庫侖扭秤" class="headerlink" title="庫侖扭秤"></a>庫侖扭秤</h2><p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Bcoulomb.png/400px-Bcoulomb.png" alt="庫侖扭秤（torsion balance）示意圖。庫侖使用扭秤來測量兩個點電荷彼此互相作用的靜電力，因此發現庫侖定律。"></p>
-<p>庫侖使用庫侖扭秤測量兩點電荷之間的作用力，因而發現庫侖定律。</p>
-<p>其原理與卡文迪西的扭秤差不多，在此不再贅述</p>
+<p>主要的方法如下:</p>
+<ol>
+<li>隨便畫個三角形(原始的謝爾賓斯基三角形為正三角形)</li>
+<li>在三角形內部隨便找一個點P</li>
+<li>從三角形三個頂點隨機找一個頂點</li>
+<li>點出點P跟選定的頂點的中點</li>
+<li>把那個中點當作新的點P</li>
+<li>重複3.</li>
+</ol>
+<p>以下是執行的結果<br>![](/image/Sierpinski triangle.png)<br>可以很清楚的看到這個圖形是用點點出來的<br>##程式碼介紹<br>這次的程式簡單到可以直接全部貼上來</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># import package</span></span><br><span class="line"><span class="keyword">import</span> turtle</span><br><span class="line"><span class="keyword">import</span> random</span><br><span class="line"><span class="keyword">import</span> math</span><br><span class="line">random.seed()</span><br><span class="line"><span class="comment"># 定義三角形三頂點</span></span><br><span class="line">pointa = (<span class="number">0</span>,<span class="number">400</span>)</span><br><span class="line">pointb = (<span class="number">-650</span>,<span class="number">-300</span>)</span><br><span class="line">pointc = (<span class="number">650</span>,<span class="number">-300</span>)</span><br><span class="line">point = [pointa, pointb, pointc]</span><br><span class="line"><span class="comment"># 定義第一個點(若這個點為隨機產出一樣對產出三角形完全沒有影響)</span></span><br><span class="line">firstpoint = (<span class="number">-200</span>,<span class="number">250</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 定義繪點函數(傳入tuple)</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">drawdot</span><span class="params">(point, color=<span class="string">'black'</span>)</span>:</span></span><br><span class="line">	turtle.penup()</span><br><span class="line">	turtle.goto(point[<span class="number">0</span>],point[<span class="number">1</span>])</span><br><span class="line">	turtle.pendown()</span><br><span class="line">	turtle.dot(<span class="number">2</span>, color)</span><br><span class="line"><span class="comment"># 傳入兩個點(tuple)回傳兩點中點座標(tuple)</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">gohalf</span><span class="params">(point1,point2)</span>:</span></span><br><span class="line">	point = ((point1[<span class="number">0</span>] + point2[<span class="number">0</span>]) / <span class="number">2</span>, ((point1[<span class="number">1</span>] + point2[<span class="number">1</span>]) / <span class="number">2</span>))</span><br><span class="line">	<span class="keyword">return</span> point</span><br><span class="line"><span class="comment"># turtle package init</span></span><br><span class="line">turtle.speed(<span class="number">0</span>)</span><br><span class="line">turtle.delay(<span class="number">0</span>)</span><br><span class="line">turtle.hideturtle()</span><br><span class="line"><span class="comment"># 開始繪圖</span></span><br><span class="line">drawdot(pointa)</span><br><span class="line">drawdot(pointb)</span><br><span class="line">drawdot(pointc)</span><br><span class="line">drawdot(firstpoint, <span class="string">'green'</span>)</span><br><span class="line"><span class="comment"># 將追蹤點定義為起始點</span></span><br><span class="line">tracepoint = firstpoint</span><br><span class="line">i = <span class="number">1</span></span><br><span class="line"><span class="comment">#進入無限迴圈</span></span><br><span class="line"><span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">	print(i)</span><br><span class="line">	<span class="comment"># 從point(list)隨機拿出任一個三角形頂點</span></span><br><span class="line">	random_point = random.choice(point)</span><br><span class="line">	<span class="comment"># 產出中點座標</span></span><br><span class="line">	gopoint = gohalf(tracepoint, random_point)</span><br><span class="line">	<span class="comment"># 描點</span></span><br><span class="line">	drawdot(gopoint)</span><br><span class="line">	<span class="comment"># 將追蹤點定義為新產出的中點</span></span><br><span class="line">	tracepoint = gopoint</span><br><span class="line">	i += <span class="number">1</span></span><br><span class="line">turtle.exitonclick()</span><br></pre></td></tr></table></figure>
+<h2 id="參考資料"><a href="#參考資料" class="headerlink" title="參考資料"></a>參考資料</h2><p><a href="https://zh.wikipedia.org/wiki/謝爾賓斯基三角形" target="_blank" rel="noopener">https://zh.wikipedia.org/wiki/謝爾賓斯基三角形</a><br><a href="https://www.youtube.com/watch?v=kfXl5fsVBVY" target="_blank" rel="noopener">https://www.youtube.com/watch?v=kfXl5fsVBVY</a> (中文翻譯)<br><a href="https://www.youtube.com/watch?v=kbKtFN71Lfs" target="_blank" rel="noopener">https://www.youtube.com/watch?v=kbKtFN71Lfs</a> (原片)</p>
+<h2 id="原始碼"><a href="#原始碼" class="headerlink" title="原始碼"></a>原始碼</h2><p><a href="https://github.com/jayin92/Sierpinski-triangle" target="_blank" rel="noopener">https://github.com/jayin92/Sierpinski-triangle</a></p>
 
     </div>
 
@@ -249,7 +253,9 @@
 
       <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/%E7%89%A9%E7%90%86/" rel="tag"># 物理</a>
+              <a href="/tags/%E6%95%B8%E5%AD%B8/" rel="tag"># 數學</a>
+              <a href="/tags/Python/" rel="tag"># Python</a>
+              <a href="/tags/%E7%A2%8E%E5%BD%A2/" rel="tag"># 碎形</a>
           </div>
 
         
@@ -258,12 +264,12 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2019/08/20/P-vs-NP/" rel="prev" title="P vs NP">
-      <i class="fa fa-chevron-left"></i> P vs NP
+    <a href="/%E6%9C%89%E9%97%9CBarnsley-Fern/" rel="prev" title="有關Barnsley Fern">
+      <i class="fa fa-chevron-left"></i> 有關Barnsley Fern
     </a></div>
       <div class="post-nav-item">
-    <a href="/2019/08/22/%E7%AC%AC%E4%B8%80%E5%80%8BTelegram-Bot-BikeAnywhereBot/" rel="next" title="第一個Telegram Bot:@BikeAnywhereBot">
-      第一個Telegram Bot:@BikeAnywhereBot <i class="fa fa-chevron-right"></i>
+    <a href="/%E5%9C%A8%E7%A7%91%E5%AD%B8%E7%8F%AD%E7%9A%84%E4%B8%80%E5%B9%B4%E2%94%802018-6-2019-8%E7%9A%84%E5%9B%9E%E9%A1%A7/" rel="next" title="在科學班的一年─2018/6~2019/8的回顧">
+      在科學班的一年─2018/6~2019/8的回顧 <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
@@ -323,7 +329,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#引言"><span class="nav-number">1.</span> <span class="nav-text">引言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#萬有引力定律"><span class="nav-number">2.</span> <span class="nav-text">萬有引力定律</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#卡文迪西扭秤實驗"><span class="nav-number">3.</span> <span class="nav-text">卡文迪西扭秤實驗</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#庫侖定律"><span class="nav-number">4.</span> <span class="nav-text">庫侖定律</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#庫侖扭秤"><span class="nav-number">5.</span> <span class="nav-text">庫侖扭秤</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#介紹"><span class="nav-number">1.</span> <span class="nav-text">介紹</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#參考資料"><span class="nav-number">2.</span> <span class="nav-text">參考資料</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#原始碼"><span class="nav-number">3.</span> <span class="nav-text">原始碼</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
