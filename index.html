@@ -1,48 +1,119 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
+
 <head>
   <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
-<meta name="theme-color" content="#222">
-<meta name="generator" content="Hexo 4.2.1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+  <meta name="theme-color" content="#222">
+  <meta name="generator" content="Hexo 5.3.0">
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
   <link rel="mask-icon" href="/images/logo.svg" color="#222">
 
-<link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/main.css">
 
 
-<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+  <link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
 
-<script id="hexo-configurations">
+  <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"jayin92.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"appID":"GDNMUNZID8","apiKey":"b6200d6165855d0c8c5b935a5df9efc9","indexName":"hexoBlog","hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+    var CONFIG = {
+      "hostname": "jayin92.github.io",
+      "root": "/",
+      "scheme": "Gemini",
+      "version": "7.8.0",
+      "exturl": false,
+      "sidebar": {
+        "position": "left",
+        "display": "post",
+        "padding": 18,
+        "offset": 12,
+        "onmobile": false
+      },
+      "copycode": {
+        "enable": false,
+        "show_result": false,
+        "style": null
+      },
+      "back2top": {
+        "enable": true,
+        "sidebar": false,
+        "scrollpercent": false
+      },
+      "bookmark": {
+        "enable": false,
+        "color": "#222",
+        "save": "auto"
+      },
+      "fancybox": false,
+      "mediumzoom": false,
+      "lazyload": false,
+      "pangu": false,
+      "comments": {
+        "style": "tabs",
+        "active": null,
+        "storage": true,
+        "lazyload": false,
+        "nav": null
+      },
+      "algolia": {
+        "appID": "GDNMUNZID8",
+        "apiKey": "b6200d6165855d0c8c5b935a5df9efc9",
+        "indexName": "hexoBlog",
+        "hits": {
+          "per_page": 10
+        },
+        "labels": {
+          "input_placeholder": "Search for Posts",
+          "hits_empty": "We didn't find any results for the search: ${query}",
+          "hits_stats": "${hits} results found in ${time} ms"
+        }
+      },
+      "localsearch": {
+        "enable": false,
+        "trigger": "auto",
+        "top_n_per_article": 1,
+        "unescape": false,
+        "preload": false
+      },
+      "motion": {
+        "enable": true,
+        "async": false,
+        "transition": {
+          "post_block": "fadeIn",
+          "post_header": "slideDownIn",
+          "post_body": "slideDownIn",
+          "coll_header": "slideLeftIn",
+          "sidebar": "slideUpIn"
+        }
+      }
+    };
   </script>
 
   <meta property="og:type" content="website">
-<meta property="og:title" content="jayinnn&#39;s blog">
-<meta property="og:url" content="https://jayin92.github.io/index.html">
-<meta property="og:site_name" content="jayinnn&#39;s blog">
-<meta property="og:locale" content="zh_TW">
-<meta property="article:author" content="jayinnn">
-<meta name="twitter:card" content="summary">
+  <meta property="og:title" content="jayinnn&#39;s blog">
+  <meta property="og:url" content="https://jayin92.github.io/index.html">
+  <meta property="og:site_name" content="jayinnn&#39;s blog">
+  <meta property="og:locale" content="zh_TW">
+  <meta property="article:author" content="jayinnn">
+  <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://jayin92.github.io/">
+  <link rel="canonical" href="https://jayin92.github.io/">
 
 
-<script id="page-configurations">
-  // https://hexo.io/docs/variables.html
-  CONFIG.page = {
-    sidebar: "",
-    isHome : true,
-    isPost : false,
-    lang   : 'zh-TW'
-  };
-</script>
+  <script id="page-configurations">
+    // https://hexo.io/docs/variables.html
+    CONFIG.page = {
+      sidebar: "",
+      isHome: true,
+      isPost: false,
+      lang: 'zh-TW'
+    };
+  </script>
 
   <title>jayinnn's blog</title>
-  
+
 
 
 
@@ -50,28 +121,40 @@
 
 
   <noscript>
-  <style>
-  .use-motion .brand,
-  .use-motion .menu-item,
-  .sidebar-inner,
-  .use-motion .post-block,
-  .use-motion .pagination,
-  .use-motion .comments,
-  .use-motion .post-header,
-  .use-motion .post-body,
-  .use-motion .collection-header { opacity: initial; }
+    <style>
+      .use-motion .brand,
+      .use-motion .menu-item,
+      .sidebar-inner,
+      .use-motion .post-block,
+      .use-motion .pagination,
+      .use-motion .comments,
+      .use-motion .post-header,
+      .use-motion .post-body,
+      .use-motion .collection-header {
+        opacity: initial;
+      }
 
-  .use-motion .site-title,
-  .use-motion .site-subtitle {
-    opacity: initial;
-    top: initial;
-  }
+      .use-motion .site-title,
+      .use-motion .site-subtitle {
+        opacity: initial;
+        top: initial;
+      }
 
-  .use-motion .logo-line-before i { left: initial; }
-  .use-motion .logo-line-after i { right: initial; }
-  </style>
-</noscript><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+      .use-motion .logo-line-before i {
+        left: initial;
+      }
 
+      .use-motion .logo-line-after i {
+        right: initial;
+      }
+    </style>
+  </noscript>
+
+  <!-- hexo injector head_end start -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
+  <!-- hexo injector head_end end --><!-- hexo-inject:begin --><!-- hexo-inject:end -->
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage">
@@ -79,877 +162,617 @@
     <div class="headband"></div>
 
     <header class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-container">
-  <div class="site-nav-toggle">
-    <div class="toggle" aria-label="切換導航欄">
-      <span class="toggle-line toggle-line-first"></span>
-      <span class="toggle-line toggle-line-middle"></span>
-      <span class="toggle-line toggle-line-last"></span>
-    </div>
-  </div>
+      <div class="header-inner">
+        <div class="site-brand-container">
+          <div class="site-nav-toggle">
+            <div class="toggle" aria-label="切換導航欄">
+              <span class="toggle-line toggle-line-first"></span>
+              <span class="toggle-line toggle-line-middle"></span>
+              <span class="toggle-line toggle-line-last"></span>
+            </div>
+          </div>
 
-  <div class="site-meta">
+          <div class="site-meta">
 
-    <a href="/" class="brand" rel="start">
-      <span class="logo-line-before"><i></i></span>
-      <h1 class="site-title">jayinnn's blog</h1>
-      <span class="logo-line-after"><i></i></span>
-    </a>
-  </div>
+            <a href="/" class="brand" rel="start">
+              <span class="logo-line-before"><i></i></span>
+              <h1 class="site-title">jayinnn's blog</h1>
+              <span class="logo-line-after"><i></i></span>
+            </a>
+          </div>
 
-  <div class="site-nav-right">
-    <div class="toggle popup-trigger">
-    </div>
-  </div>
-</div>
-
-
-
-
-<nav class="site-nav">
-  <ul id="menu" class="main-menu menu">
-        <li class="menu-item menu-item-home">
-
-    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首頁</a>
-
-  </li>
-        <li class="menu-item menu-item-about">
-
-    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>關於</a>
-
-  </li>
-        <li class="menu-item menu-item-tags">
-
-    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>標籤</a>
-
-  </li>
-        <li class="menu-item menu-item-categories">
-
-    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分類</a>
-
-  </li>
-        <li class="menu-item menu-item-archives">
-
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>歸檔</a>
-
-  </li>
-  </ul>
-</nav>
+          <div class="site-nav-right">
+            <div class="toggle popup-trigger">
+            </div>
+          </div>
+        </div>
 
 
 
 
-</div>
+        <nav class="site-nav">
+          <ul id="menu" class="main-menu menu">
+            <li class="menu-item menu-item-home">
+
+              <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首頁</a>
+
+            </li>
+            <li class="menu-item menu-item-about">
+
+              <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>關於</a>
+
+            </li>
+            <li class="menu-item menu-item-tags">
+
+              <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>標籤</a>
+
+            </li>
+            <li class="menu-item menu-item-categories">
+
+              <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分類</a>
+
+            </li>
+            <li class="menu-item menu-item-archives">
+
+              <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>歸檔</a>
+
+            </li>
+          </ul>
+        </nav>
+
+
+
+
+      </div>
     </header>
 
-    
-  <div class="back-to-top">
-    <i class="fa fa-arrow-up"></i>
-    <span>0%</span>
-  </div>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+      <span>0%</span>
+    </div>
 
 
     <main class="main">
       <div class="main-inner">
         <div class="content-wrap">
-          
+
 
           <div class="content index posts-expand">
-            
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
-    <link itemprop="mainEntityOfPage" href="https://jayin92.github.io/2019-SITCON-Camp-%E5%9B%9E%E9%A1%A7/">
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="https://avatars.githubusercontent.com/u/11909159?s=460&u=7a5e9c66df2c3438150c6c1ef98df758bd74183c&v=4">
-      <meta itemprop="name" content="jayinnn">
-      <meta itemprop="description" content="">
-    </span>
 
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="jayinnn's blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2019-SITCON-Camp-%E5%9B%9E%E9%A1%A7/" class="post-title-link" itemprop="url">2019 SITCON Camp 回顧</a>
-        </h2>
 
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
+
+            <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
+              <link itemprop="mainEntityOfPage" href="https://jayin92.github.io/110-%E5%AD%B8%E6%B8%AC%E5%9B%9E%E9%A1%A7/">
+
+              <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <meta itemprop="image" content="https://avatars.githubusercontent.com/u/11909159?s=460&u=7a5e9c66df2c3438150c6c1ef98df758bd74183c&v=4">
+                <meta itemprop="name" content="jayinnn">
+                <meta itemprop="description" content="">
               </span>
-              <span class="post-meta-item-text">發表於</span>
 
-              <time title="創建時間：2019-08-25 18:16:02" itemprop="dateCreated datePublished" datetime="2019-08-25T18:16:02+08:00">2019-08-25</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新於</span>
-                <time title="修改時間：2020-07-10 22:37:49" itemprop="dateModified" datetime="2020-07-10T22:37:49+08:00">2020-07-10</time>
+              <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+                <meta itemprop="name" content="jayinnn's blog">
               </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
+              <header class="post-header">
+                <h2 class="post-title" itemprop="name headline">
+
+                  <a href="/110-%E5%AD%B8%E6%B8%AC%E5%9B%9E%E9%A1%A7/" class="post-title-link" itemprop="url">110 學測回顧</a>
+                </h2>
+
+                <div class="post-meta">
+                  <span class="post-meta-item">
+                    <span class="post-meta-item-icon">
+                      <i class="far fa-calendar"></i>
+                    </span>
+                    <span class="post-meta-item-text">發表於</span>
+
+                    <time title="創建時間：2021-01-29 22:12:27" itemprop="dateCreated datePublished" datetime="2021-01-29T22:12:27+08:00">2021-01-29</time>
+                  </span>
+                  <span class="post-meta-item">
+                    <span class="post-meta-item-icon">
+                      <i class="far fa-calendar-check"></i>
+                    </span>
+                    <span class="post-meta-item-text">更新於</span>
+                    <time title="修改時間：2021-01-30 00:08:26" itemprop="dateModified" datetime="2021-01-30T00:08:26+08:00">2021-01-30</time>
+                  </span>
+
+
+
+                </div>
+              </header>
+
+
+
+
+              <div class="post-body" itemprop="articleBody">
+
+
+                <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1>
+                <p>學測已經過去一個禮拜了呢，簡單來說，我失敗了，而且連最低標準都沒有達到。</p>
+                <!--noindex-->
+                <div class="post-button">
+                  <a class="btn" href="/110-%E5%AD%B8%E6%B8%AC%E5%9B%9E%E9%A1%A7/#more" rel="contents">
+                    閱讀全文 &raquo;
+                  </a>
+                </div>
+                <!--/noindex-->
+
+
+              </div>
+
+
+
+
+              <footer class="post-footer">
+                <div class="post-eof"></div>
+              </footer>
+            </article>
+
+
+
+
+
+
+
+            <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
+              <link itemprop="mainEntityOfPage" href="https://jayin92.github.io/%E5%9C%A8%E7%A7%91%E5%AD%B8%E7%8F%AD%E7%9A%84%E4%B8%80%E5%B9%B4%E2%94%802018-6-2019-8%E7%9A%84%E5%9B%9E%E9%A1%A7/">
+
+              <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <meta itemprop="image" content="https://avatars.githubusercontent.com/u/11909159?s=460&u=7a5e9c66df2c3438150c6c1ef98df758bd74183c&v=4">
+                <meta itemprop="name" content="jayinnn">
+                <meta itemprop="description" content="">
               </span>
-              <span class="post-meta-item-text">分類於</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/SITCON/" itemprop="url" rel="index"><span itemprop="name">SITCON</span></a>
-                </span>
-            </span>
 
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>一開始不知道有SITCON 夏令營這個活動，是同學拉我去的（因為團報有優惠www），而且這個營隊沒有衝到我去美國的時間，所以就腦衝一波了。</p>
-<p>其實很早之前就知道SITCON這個年會，原本今年也要去參加的，但因為沒有注意報名的時間所以就錯過了QQ。</p>
-<p>報名的時候就把以前做過的專案打上去，再說說自己想要透過這次的機會更好的了解資訊圈，結果就很幸運的上了www。</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2019-SITCON-Camp-%E5%9B%9E%E9%A1%A7/#more" rel="contents">
-                閱讀全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
-    <link itemprop="mainEntityOfPage" href="https://jayin92.github.io/%E7%AC%AC%E4%B8%80%E5%80%8BTelegram-Bot-BikeAnywhereBot/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="https://avatars.githubusercontent.com/u/11909159?s=460&u=7a5e9c66df2c3438150c6c1ef98df758bd74183c&v=4">
-      <meta itemprop="name" content="jayinnn">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="jayinnn's blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/%E7%AC%AC%E4%B8%80%E5%80%8BTelegram-Bot-BikeAnywhereBot/" class="post-title-link" itemprop="url">第一個Telegram Bot:@BikeAnywhereBot</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
+              <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+                <meta itemprop="name" content="jayinnn's blog">
               </span>
-              <span class="post-meta-item-text">發表於</span>
+              <header class="post-header">
+                <h2 class="post-title" itemprop="name headline">
 
-              <time title="創建時間：2019-08-22 15:59:05" itemprop="dateCreated datePublished" datetime="2019-08-22T15:59:05+08:00">2019-08-22</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新於</span>
-                <time title="修改時間：2020-07-10 22:37:49" itemprop="dateModified" datetime="2020-07-10T22:37:49+08:00">2020-07-10</time>
+                  <a href="/%E5%9C%A8%E7%A7%91%E5%AD%B8%E7%8F%AD%E7%9A%84%E4%B8%80%E5%B9%B4%E2%94%802018-6-2019-8%E7%9A%84%E5%9B%9E%E9%A1%A7/" class="post-title-link" itemprop="url">在科學班的一年─2018/6~2019/8的回顧</a>
+                </h2>
+
+                <div class="post-meta">
+                  <span class="post-meta-item">
+                    <span class="post-meta-item-icon">
+                      <i class="far fa-calendar"></i>
+                    </span>
+                    <span class="post-meta-item-text">發表於</span>
+
+                    <time title="創建時間：2019-08-19 23:40:11" itemprop="dateCreated datePublished" datetime="2019-08-19T23:40:11+08:00">2019-08-19</time>
+                  </span>
+                  <span class="post-meta-item">
+                    <span class="post-meta-item-icon">
+                      <i class="far fa-calendar-check"></i>
+                    </span>
+                    <span class="post-meta-item-text">更新於</span>
+                    <time title="修改時間：2021-01-25 15:06:39" itemprop="dateModified" datetime="2021-01-25T15:06:39+08:00">2021-01-25</time>
+                  </span>
+                  <span class="post-meta-item">
+                    <span class="post-meta-item-icon">
+                      <i class="far fa-folder"></i>
+                    </span>
+                    <span class="post-meta-item-text">分類於</span>
+                    <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                      <a href="/categories/%E6%AD%A6%E9%99%B5/" itemprop="url" rel="index"><span itemprop="name">武陵</span></a>
+                    </span>
+                  </span>
+
+
+
+                </div>
+              </header>
+
+
+
+
+              <div class="post-body" itemprop="articleBody">
+
+
+                <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2>
+                <p>這個部落格自從我開始升上高中後就沒什麼在維護了，第一是因為課業有點小重，第二是因為維護還蠻麻煩的，一篇文章的產出基本上都要花我不少時間，自己又把空閒的時間花在打LoL上，自然沒有時間將自己的知識描述成文章。</p>
+                <p>在高中的這一年基本上學了蠻多東西，思考了很多東西，也放棄了很多東西。</p>
+                <p>這篇文基本上應該會蠻長的，因為我會把這一年發生的事情全部紀錄一遍，從一開始科學班的暑輔，到今年暑假參加的SITCON，COSCUP。所以我猜我在暑假前可能打不完，到時候開學如果有時間再把這篇文打完ㄅ。</p>
+                <!--noindex-->
+                <div class="post-button">
+                  <a class="btn" href="/%E5%9C%A8%E7%A7%91%E5%AD%B8%E7%8F%AD%E7%9A%84%E4%B8%80%E5%B9%B4%E2%94%802018-6-2019-8%E7%9A%84%E5%9B%9E%E9%A1%A7/#more" rel="contents">
+                    閱讀全文 &raquo;
+                  </a>
+                </div>
+                <!--/noindex-->
+
+
+              </div>
+
+
+
+
+              <footer class="post-footer">
+                <div class="post-eof"></div>
+              </footer>
+            </article>
+
+
+
+
+
+
+
+            <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
+              <link itemprop="mainEntityOfPage" href="https://jayin92.github.io/%E6%9C%89%E9%97%9C%E8%AC%9D%E7%88%BE%E8%B3%93%E6%96%AF%E5%9F%BA%E4%B8%89%E8%A7%92%E5%BD%A2-aka-Sierpinski-triangle/">
+
+              <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <meta itemprop="image" content="https://avatars.githubusercontent.com/u/11909159?s=460&u=7a5e9c66df2c3438150c6c1ef98df758bd74183c&v=4">
+                <meta itemprop="name" content="jayinnn">
+                <meta itemprop="description" content="">
               </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
+
+              <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+                <meta itemprop="name" content="jayinnn's blog">
               </span>
-              <span class="post-meta-item-text">分類於</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E8%B3%87%E8%A8%8A/" itemprop="url" rel="index"><span itemprop="name">資訊</span></a>
-                </span>
-                  ，
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E8%B3%87%E8%A8%8A/Python/" itemprop="url" rel="index"><span itemprop="name">Python</span></a>
-                </span>
-            </span>
+              <header class="post-header">
+                <h2 class="post-title" itemprop="name headline">
 
-          
+                  <a href="/%E6%9C%89%E9%97%9C%E8%AC%9D%E7%88%BE%E8%B3%93%E6%96%AF%E5%9F%BA%E4%B8%89%E8%A7%92%E5%BD%A2-aka-Sierpinski-triangle/" class="post-title-link" itemprop="url">有關謝爾賓斯基三角形 aka Sierpinski triangle</a>
+                </h2>
 
-        </div>
-      </header>
+                <div class="post-meta">
+                  <span class="post-meta-item">
+                    <span class="post-meta-item-icon">
+                      <i class="far fa-calendar"></i>
+                    </span>
+                    <span class="post-meta-item-text">發表於</span>
 
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
+                    <time title="創建時間：2018-05-10 23:04:05" itemprop="dateCreated datePublished" datetime="2018-05-10T23:04:05+08:00">2018-05-10</time>
+                  </span>
+                  <span class="post-meta-item">
+                    <span class="post-meta-item-icon">
+                      <i class="far fa-calendar-check"></i>
+                    </span>
+                    <span class="post-meta-item-text">更新於</span>
+                    <time title="修改時間：2020-07-24 22:19:46" itemprop="dateModified" datetime="2020-07-24T22:19:46+08:00">2020-07-24</time>
+                  </span>
+                  <span class="post-meta-item">
+                    <span class="post-meta-item-icon">
+                      <i class="far fa-folder"></i>
+                    </span>
+                    <span class="post-meta-item-text">分類於</span>
+                    <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                      <a href="/categories/%E6%95%B8%E5%AD%B8/" itemprop="url" rel="index"><span itemprop="name">數學</span></a>
+                    </span>
+                    ，
+                    <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                      <a href="/categories/%E6%95%B8%E5%AD%B8/%E7%A2%8E%E5%BD%A2/" itemprop="url" rel="index"><span itemprop="name">碎形</span></a>
+                    </span>
+                  </span>
 
-      
-          <blockquote>
-<p>Github Repo: <a href="https://github.com/jayin92/UBikeAnywhereBot" target="_blank" rel="noopener">https://github.com/jayin92/UBikeAnywhereBot</a></p>
-</blockquote>
-<h2 id="動機"><a href="#動機" class="headerlink" title="動機"></a>動機</h2><p>我自己有時候到外縣市遊玩或參加各種活動的時候，常常會使用Ubike當作交通工具，但因為不熟當地的地形和Ubike站點的位置，常常會需要用手機在瀏覽器和地圖之間瘋狂切換才能找到正確的站點及正確的路線，讓我十分困擾。而且在騎乘自行車時做出上述的動作更是十分危險。所以當時在SITCON夏令營時，就覺得這個需求其實蠻迫切的，所以就決定我們黑客松的主題。</p>
-<h2 id="介紹"><a href="#介紹" class="headerlink" title="介紹"></a>介紹</h2><p>這個Telegram Bot是我在SITCON夏令營做的一個Ubike站點路徑規劃機器人，這個機器人主要可以幫你找到離出發地和目的地最近且可用的兩個Ubike站點，並且回傳導航路線給用戶，也同時會傳送給用戶那兩個站點目前的車輛數和空位數。</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/%E7%AC%AC%E4%B8%80%E5%80%8BTelegram-Bot-BikeAnywhereBot/#more" rel="contents">
-                閱讀全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
 
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
-    <link itemprop="mainEntityOfPage" href="https://jayin92.github.io/%E8%90%AC%E6%9C%89%E5%BC%95%E5%8A%9B%E5%AE%9A%E5%BE%8B-vs-%E5%BA%AB%E4%BE%96%E5%AE%9A%E5%BE%8B/">
+                </div>
+              </header>
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="https://avatars.githubusercontent.com/u/11909159?s=460&u=7a5e9c66df2c3438150c6c1ef98df758bd74183c&v=4">
-      <meta itemprop="name" content="jayinnn">
-      <meta itemprop="description" content="">
-    </span>
 
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="jayinnn's blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/%E8%90%AC%E6%9C%89%E5%BC%95%E5%8A%9B%E5%AE%9A%E5%BE%8B-vs-%E5%BA%AB%E4%BE%96%E5%AE%9A%E5%BE%8B/" class="post-title-link" itemprop="url">萬有引力定律 vs 庫侖定律</a>
-        </h2>
 
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
+
+              <div class="post-body" itemprop="articleBody">
+
+
+                <h2 id="介紹"><a href="#介紹" class="headerlink" title="介紹"></a>介紹</h2>
+                <p>在上一篇文章中，我們知道Barnsley Fern與這次介紹的謝爾賓斯基三角形都是碎形</p>
+                <p>照慣例(XD)我們再次引用Wikipedia的內容<br>
+                <blockquote>
+                  <p>謝爾賓斯基三角形（英語：Sierpinski triangle）是一種碎形，由波蘭數學家謝爾賓斯基在1915年提出。它是自相似集的例子。</p>
+                  <footer><strong>Wikipedia</strong><cite><a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/謝爾賓斯基三角形">zh.wikipedia.org/wiki/謝爾賓斯基三角形</a></cite></footer>
+                </blockquote><br>我們這次所介紹的繪圖方法，維基百科把它稱作Chaos Game。也就是隨機的方法。<br>
+                <!--noindex-->
+                <div class="post-button">
+                  <a class="btn" href="/%E6%9C%89%E9%97%9C%E8%AC%9D%E7%88%BE%E8%B3%93%E6%96%AF%E5%9F%BA%E4%B8%89%E8%A7%92%E5%BD%A2-aka-Sierpinski-triangle/#more" rel="contents">
+                    閱讀全文 &raquo;
+                  </a>
+                </div>
+                <!--/noindex-->
+
+
+              </div>
+
+
+
+
+              <footer class="post-footer">
+                <div class="post-eof"></div>
+              </footer>
+            </article>
+
+
+
+
+
+
+
+            <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
+              <link itemprop="mainEntityOfPage" href="https://jayin92.github.io/%E6%9C%89%E9%97%9CBarnsley-Fern/">
+
+              <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <meta itemprop="image" content="https://avatars.githubusercontent.com/u/11909159?s=460&u=7a5e9c66df2c3438150c6c1ef98df758bd74183c&v=4">
+                <meta itemprop="name" content="jayinnn">
+                <meta itemprop="description" content="">
               </span>
-              <span class="post-meta-item-text">發表於</span>
 
-              <time title="創建時間：2019-08-20 12:47:09" itemprop="dateCreated datePublished" datetime="2019-08-20T12:47:09+08:00">2019-08-20</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新於</span>
-                <time title="修改時間：2020-07-10 22:37:49" itemprop="dateModified" datetime="2020-07-10T22:37:49+08:00">2020-07-10</time>
+              <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+                <meta itemprop="name" content="jayinnn's blog">
               </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
+              <header class="post-header">
+                <h2 class="post-title" itemprop="name headline">
+
+                  <a href="/%E6%9C%89%E9%97%9CBarnsley-Fern/" class="post-title-link" itemprop="url">有關Barnsley Fern</a>
+                </h2>
+
+                <div class="post-meta">
+                  <span class="post-meta-item">
+                    <span class="post-meta-item-icon">
+                      <i class="far fa-calendar"></i>
+                    </span>
+                    <span class="post-meta-item-text">發表於</span>
+
+                    <time title="創建時間：2018-05-07 20:07:10" itemprop="dateCreated datePublished" datetime="2018-05-07T20:07:10+08:00">2018-05-07</time>
+                  </span>
+                  <span class="post-meta-item">
+                    <span class="post-meta-item-icon">
+                      <i class="far fa-calendar-check"></i>
+                    </span>
+                    <span class="post-meta-item-text">更新於</span>
+                    <time title="修改時間：2020-07-24 22:19:46" itemprop="dateModified" datetime="2020-07-24T22:19:46+08:00">2020-07-24</time>
+                  </span>
+                  <span class="post-meta-item">
+                    <span class="post-meta-item-icon">
+                      <i class="far fa-folder"></i>
+                    </span>
+                    <span class="post-meta-item-text">分類於</span>
+                    <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                      <a href="/categories/%E6%95%B8%E5%AD%B8/" itemprop="url" rel="index"><span itemprop="name">數學</span></a>
+                    </span>
+                    ，
+                    <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                      <a href="/categories/%E6%95%B8%E5%AD%B8/%E7%A2%8E%E5%BD%A2/" itemprop="url" rel="index"><span itemprop="name">碎形</span></a>
+                    </span>
+                  </span>
+
+
+
+                </div>
+              </header>
+
+
+
+
+              <div class="post-body" itemprop="articleBody">
+
+
+                <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2>
+                <p><img src="https://upload.wikimedia.org/wikipedia/commons/7/76/Barnsley_fern_plotted_with_VisSim.PNG" alt=""><br>引用英文版Wikipedia對Barnsley Fern的介紹:<br>
+                <blockquote>
+                  <p><em>The Barnsley fern is a fractal named after the British mathematician Michael Barnsley who first described it in his book Fractals Everywhere.</em></p>
+                  <footer><strong>Wikipedia</strong><cite><a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Barnsley_fern">en.wikipedia.org/wiki/Barnsley_fern</a></cite></footer>
+                </blockquote><br>
+                <!--noindex-->
+                <div class="post-button">
+                  <a class="btn" href="/%E6%9C%89%E9%97%9CBarnsley-Fern/#more" rel="contents">
+                    閱讀全文 &raquo;
+                  </a>
+                </div>
+                <!--/noindex-->
+
+
+              </div>
+
+
+
+
+              <footer class="post-footer">
+                <div class="post-eof"></div>
+              </footer>
+            </article>
+
+
+
+
+
+
+
+            <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
+              <link itemprop="mainEntityOfPage" href="https://jayin92.github.io/%E8%AD%89%E6%98%8E%E5%B7%B4%E6%96%AF%E5%8D%A1%E5%AE%9A%E7%90%86/">
+
+              <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <meta itemprop="image" content="https://avatars.githubusercontent.com/u/11909159?s=460&u=7a5e9c66df2c3438150c6c1ef98df758bd74183c&v=4">
+                <meta itemprop="name" content="jayinnn">
+                <meta itemprop="description" content="">
               </span>
-              <span class="post-meta-item-text">分類於</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E7%89%A9%E7%90%86/" itemprop="url" rel="index"><span itemprop="name">物理</span></a>
-                </span>
-            </span>
 
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>萬有引力定律和庫侖定律分別是力學及電學中重要的定律，我們都知道萬有引力定律是由牛頓歸納出的，而庫侖定律顯然就是由庫侖。萬有引力定律的發表時間約早庫侖定律100年，且這兩條定律都與平方反比定律有關，這篇網誌主要描述這兩條定律，及為了驗證這兩條定律而發展出的實驗。</p>
-<h2 id="萬有引力定律"><a href="#萬有引力定律" class="headerlink" title="萬有引力定律"></a>萬有引力定律</h2><p>萬有引力定律是由牛頓於1687年出版的《自然哲學的數學原理》首次發表的，他描述了任兩物體之間都會有吸引力，且此吸引力正比於此兩物體質量乘積，反比於兩物體距離平方。</p>
-<p>此定律是由牛頓之歸納推理的經驗觀察得出的一般物理規律，若萬有引力定律不是現在這個形式，則太陽系上的行星就不會以橢圓軌道運行了。</p>
-<p>但知道其正比關係對實際的計算可說一點用也沒有，因為我們並不能計算出實際的數值，我們需要測量出一個常數，使我們能夠定量的計算出兩物體之間的作用力。</p>
-<p>這個常數現在稱為萬有引力常數，代號為G，最早是由物理學及化學家卡文迪西於1797年間接測量出來。</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/%E8%90%AC%E6%9C%89%E5%BC%95%E5%8A%9B%E5%AE%9A%E5%BE%8B-vs-%E5%BA%AB%E4%BE%96%E5%AE%9A%E5%BE%8B/#more" rel="contents">
-                閱讀全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
-    <link itemprop="mainEntityOfPage" href="https://jayin92.github.io/P-vs-NP/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="https://avatars.githubusercontent.com/u/11909159?s=460&u=7a5e9c66df2c3438150c6c1ef98df758bd74183c&v=4">
-      <meta itemprop="name" content="jayinnn">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="jayinnn's blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/P-vs-NP/" class="post-title-link" itemprop="url">P vs NP</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
+              <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+                <meta itemprop="name" content="jayinnn's blog">
               </span>
-              <span class="post-meta-item-text">發表於</span>
+              <header class="post-header">
+                <h2 class="post-title" itemprop="name headline">
 
-              <time title="創建時間：2019-08-20 11:26:59" itemprop="dateCreated datePublished" datetime="2019-08-20T11:26:59+08:00">2019-08-20</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新於</span>
-                <time title="修改時間：2020-07-11 08:17:46" itemprop="dateModified" datetime="2020-07-11T08:17:46+08:00">2020-07-11</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分類於</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E8%B3%87%E8%A8%8A/" itemprop="url" rel="index"><span itemprop="name">資訊</span></a>
-                </span>
-            </span>
+                  <a href="/%E8%AD%89%E6%98%8E%E5%B7%B4%E6%96%AF%E5%8D%A1%E5%AE%9A%E7%90%86/" class="post-title-link" itemprop="url">證明巴斯卡定理</a>
+                </h2>
 
-          
+                <div class="post-meta">
+                  <span class="post-meta-item">
+                    <span class="post-meta-item-icon">
+                      <i class="far fa-calendar"></i>
+                    </span>
+                    <span class="post-meta-item-text">發表於</span>
 
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>這篇其實是為了資訊讀書會打的，打完之後發現可以充文章數，所以就把它打進來了。</p>
-<p>這篇主要介紹P, NP, NP Complete 和 NP Hard。還有一些已經被證明是NP Complete 的問題。</p>
-<h2 id="時間複雜度"><a href="#時間複雜度" class="headerlink" title="時間複雜度"></a>時間複雜度</h2><p>就是一個函數，描述一個演算法的執行時間。</p>
-<p>簡單來說，假設有一個演算法，你給這個演算法一個大小為n的輸入，它最多要 $6n^3+5n^2+2n+1$ 的時間才能執行完畢，我們就說這個演算法的時間複雜度是$O(n^3)$，這個$O()$我們稱作大O符號 (Big O notation)，又叫做漸進符號，它是用另一個（通常更簡單的）函式來描述一個函式數量級的漸近上界。</p>
-<p>還有一個東西叫做最壞時間複雜度(Worst-case complexity)記作 $T(n)$</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/P-vs-NP/#more" rel="contents">
-                閱讀全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
-    <link itemprop="mainEntityOfPage" href="https://jayin92.github.io/%E5%9C%A8%E7%A7%91%E5%AD%B8%E7%8F%AD%E7%9A%84%E4%B8%80%E5%B9%B4%E2%94%802018-6-2019-8%E7%9A%84%E5%9B%9E%E9%A1%A7/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="https://avatars.githubusercontent.com/u/11909159?s=460&u=7a5e9c66df2c3438150c6c1ef98df758bd74183c&v=4">
-      <meta itemprop="name" content="jayinnn">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="jayinnn's blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/%E5%9C%A8%E7%A7%91%E5%AD%B8%E7%8F%AD%E7%9A%84%E4%B8%80%E5%B9%B4%E2%94%802018-6-2019-8%E7%9A%84%E5%9B%9E%E9%A1%A7/" class="post-title-link" itemprop="url">在科學班的一年─2018/6~2019/8的回顧</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">發表於</span>
-
-              <time title="創建時間：2019-08-19 23:40:11" itemprop="dateCreated datePublished" datetime="2019-08-19T23:40:11+08:00">2019-08-19</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新於</span>
-                <time title="修改時間：2020-07-10 22:37:49" itemprop="dateModified" datetime="2020-07-10T22:37:49+08:00">2020-07-10</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分類於</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E6%AD%A6%E9%99%B5/" itemprop="url" rel="index"><span itemprop="name">武陵</span></a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>這個部落格自從我開始升上高中後就沒什麼在維護了，第一是因為課業有點小重，第二是因為維護還蠻麻煩的，一篇文章的產出基本上都要花我不少時間，自己又把空閒的時間花在打LoL上，自然沒有時間將自己的知識描述成文章。</p>
-<p>在高中的這一年基本上學了蠻多東西，思考了很多東西，也放棄了很多東西。</p>
-<p>這篇文基本上應該會蠻長的，因為我會把這一年發生的事情全部紀錄一遍，從一開始科學班的暑輔，到今年暑假參加的SITCON，COSCUP。所以我猜我在暑假前可能打不完，到時候開學如果有時間再把這篇文打完ㄅ。</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/%E5%9C%A8%E7%A7%91%E5%AD%B8%E7%8F%AD%E7%9A%84%E4%B8%80%E5%B9%B4%E2%94%802018-6-2019-8%E7%9A%84%E5%9B%9E%E9%A1%A7/#more" rel="contents">
-                閱讀全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
-    <link itemprop="mainEntityOfPage" href="https://jayin92.github.io/%E6%9C%89%E9%97%9C%E8%AC%9D%E7%88%BE%E8%B3%93%E6%96%AF%E5%9F%BA%E4%B8%89%E8%A7%92%E5%BD%A2-aka-Sierpinski-triangle/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="https://avatars.githubusercontent.com/u/11909159?s=460&u=7a5e9c66df2c3438150c6c1ef98df758bd74183c&v=4">
-      <meta itemprop="name" content="jayinnn">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="jayinnn's blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/%E6%9C%89%E9%97%9C%E8%AC%9D%E7%88%BE%E8%B3%93%E6%96%AF%E5%9F%BA%E4%B8%89%E8%A7%92%E5%BD%A2-aka-Sierpinski-triangle/" class="post-title-link" itemprop="url">有關謝爾賓斯基三角形 aka Sierpinski triangle</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">發表於</span>
-
-              <time title="創建時間：2018-05-10 23:04:05" itemprop="dateCreated datePublished" datetime="2018-05-10T23:04:05+08:00">2018-05-10</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新於</span>
-                <time title="修改時間：2020-07-10 22:37:49" itemprop="dateModified" datetime="2020-07-10T22:37:49+08:00">2020-07-10</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分類於</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E6%95%B8%E5%AD%B8/" itemprop="url" rel="index"><span itemprop="name">數學</span></a>
-                </span>
-                  ，
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E6%95%B8%E5%AD%B8/%E7%A2%8E%E5%BD%A2/" itemprop="url" rel="index"><span itemprop="name">碎形</span></a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h2 id="介紹"><a href="#介紹" class="headerlink" title="介紹"></a>介紹</h2><p>在上一篇文章中，我們知道Barnsley Fern與這次介紹的謝爾賓斯基三角形都是碎形</p>
-<p>照慣例(XD)我們再次引用Wikipedia的內容</p>
-<blockquote><p>謝爾賓斯基三角形（英語：Sierpinski triangle）是一種碎形，由波蘭數學家謝爾賓斯基在1915年提出。它是自相似集的例子。</p>
-<footer><strong>Wikipedia</strong><cite><a href="https://zh.wikipedia.org/wiki/謝爾賓斯基三角形" target="_blank" rel="noopener">zh.wikipedia.org/wiki/謝爾賓斯基三角形</a></cite></footer></blockquote>
-<p>我們這次所介紹的繪圖方法，維基百科把它稱作Chaos Game。也就是隨機的方法。</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/%E6%9C%89%E9%97%9C%E8%AC%9D%E7%88%BE%E8%B3%93%E6%96%AF%E5%9F%BA%E4%B8%89%E8%A7%92%E5%BD%A2-aka-Sierpinski-triangle/#more" rel="contents">
-                閱讀全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
-    <link itemprop="mainEntityOfPage" href="https://jayin92.github.io/%E6%9C%89%E9%97%9CBarnsley-Fern/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="https://avatars.githubusercontent.com/u/11909159?s=460&u=7a5e9c66df2c3438150c6c1ef98df758bd74183c&v=4">
-      <meta itemprop="name" content="jayinnn">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="jayinnn's blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/%E6%9C%89%E9%97%9CBarnsley-Fern/" class="post-title-link" itemprop="url">有關Barnsley Fern</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">發表於</span>
-
-              <time title="創建時間：2018-05-07 20:07:10" itemprop="dateCreated datePublished" datetime="2018-05-07T20:07:10+08:00">2018-05-07</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新於</span>
-                <time title="修改時間：2020-07-10 22:37:49" itemprop="dateModified" datetime="2020-07-10T22:37:49+08:00">2020-07-10</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分類於</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E6%95%B8%E5%AD%B8/" itemprop="url" rel="index"><span itemprop="name">數學</span></a>
-                </span>
-                  ，
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E6%95%B8%E5%AD%B8/%E7%A2%8E%E5%BD%A2/" itemprop="url" rel="index"><span itemprop="name">碎形</span></a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p><img src="https://upload.wikimedia.org/wikipedia/commons/7/76/Barnsley_fern_plotted_with_VisSim.PNG" alt=""><br>引用英文版Wikipedia對Barnsley Fern的介紹:</p>
-<blockquote><p><em>The Barnsley fern is a fractal named after the British mathematician Michael Barnsley who first described it in his book Fractals Everywhere.</em></p>
-<footer><strong>Wikipedia</strong><cite><a href="https://en.wikipedia.org/wiki/Barnsley_fern" target="_blank" rel="noopener">en.wikipedia.org/wiki/Barnsley_fern</a></cite></footer></blockquote>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/%E6%9C%89%E9%97%9CBarnsley-Fern/#more" rel="contents">
-                閱讀全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
-    <link itemprop="mainEntityOfPage" href="https://jayin92.github.io/%E8%AD%89%E6%98%8E%E5%B7%B4%E6%96%AF%E5%8D%A1%E5%AE%9A%E7%90%86/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="https://avatars.githubusercontent.com/u/11909159?s=460&u=7a5e9c66df2c3438150c6c1ef98df758bd74183c&v=4">
-      <meta itemprop="name" content="jayinnn">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="jayinnn's blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/%E8%AD%89%E6%98%8E%E5%B7%B4%E6%96%AF%E5%8D%A1%E5%AE%9A%E7%90%86/" class="post-title-link" itemprop="url">證明巴斯卡定理</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">發表於</span>
-
-              <time title="創建時間：2018-05-05 08:02:50" itemprop="dateCreated datePublished" datetime="2018-05-05T08:02:50+08:00">2018-05-05</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新於</span>
-                <time title="修改時間：2020-07-11 08:31:50" itemprop="dateModified" datetime="2020-07-11T08:31:50+08:00">2020-07-11</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分類於</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E6%95%B8%E5%AD%B8/" itemprop="url" rel="index"><span itemprop="name">數學</span></a>
-                </span>
-                  ，
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E6%95%B8%E5%AD%B8/%E8%AD%89%E6%98%8E/" itemprop="url" rel="index"><span itemprop="name">證明</span></a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h2 id="介紹"><a href="#介紹" class="headerlink" title="介紹"></a>介紹</h2><p>大家都知道巴斯卡公式是排列組合中一個十分有用的公式，都叫做巴斯卡公式了，可想而知一定跟巴斯卡三角形有關係<br><img src="/image/Pascal's triangle.png" width=50% height=50%></p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/%E8%AD%89%E6%98%8E%E5%B7%B4%E6%96%AF%E5%8D%A1%E5%AE%9A%E7%90%86/#more" rel="contents">
-                閱讀全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
+                    <time title="創建時間：2018-05-05 08:02:50" itemprop="dateCreated datePublished" datetime="2018-05-05T08:02:50+08:00">2018-05-05</time>
+                  </span>
+                  <span class="post-meta-item">
+                    <span class="post-meta-item-icon">
+                      <i class="far fa-calendar-check"></i>
+                    </span>
+                    <span class="post-meta-item-text">更新於</span>
+                    <time title="修改時間：2020-07-24 22:19:46" itemprop="dateModified" datetime="2020-07-24T22:19:46+08:00">2020-07-24</time>
+                  </span>
+                  <span class="post-meta-item">
+                    <span class="post-meta-item-icon">
+                      <i class="far fa-folder"></i>
+                    </span>
+                    <span class="post-meta-item-text">分類於</span>
+                    <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                      <a href="/categories/%E6%95%B8%E5%AD%B8/" itemprop="url" rel="index"><span itemprop="name">數學</span></a>
+                    </span>
+                    ，
+                    <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                      <a href="/categories/%E6%95%B8%E5%AD%B8/%E8%AD%89%E6%98%8E/" itemprop="url" rel="index"><span itemprop="name">證明</span></a>
+                    </span>
+                  </span>
 
 
-  
+
+                </div>
+              </header>
+
+
+
+
+              <div class="post-body" itemprop="articleBody">
+
+
+                <h2 id="介紹"><a href="#介紹" class="headerlink" title="介紹"></a>介紹</h2>
+                <p>大家都知道巴斯卡公式是排列組合中一個十分有用的公式，都叫做巴斯卡公式了，可想而知一定跟巴斯卡三角形有關係<br><img src="/image/Pascal's triangle.png" width=50% height=50%><br>
+                  <!--noindex-->
+                <div class="post-button">
+                  <a class="btn" href="/%E8%AD%89%E6%98%8E%E5%B7%B4%E6%96%AF%E5%8D%A1%E5%AE%9A%E7%90%86/#more" rel="contents">
+                    閱讀全文 &raquo;
+                  </a>
+                </div>
+                <!--/noindex-->
+
+
+              </div>
+
+
+
+
+              <footer class="post-footer">
+                <div class="post-eof"></div>
+              </footer>
+            </article>
+
+
+
+
+
+
 
 
 
           </div>
-          
 
-<script>
-  window.addEventListener('tabs:register', () => {
-    let { activeClass } = CONFIG.comments;
-    if (CONFIG.comments.storage) {
-      activeClass = localStorage.getItem('comments_active') || activeClass;
-    }
-    if (activeClass) {
-      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
-      if (activeTab) {
-        activeTab.click();
-      }
-    }
-  });
-  if (CONFIG.comments.storage) {
-    window.addEventListener('tabs:click', event => {
-      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
-      let commentClass = event.target.classList[1];
-      localStorage.setItem('comments_active', commentClass);
-    });
-  }
-</script>
+
+          <script>
+            window.addEventListener('tabs:register', () => {
+              let {
+                activeClass
+              } = CONFIG.comments;
+              if (CONFIG.comments.storage) {
+                activeClass = localStorage.getItem('comments_active') || activeClass;
+              }
+              if (activeClass) {
+                let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+                if (activeTab) {
+                  activeTab.click();
+                }
+              }
+            });
+            if (CONFIG.comments.storage) {
+              window.addEventListener('tabs:click', event => {
+                if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+                let commentClass = event.target.classList[1];
+                localStorage.setItem('comments_active', commentClass);
+              });
+            }
+          </script>
 
         </div>
-          
-  
-  <div class="toggle sidebar-toggle">
-    <span class="toggle-line toggle-line-first"></span>
-    <span class="toggle-line toggle-line-middle"></span>
-    <span class="toggle-line toggle-line-last"></span>
-  </div>
-
-  <aside class="sidebar">
-    <div class="sidebar-inner">
-
-      <ul class="sidebar-nav motion-element">
-        <li class="sidebar-nav-toc">
-          文章目錄
-        </li>
-        <li class="sidebar-nav-overview">
-          本站概要
-        </li>
-      </ul>
-
-      <!--noindex-->
-      <div class="post-toc-wrap sidebar-panel">
-      </div>
-      <!--/noindex-->
-
-      <div class="site-overview-wrap sidebar-panel">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <img class="site-author-image" itemprop="image" alt="jayinnn"
-      src="https://avatars.githubusercontent.com/u/11909159?s=460&u=7a5e9c66df2c3438150c6c1ef98df758bd74183c&v=4">
-  <p class="site-author-name" itemprop="name">jayinnn</p>
-  <div class="site-description" itemprop="description"></div>
-</div>
-<div class="site-state-wrap motion-element">
-  <nav class="site-state">
-      <div class="site-state-item site-state-posts">
-          <a href="/archives/">
-        
-          <span class="site-state-item-count">8</span>
-          <span class="site-state-item-name">文章</span>
-        </a>
-      </div>
-      <div class="site-state-item site-state-categories">
-            <a href="/categories/">
-          
-        <span class="site-state-item-count">8</span>
-        <span class="site-state-item-name">分類</span></a>
-      </div>
-      <div class="site-state-item site-state-tags">
-            <a href="/tags/">
-          
-        <span class="site-state-item-count">14</span>
-        <span class="site-state-item-name">標籤</span></a>
-      </div>
-  </nav>
-</div>
-  <div class="links-of-author motion-element">
-      <span class="links-of-author-item">
-        <a href="https://github.com/jayin92" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;jayin92" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
-      </span>
-      <span class="links-of-author-item">
-        <a href="https://t.me/jayinnn" title="Telegram → https:&#x2F;&#x2F;t.me&#x2F;jayinnn" rel="noopener" target="_blank"><i class="fab fa-telegram fa-fw"></i>Telegram</a>
-      </span>
-      <span class="links-of-author-item">
-        <a href="https://www.facebook.com/jayinnn" title="Facebook → https:&#x2F;&#x2F;www.facebook.com&#x2F;jayinnn" rel="noopener" target="_blank"><i class="fab fa-facebook fa-fw"></i>Facebook</a>
-      </span>
-      <span class="links-of-author-item">
-        <a href="https://instagram.com/jayinnn" title="Instagram → https:&#x2F;&#x2F;instagram.com&#x2F;jayinnn" rel="noopener" target="_blank"><i class="fab fa-instagram fa-fw"></i>Instagram</a>
-      </span>
-  </div>
 
 
+        <div class="toggle sidebar-toggle">
+          <span class="toggle-line toggle-line-first"></span>
+          <span class="toggle-line toggle-line-middle"></span>
+          <span class="toggle-line toggle-line-last"></span>
+        </div>
 
-      </div>
+        <aside class="sidebar">
+          <div class="sidebar-inner">
 
-    </div>
-  </aside>
-  <div id="sidebar-dimmer"></div>
+            <ul class="sidebar-nav motion-element">
+              <li class="sidebar-nav-toc">
+                文章目錄
+              </li>
+              <li class="sidebar-nav-overview">
+                本站概要
+              </li>
+            </ul>
+
+            <!--noindex-->
+            <div class="post-toc-wrap sidebar-panel">
+            </div>
+            <!--/noindex-->
+
+            <div class="site-overview-wrap sidebar-panel">
+              <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <img class="site-author-image" itemprop="image" alt="jayinnn" src="https://avatars.githubusercontent.com/u/11909159?s=460&u=7a5e9c66df2c3438150c6c1ef98df758bd74183c&v=4">
+                <p class="site-author-name" itemprop="name">jayinnn</p>
+                <div class="site-description" itemprop="description"></div>
+              </div>
+              <div class="site-state-wrap motion-element">
+                <nav class="site-state">
+                  <div class="site-state-item site-state-posts">
+                    <a href="/archives/">
+
+                      <span class="site-state-item-count">5</span>
+                      <span class="site-state-item-name">文章</span>
+                    </a>
+                  </div>
+                  <div class="site-state-item site-state-categories">
+                    <a href="/categories/">
+
+                      <span class="site-state-item-count">4</span>
+                      <span class="site-state-item-name">分類</span></a>
+                  </div>
+                  <div class="site-state-item site-state-tags">
+                    <a href="/tags/">
+
+                      <span class="site-state-item-count">8</span>
+                      <span class="site-state-item-name">標籤</span></a>
+                  </div>
+                </nav>
+              </div>
+              <div class="links-of-author motion-element">
+                <span class="links-of-author-item">
+                  <a href="https://github.com/jayin92" title="GitHub → https://github.com/jayin92" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+                </span>
+                <span class="links-of-author-item">
+                  <a href="https://t.me/jayinnn" title="Telegram → https://t.me/jayinnn" rel="noopener" target="_blank"><i class="fab fa-telegram fa-fw"></i>Telegram</a>
+                </span>
+                <span class="links-of-author-item">
+                  <a href="https://www.facebook.com/jayinnn" title="Facebook → https://www.facebook.com/jayinnn" rel="noopener" target="_blank"><i class="fab fa-facebook fa-fw"></i>Facebook</a>
+                </span>
+                <span class="links-of-author-item">
+                  <a href="https://instagram.com/jayinnn" title="Instagram → https://instagram.com/jayinnn" rel="noopener" target="_blank"><i class="fab fa-instagram fa-fw"></i>Instagram</a>
+                </span>
+              </div>
+
+
+
+            </div>
+
+          </div>
+        </aside>
+        <div id="sidebar-dimmer"></div>
 
 
       </div>
@@ -957,23 +780,23 @@
 
     <footer class="footer">
       <div class="footer-inner">
-        
 
-        
 
-<div class="copyright">
-  
-  &copy; 
-  <span itemprop="copyrightYear">2021</span>
-  <span class="with-love">
-    <i class="fa fa-heart"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">jayinnn</span>
-</div>
-  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 強力驅動
-  </div>
 
-        
+
+        <div class="copyright">
+
+          &copy;
+          <span itemprop="copyrightYear">2021</span>
+          <span class="with-love">
+            <i class="fa fa-heart"></i>
+          </span>
+          <span class="author" itemprop="copyrightHolder">jayinnn</span>
+        </div>
+        <div class="powered-by">由 <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 強力驅動
+        </div>
+
+
 
 
 
@@ -986,25 +809,20 @@
     </footer>
   </div>
 
-  
+
   <script src="/lib/anime.min.js"></script>
   <script src="/lib/velocity/velocity.min.js"></script>
   <script src="/lib/velocity/velocity.ui.min.js"></script>
 
-<script src="/js/utils.js"></script>
+  <script src="/js/utils.js"></script>
 
-<script src="/js/motion.js"></script>
-
-
-<script src="/js/schemes/pisces.js"></script>
+  <script src="/js/motion.js"></script>
 
 
-<script src="/js/next-boot.js"></script>
+  <script src="/js/schemes/pisces.js"></script>
 
 
-
-
-  
+  <script src="/js/next-boot.js"></script>
 
 
 
@@ -1020,66 +838,86 @@
 
 
 
-  
 
-  
-      
 
-<script>
-  if (typeof MathJax === 'undefined') {
-    window.MathJax = {
-      loader: {
+
+
+
+
+
+
+
+
+  <script>
+    if (typeof MathJax === 'undefined') {
+      window.MathJax = {
+        loader: {
           load: ['[tex]/mhchem'],
-        source: {
-          '[tex]/amsCd': '[tex]/amscd',
-          '[tex]/AMScd': '[tex]/amscd'
+          source: {
+            '[tex]/amsCd': '[tex]/amscd',
+            '[tex]/AMScd': '[tex]/amscd'
+          }
+        },
+        tex: {
+          inlineMath: {
+            '[+]': [
+              ['$', '$']
+            ]
+          },
+          packages: {
+            '[+]': ['mhchem']
+          },
+          tags: 'ams'
+        },
+        options: {
+          renderActions: {
+            findScript: [10, doc => {
+              document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+                const display = !!node.type.match(/; *mode=display/);
+                const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+                const text = document.createTextNode('');
+                node.parentNode.replaceChild(text, node);
+                math.start = {
+                  node: text,
+                  delim: '',
+                  n: 0
+                };
+                math.end = {
+                  node: text,
+                  delim: '',
+                  n: 0
+                };
+                doc.math.push(math);
+              });
+            }, '', false],
+            insertedScript: [200, () => {
+              document.querySelectorAll('mjx-container').forEach(node => {
+                let target = node.parentNode;
+                if (target.nodeName.toLowerCase() === 'li') {
+                  target.parentNode.classList.add('has-jax');
+                }
+              });
+            }, '', false]
+          }
         }
-      },
-      tex: {
-        inlineMath: {'[+]': [['$', '$']]},
-          packages: {'[+]': ['mhchem']},
-        tags: 'ams'
-      },
-      options: {
-        renderActions: {
-          findScript: [10, doc => {
-            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
-              const display = !!node.type.match(/; *mode=display/);
-              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
-              const text = document.createTextNode('');
-              node.parentNode.replaceChild(text, node);
-              math.start = {node: text, delim: '', n: 0};
-              math.end = {node: text, delim: '', n: 0};
-              doc.math.push(math);
-            });
-          }, '', false],
-          insertedScript: [200, () => {
-            document.querySelectorAll('mjx-container').forEach(node => {
-              let target = node.parentNode;
-              if (target.nodeName.toLowerCase() === 'li') {
-                target.parentNode.classList.add('has-jax');
-              }
-            });
-          }, '', false]
-        }
-      }
-    };
-    (function () {
-      var script = document.createElement('script');
-      script.src = '//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
-      script.defer = true;
-      document.head.appendChild(script);
-    })();
-  } else {
-    MathJax.startup.document.state(0);
-    MathJax.texReset();
-    MathJax.typeset();
-  }
-</script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+      };
+      (function() {
+        var script = document.createElement('script');
+        script.src = '//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
+        script.defer = true;
+        document.head.appendChild(script);
+      })();
+    } else {
+      MathJax.startup.document.state(0);
+      MathJax.texReset();
+      MathJax.typeset();
+    }
+  </script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
 
-    
 
-  
+
+
 
 </body>
+
 </html>

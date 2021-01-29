@@ -14,9 +14,9 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!isNaN(top) && location.hash === '') {
       // Auto scroll to the position
       window.anime({
-        targets  : document.scrollingElement,
-        duration : 200,
-        easing   : 'linear',
+        targets: document.scrollingElement,
+        duration: 200,
+        easing: 'linear',
         scrollTop: top
       });
     }
@@ -37,10 +37,10 @@ document.addEventListener('DOMContentLoaded', () => {
     link.addEventListener('click', () => {
       doSaveScroll();
       window.anime({
-        targets : link,
+        targets: link,
         duration: 200,
-        easing  : 'linear',
-        top     : -30,
+        easing: 'linear',
+        top: -30,
         complete: () => {
           setTimeout(() => {
             link.style.top = '';

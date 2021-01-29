@@ -2,11 +2,15 @@
 
 document.addEventListener('DOMContentLoaded', () => {
   const algoliaSettings = CONFIG.algolia;
-  const { indexName, appID, apiKey } = algoliaSettings;
+  const {
+    indexName,
+    appID,
+    apiKey
+  } = algoliaSettings;
 
   let search = instantsearch({
     indexName,
-    searchClient  : algoliasearch(appID, apiKey),
+    searchClient: algoliasearch(appID, apiKey),
     searchFunction: helper => {
       let searchInput = document.querySelector('.search-input');
       if (searchInput.value) {
@@ -26,13 +30,13 @@ document.addEventListener('DOMContentLoaded', () => {
     }),
 
     instantsearch.widgets.searchBox({
-      container           : '.search-input-container',
-      placeholder         : algoliaSettings.labels.input_placeholder,
+      container: '.search-input-container',
+      placeholder: algoliaSettings.labels.input_placeholder,
       // Hide default icons of algolia search
-      showReset           : false,
-      showSubmit          : false,
+      showReset: false,
+      showSubmit: false,
       showLoadingIndicator: false,
-      cssClasses          : {
+      cssClasses: {
         input: 'search-input'
       }
     }),
@@ -73,19 +77,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
     instantsearch.widgets.pagination({
       container: '#algolia-pagination',
-      scrollTo : false,
+      scrollTo: false,
       showFirst: false,
-      showLast : false,
+      showLast: false,
       templates: {
-        first   : '<i class="fa fa-angle-double-left"></i>',
-        last    : '<i class="fa fa-angle-double-right"></i>',
+        first: '<i class="fa fa-angle-double-left"></i>',
+        last: '<i class="fa fa-angle-double-right"></i>',
         previous: '<i class="fa fa-angle-left"></i>',
-        next    : '<i class="fa fa-angle-right"></i>'
+        next: '<i class="fa fa-angle-right"></i>'
       },
       cssClasses: {
-        root        : 'pagination',
-        item        : 'pagination-item',
-        link        : 'page-number',
+        root: 'pagination',
+        item: 'pagination-item',
+        link: 'page-number',
         selectedItem: 'current',
         disabledItem: 'disabled-item'
       }

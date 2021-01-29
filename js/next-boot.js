@@ -37,20 +37,20 @@ NexT.boot.registerEvents = function() {
       var target = targets[index];
       var currentTarget = targets[1 - index];
       window.anime({
-        targets : currentTarget,
+        targets: currentTarget,
         duration: TAB_ANIMATE_DURATION,
-        easing  : 'linear',
-        opacity : 0,
+        easing: 'linear',
+        opacity: 0,
         complete: () => {
           // Prevent adding TOC to Overview if Overview was selected when close & open sidebar.
           currentTarget.classList.remove(activePanelClassName);
           target.style.opacity = 0;
           target.classList.add(activePanelClassName);
           window.anime({
-            targets : target,
+            targets: target,
             duration: TAB_ANIMATE_DURATION,
-            easing  : 'linear',
-            opacity : 1
+            easing: 'linear',
+            opacity: 1
           });
         }
       });

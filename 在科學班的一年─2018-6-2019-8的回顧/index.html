@@ -1,54 +1,125 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
+
 <head>
   <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
-<meta name="theme-color" content="#222">
-<meta name="generator" content="Hexo 4.2.1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+  <meta name="theme-color" content="#222">
+  <meta name="generator" content="Hexo 5.3.0">
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
   <link rel="mask-icon" href="/images/logo.svg" color="#222">
 
-<link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/main.css">
 
 
-<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+  <link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
 
-<script id="hexo-configurations">
+  <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"jayin92.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"appID":"GDNMUNZID8","apiKey":"b6200d6165855d0c8c5b935a5df9efc9","indexName":"hexoBlog","hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+    var CONFIG = {
+      "hostname": "jayin92.github.io",
+      "root": "/",
+      "scheme": "Gemini",
+      "version": "7.8.0",
+      "exturl": false,
+      "sidebar": {
+        "position": "left",
+        "display": "post",
+        "padding": 18,
+        "offset": 12,
+        "onmobile": false
+      },
+      "copycode": {
+        "enable": false,
+        "show_result": false,
+        "style": null
+      },
+      "back2top": {
+        "enable": true,
+        "sidebar": false,
+        "scrollpercent": false
+      },
+      "bookmark": {
+        "enable": false,
+        "color": "#222",
+        "save": "auto"
+      },
+      "fancybox": false,
+      "mediumzoom": false,
+      "lazyload": false,
+      "pangu": false,
+      "comments": {
+        "style": "tabs",
+        "active": null,
+        "storage": true,
+        "lazyload": false,
+        "nav": null
+      },
+      "algolia": {
+        "appID": "GDNMUNZID8",
+        "apiKey": "b6200d6165855d0c8c5b935a5df9efc9",
+        "indexName": "hexoBlog",
+        "hits": {
+          "per_page": 10
+        },
+        "labels": {
+          "input_placeholder": "Search for Posts",
+          "hits_empty": "We didn't find any results for the search: ${query}",
+          "hits_stats": "${hits} results found in ${time} ms"
+        }
+      },
+      "localsearch": {
+        "enable": false,
+        "trigger": "auto",
+        "top_n_per_article": 1,
+        "unescape": false,
+        "preload": false
+      },
+      "motion": {
+        "enable": true,
+        "async": false,
+        "transition": {
+          "post_block": "fadeIn",
+          "post_header": "slideDownIn",
+          "post_body": "slideDownIn",
+          "coll_header": "slideLeftIn",
+          "sidebar": "slideUpIn"
+        }
+      }
+    };
   </script>
 
   <meta name="description" content="前言這個部落格自從我開始升上高中後就沒什麼在維護了，第一是因為課業有點小重，第二是因為維護還蠻麻煩的，一篇文章的產出基本上都要花我不少時間，自己又把空閒的時間花在打LoL上，自然沒有時間將自己的知識描述成文章。 在高中的這一年基本上學了蠻多東西，思考了很多東西，也放棄了很多東西。 這篇文基本上應該會蠻長的，因為我會把這一年發生的事情全部紀錄一遍，從一開始科學班的暑輔，到今年暑假參加的SITCON，">
-<meta property="og:type" content="article">
-<meta property="og:title" content="在科學班的一年─2018&#x2F;6~2019&#x2F;8的回顧">
-<meta property="og:url" content="https://jayin92.github.io/%E5%9C%A8%E7%A7%91%E5%AD%B8%E7%8F%AD%E7%9A%84%E4%B8%80%E5%B9%B4%E2%94%802018-6-2019-8%E7%9A%84%E5%9B%9E%E9%A1%A7/index.html">
-<meta property="og:site_name" content="jayinnn&#39;s blog">
-<meta property="og:description" content="前言這個部落格自從我開始升上高中後就沒什麼在維護了，第一是因為課業有點小重，第二是因為維護還蠻麻煩的，一篇文章的產出基本上都要花我不少時間，自己又把空閒的時間花在打LoL上，自然沒有時間將自己的知識描述成文章。 在高中的這一年基本上學了蠻多東西，思考了很多東西，也放棄了很多東西。 這篇文基本上應該會蠻長的，因為我會把這一年發生的事情全部紀錄一遍，從一開始科學班的暑輔，到今年暑假參加的SITCON，">
-<meta property="og:locale" content="zh_TW">
-<meta property="article:published_time" content="2019-08-19T15:40:11.000Z">
-<meta property="article:modified_time" content="2020-07-10T14:37:49.696Z">
-<meta property="article:author" content="jayinnn">
-<meta property="article:tag" content="科班">
-<meta property="article:tag" content="武陵">
-<meta name="twitter:card" content="summary">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="在科學班的一年─2018&#x2F;6~2019&#x2F;8的回顧">
+  <meta property="og:url" content="https://jayin92.github.io/%E5%9C%A8%E7%A7%91%E5%AD%B8%E7%8F%AD%E7%9A%84%E4%B8%80%E5%B9%B4%E2%94%802018-6-2019-8%E7%9A%84%E5%9B%9E%E9%A1%A7/index.html">
+  <meta property="og:site_name" content="jayinnn&#39;s blog">
+  <meta property="og:description" content="前言這個部落格自從我開始升上高中後就沒什麼在維護了，第一是因為課業有點小重，第二是因為維護還蠻麻煩的，一篇文章的產出基本上都要花我不少時間，自己又把空閒的時間花在打LoL上，自然沒有時間將自己的知識描述成文章。 在高中的這一年基本上學了蠻多東西，思考了很多東西，也放棄了很多東西。 這篇文基本上應該會蠻長的，因為我會把這一年發生的事情全部紀錄一遍，從一開始科學班的暑輔，到今年暑假參加的SITCON，">
+  <meta property="og:locale" content="zh_TW">
+  <meta property="article:published_time" content="2019-08-19T15:40:11.000Z">
+  <meta property="article:modified_time" content="2021-01-25T07:06:39.219Z">
+  <meta property="article:author" content="jayinnn">
+  <meta property="article:tag" content="科班">
+  <meta property="article:tag" content="武陵">
+  <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://jayin92.github.io/%E5%9C%A8%E7%A7%91%E5%AD%B8%E7%8F%AD%E7%9A%84%E4%B8%80%E5%B9%B4%E2%94%802018-6-2019-8%E7%9A%84%E5%9B%9E%E9%A1%A7/">
+  <link rel="canonical" href="https://jayin92.github.io/%E5%9C%A8%E7%A7%91%E5%AD%B8%E7%8F%AD%E7%9A%84%E4%B8%80%E5%B9%B4%E2%94%802018-6-2019-8%E7%9A%84%E5%9B%9E%E9%A1%A7/">
 
 
-<script id="page-configurations">
-  // https://hexo.io/docs/variables.html
-  CONFIG.page = {
-    sidebar: "",
-    isHome : false,
-    isPost : true,
-    lang   : 'zh-TW'
-  };
-</script>
+  <script id="page-configurations">
+    // https://hexo.io/docs/variables.html
+    CONFIG.page = {
+      sidebar: "",
+      isHome: false,
+      isPost: true,
+      lang: 'zh-TW'
+    };
+  </script>
 
   <title>在科學班的一年─2018/6~2019/8的回顧 | jayinnn's blog</title>
-  
+
 
 
 
@@ -56,28 +127,40 @@
 
 
   <noscript>
-  <style>
-  .use-motion .brand,
-  .use-motion .menu-item,
-  .sidebar-inner,
-  .use-motion .post-block,
-  .use-motion .pagination,
-  .use-motion .comments,
-  .use-motion .post-header,
-  .use-motion .post-body,
-  .use-motion .collection-header { opacity: initial; }
+    <style>
+      .use-motion .brand,
+      .use-motion .menu-item,
+      .sidebar-inner,
+      .use-motion .post-block,
+      .use-motion .pagination,
+      .use-motion .comments,
+      .use-motion .post-header,
+      .use-motion .post-body,
+      .use-motion .collection-header {
+        opacity: initial;
+      }
 
-  .use-motion .site-title,
-  .use-motion .site-subtitle {
-    opacity: initial;
-    top: initial;
-  }
+      .use-motion .site-title,
+      .use-motion .site-subtitle {
+        opacity: initial;
+        top: initial;
+      }
 
-  .use-motion .logo-line-before i { left: initial; }
-  .use-motion .logo-line-after i { right: initial; }
-  </style>
-</noscript><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+      .use-motion .logo-line-before i {
+        left: initial;
+      }
 
+      .use-motion .logo-line-after i {
+        right: initial;
+      }
+    </style>
+  </noscript>
+
+  <!-- hexo injector head_end start -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
+  <!-- hexo injector head_end end --><!-- hexo-inject:begin --><!-- hexo-inject:end -->
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage">
@@ -85,300 +168,316 @@
     <div class="headband"></div>
 
     <header class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-container">
-  <div class="site-nav-toggle">
-    <div class="toggle" aria-label="切換導航欄">
-      <span class="toggle-line toggle-line-first"></span>
-      <span class="toggle-line toggle-line-middle"></span>
-      <span class="toggle-line toggle-line-last"></span>
-    </div>
-  </div>
+      <div class="header-inner">
+        <div class="site-brand-container">
+          <div class="site-nav-toggle">
+            <div class="toggle" aria-label="切換導航欄">
+              <span class="toggle-line toggle-line-first"></span>
+              <span class="toggle-line toggle-line-middle"></span>
+              <span class="toggle-line toggle-line-last"></span>
+            </div>
+          </div>
 
-  <div class="site-meta">
+          <div class="site-meta">
 
-    <a href="/" class="brand" rel="start">
-      <span class="logo-line-before"><i></i></span>
-      <h1 class="site-title">jayinnn's blog</h1>
-      <span class="logo-line-after"><i></i></span>
-    </a>
-  </div>
+            <a href="/" class="brand" rel="start">
+              <span class="logo-line-before"><i></i></span>
+              <h1 class="site-title">jayinnn's blog</h1>
+              <span class="logo-line-after"><i></i></span>
+            </a>
+          </div>
 
-  <div class="site-nav-right">
-    <div class="toggle popup-trigger">
-    </div>
-  </div>
-</div>
-
-
-
-
-<nav class="site-nav">
-  <ul id="menu" class="main-menu menu">
-        <li class="menu-item menu-item-home">
-
-    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首頁</a>
-
-  </li>
-        <li class="menu-item menu-item-about">
-
-    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>關於</a>
-
-  </li>
-        <li class="menu-item menu-item-tags">
-
-    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>標籤</a>
-
-  </li>
-        <li class="menu-item menu-item-categories">
-
-    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分類</a>
-
-  </li>
-        <li class="menu-item menu-item-archives">
-
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>歸檔</a>
-
-  </li>
-  </ul>
-</nav>
+          <div class="site-nav-right">
+            <div class="toggle popup-trigger">
+            </div>
+          </div>
+        </div>
 
 
 
 
-</div>
+        <nav class="site-nav">
+          <ul id="menu" class="main-menu menu">
+            <li class="menu-item menu-item-home">
+
+              <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首頁</a>
+
+            </li>
+            <li class="menu-item menu-item-about">
+
+              <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>關於</a>
+
+            </li>
+            <li class="menu-item menu-item-tags">
+
+              <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>標籤</a>
+
+            </li>
+            <li class="menu-item menu-item-categories">
+
+              <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分類</a>
+
+            </li>
+            <li class="menu-item menu-item-archives">
+
+              <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>歸檔</a>
+
+            </li>
+          </ul>
+        </nav>
+
+
+
+
+      </div>
     </header>
 
-    
-  <div class="back-to-top">
-    <i class="fa fa-arrow-up"></i>
-    <span>0%</span>
-  </div>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+      <span>0%</span>
+    </div>
 
 
     <main class="main">
       <div class="main-inner">
         <div class="content-wrap">
-          
+
 
           <div class="content post posts-expand">
-            
 
-    
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
-    <link itemprop="mainEntityOfPage" href="https://jayin92.github.io/%E5%9C%A8%E7%A7%91%E5%AD%B8%E7%8F%AD%E7%9A%84%E4%B8%80%E5%B9%B4%E2%94%802018-6-2019-8%E7%9A%84%E5%9B%9E%E9%A1%A7/">
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="https://avatars.githubusercontent.com/u/11909159?s=460&u=7a5e9c66df2c3438150c6c1ef98df758bd74183c&v=4">
-      <meta itemprop="name" content="jayinnn">
-      <meta itemprop="description" content="">
-    </span>
 
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="jayinnn's blog">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          在科學班的一年─2018/6~2019/8的回顧
-        </h1>
 
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
+
+            <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
+              <link itemprop="mainEntityOfPage" href="https://jayin92.github.io/%E5%9C%A8%E7%A7%91%E5%AD%B8%E7%8F%AD%E7%9A%84%E4%B8%80%E5%B9%B4%E2%94%802018-6-2019-8%E7%9A%84%E5%9B%9E%E9%A1%A7/">
+
+              <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <meta itemprop="image" content="https://avatars.githubusercontent.com/u/11909159?s=460&u=7a5e9c66df2c3438150c6c1ef98df758bd74183c&v=4">
+                <meta itemprop="name" content="jayinnn">
+                <meta itemprop="description" content="">
               </span>
-              <span class="post-meta-item-text">發表於</span>
 
-              <time title="創建時間：2019-08-19 23:40:11" itemprop="dateCreated datePublished" datetime="2019-08-19T23:40:11+08:00">2019-08-19</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新於</span>
-                <time title="修改時間：2020-07-10 22:37:49" itemprop="dateModified" datetime="2020-07-10T22:37:49+08:00">2020-07-10</time>
+              <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+                <meta itemprop="name" content="jayinnn's blog">
               </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分類於</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E6%AD%A6%E9%99%B5/" itemprop="url" rel="index"><span itemprop="name">武陵</span></a>
-                </span>
-            </span>
+              <header class="post-header">
+                <h1 class="post-title" itemprop="name headline">
+                  在科學班的一年─2018/6~2019/8的回顧
+                </h1>
 
-          
+                <div class="post-meta">
+                  <span class="post-meta-item">
+                    <span class="post-meta-item-icon">
+                      <i class="far fa-calendar"></i>
+                    </span>
+                    <span class="post-meta-item-text">發表於</span>
 
-        </div>
-      </header>
+                    <time title="創建時間：2019-08-19 23:40:11" itemprop="dateCreated datePublished" datetime="2019-08-19T23:40:11+08:00">2019-08-19</time>
+                  </span>
+                  <span class="post-meta-item">
+                    <span class="post-meta-item-icon">
+                      <i class="far fa-calendar-check"></i>
+                    </span>
+                    <span class="post-meta-item-text">更新於</span>
+                    <time title="修改時間：2021-01-25 15:06:39" itemprop="dateModified" datetime="2021-01-25T15:06:39+08:00">2021-01-25</time>
+                  </span>
+                  <span class="post-meta-item">
+                    <span class="post-meta-item-icon">
+                      <i class="far fa-folder"></i>
+                    </span>
+                    <span class="post-meta-item-text">分類於</span>
+                    <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                      <a href="/categories/%E6%AD%A6%E9%99%B5/" itemprop="url" rel="index"><span itemprop="name">武陵</span></a>
+                    </span>
+                  </span>
 
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
 
-      
-        <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>這個部落格自從我開始升上高中後就沒什麼在維護了，第一是因為課業有點小重，第二是因為維護還蠻麻煩的，一篇文章的產出基本上都要花我不少時間，自己又把空閒的時間花在打LoL上，自然沒有時間將自己的知識描述成文章。</p>
-<p>在高中的這一年基本上學了蠻多東西，思考了很多東西，也放棄了很多東西。</p>
-<p>這篇文基本上應該會蠻長的，因為我會把這一年發生的事情全部紀錄一遍，從一開始科學班的暑輔，到今年暑假參加的SITCON，COSCUP。所以我猜我在暑假前可能打不完，到時候開學如果有時間再把這篇文打完ㄅ。</p>
-<a id="more"></a>
 
-<h2 id="科學班小高一與他們的暑輔"><a href="#科學班小高一與他們的暑輔" class="headerlink" title="科學班小高一與他們的暑輔"></a>科學班小高一與他們的暑輔</h2><p>我們大概比一般高一生多上了兩個禮拜的課ㄅ，上的課都是學科，國文、英文、物理、化學、生物、數學之類的，雖然已經過了蠻久但我還記得那個課表還蠻不優的，連四節化學，連四節數學都算家常便飯，每個禮拜至少會出現2次還3次吧，不過令人慶幸的是只上六節。</p>
-<p>我還記得第一天上學時，我只認識一個國中就認識的振聲仔：鄧朝語，然後我到的時候他還沒來，所以我就想說我坐前面一點但不要太中間，所以就選擇做第一排第二個位置。結果後來發現從國中就是電神且眾人皆知的大電神張智閎坐我旁邊，真的有夠扯的拉，可是他那時候根本不認識我，因為我超級無敵不電，根本沒參加過什麼數學競賽或自然方面的競賽（我有去考科奧但初選就被刷掉了QQ）（我那時候考科奧張智閎就坐我旁邊）阿因為大家一開始根本不熟，所以大家吃飯阿，午休之類的都沒什麼交集，大家午休不是在睡覺就是在刷森森數學講義，想當年我也是其中刷講義大隊的其中一員呢嘻嘻。</p>
-<!--TODO: 可以放一堆照片 -->
+                </div>
+              </header>
 
-<p>阿後來就莫名奇妙突然熟起來（好像有個過程拉，不過根本沒人可以記的那麼清楚拉）。</p>
-<p>後來暑輔有一天，張智閎就突然跟我說：「ㄟ杰穎，你好像熊熊喔，一隻坐著的熊熊」，剛好我的Facebook大頭貼也是熊熊，所以後來就被全班的人叫熊熊了。</p>
-<p>暑輔有一天下午，國文老師帶著我們全班去大溪參觀街角博物館，那是我們班第一次團體去外面參觀，大家都還蠻興奮的，博物館本身好像沒什麼，我覺得比較好玩的是你要拿著你的手機到大溪各個景點實際的「打卡」（我知道用打卡這個詞很蠢）很悲慘的是我和張智閎抽到了超雷的路線：有一個打卡的點在李梅芳古厝，古厝離我們的出發點走路至少要20分鐘，而且那邊還沒有Ubike可以騎，有夠慘，但我們還是走到了，那段路程，成為了暑輔最美好的回憶。</p>
-<p>暑輔結束後，就是給小高一們的新生訓練了，一般來說，小高一們第一次見到同學是在新生訓練那三天，所以會超級不熟＋尷尬，但因為我們班已經上課上了四個禮拜，所以我們在新生訓練那三天超級吵，但後來好像就沒什麼存在感了QQ。</p>
-<p>還有一件蠻值得提的就是我們暑輔後來熟到直接帶Nintendo Switch來學校，感謝丁安磊同學的友情贊助www (不過後來開學後就被班導強制撤離了QQ)</p>
-<h2 id="被荼毒的開始"><a href="#被荼毒的開始" class="headerlink" title="被荼毒的開始"></a>被荼毒的開始</h2><p>武陵在開學那天都會考一個叫始業考的無意義考試，考試的成績算在平時考，所以其實基本上不用太認真準備，但其實大家都還是會稍微看一下拉。總而言之，我們的數學老師是全武陵都聞風喪膽的森森，他為普通班所出的段考考卷，基本上全校平均都只有30、40分。顯然我們的始業考數學考卷也是他出的，所以很顯然爆幹難，我跟朝語好像都只有20分左右ㄅ，反正考完就覺得完蛋了，這三年要被荼毒到死了，的確，森森出的考卷我從來沒有拿到好分數過QQ。</p>
-<p>高一的第一個大活動是去中興大學參加彰中科學班的成發（彰中的合作大學是中興，結果中一中是跟交通大學），因為桃園離台中有點遠，所以大家就在遊覽車上面用小海螺（對，那時候小海螺還是很盛行）自己放音樂、唱歌，超high，我還記得丁安磊瘋狂唱日文歌嘻嘻。</p>
-<p>我們到中興的時候，離成發開始還有一段時間，班導就放我們自己去中興外面吃東西，還記得那時候一堆人都跑去吃微波垃圾，我就堅持不要，跟一群人走了超久，走到都已經快沒時間吃午餐了，才在一家關東煮店停下來，雖然關東煮不用什麼處理時間，但剛上桌的時候真D燙，根本沒辦法吃，我們大概等五分鐘之後才能開吃，然後我因為太興奮不小心裝了太多，根本吃不完，最後好像離成發開始前五分鐘才離開餐廳，因為超怕遲到被關在外面，所以直接用衝的衝回去國際會議聽，還好成發後來很久才開始（久到我們都在打橋牌了）也就沒有被鎖在外面了。</p>
-<h3 id="園遊會"><a href="#園遊會" class="headerlink" title="園遊會"></a>園遊會</h3><p>園遊會應該高一上學期最大的活動了，我們從一開始的討論、試做、買材料、設計logo、宣傳、畫海報、設計流程全部都是我們自己來，最原版的logo是我設計的，但有點小醜，所以美宣組的洪嘉聲就自己用小畫家用了比我用Ai做的好看50倍的logo QQ</p>
-<p>我們班後來決定做鬆餅，而且不是一般的鬆餅，而是可以客製化的鬆餅，這樣做雖然很酷，但因為有大量客製化的過程，所以一個鬆餅要做非常、非常久，再加上我們是現點現做，到後來做一個鬆餅客人平均要等6、7分鐘，導致營業額沒有到那麼好，不過我覺得園遊會的重點不是營業額的多寡，而是準備的過程、辦園遊會的經驗等等。</p>
 
-    </div>
 
-    
-    
-    
 
-      <footer class="post-footer">
-          <div class="post-tags">
-              <a href="/tags/%E7%A7%91%E7%8F%AD/" rel="tag"># 科班</a>
-              <a href="/tags/%E6%AD%A6%E9%99%B5/" rel="tag"># 武陵</a>
+              <div class="post-body" itemprop="articleBody">
+
+
+                <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2>
+                <p>這個部落格自從我開始升上高中後就沒什麼在維護了，第一是因為課業有點小重，第二是因為維護還蠻麻煩的，一篇文章的產出基本上都要花我不少時間，自己又把空閒的時間花在打LoL上，自然沒有時間將自己的知識描述成文章。</p>
+                <p>在高中的這一年基本上學了蠻多東西，思考了很多東西，也放棄了很多東西。</p>
+                <p>這篇文基本上應該會蠻長的，因為我會把這一年發生的事情全部紀錄一遍，從一開始科學班的暑輔，到今年暑假參加的SITCON，COSCUP。所以我猜我在暑假前可能打不完，到時候開學如果有時間再把這篇文打完ㄅ。</p>
+                <a id="more"></a>
+                <h2 id="科學班小高一與他們的暑輔"><a href="#科學班小高一與他們的暑輔" class="headerlink" title="科學班小高一與他們的暑輔"></a>科學班小高一與他們的暑輔</h2>
+                <p>我們大概比一般高一生多上了兩個禮拜的課ㄅ，上的課都是學科，國文、英文、物理、化學、生物、數學之類的，雖然已經過了蠻久但我還記得那個課表還蠻不優的，連四節化學，連四節數學都算家常便飯，每個禮拜至少會出現2次還3次吧，不過令人慶幸的是只上六節。</p>
+                <p>我還記得第一天上學時，我只認識一個國中就認識的振聲仔：鄧朝語，然後我到的時候他還沒來，所以我就想說我坐前面一點但不要太中間，所以就選擇做第一排第二個位置。結果後來發現從國中就是電神且眾人皆知的大電神張智閎坐我旁邊，真的有夠扯的拉，可是他那時候根本不認識我，因為我超級無敵不電，根本沒參加過什麼數學競賽或自然方面的競賽（我有去考科奧但初選就被刷掉了QQ）（我那時候考科奧張智閎就坐我旁邊）阿因為大家一開始根本不熟，所以大家吃飯阿，午休之類的都沒什麼交集，大家午休不是在睡覺就是在刷森森數學講義，想當年我也是其中刷講義大隊的其中一員呢嘻嘻。</p>
+                <!--TODO: 可以放一堆照片 -->
+                <p>阿後來就莫名奇妙突然熟起來（好像有個過程拉，不過根本沒人可以記的那麼清楚拉）。</p>
+                <p>後來暑輔有一天，張智閎就突然跟我說：「ㄟ杰穎，你好像熊熊喔，一隻坐著的熊熊」，剛好我的Facebook大頭貼也是熊熊，所以後來就被全班的人叫熊熊了。</p>
+                <p>暑輔有一天下午，國文老師帶著我們全班去大溪參觀街角博物館，那是我們班第一次團體去外面參觀，大家都還蠻興奮的，博物館本身好像沒什麼，我覺得比較好玩的是你要拿著你的手機到大溪各個景點實際的「打卡」（我知道用打卡這個詞很蠢）很悲慘的是我和張智閎抽到了超雷的路線：有一個打卡的點在李梅芳古厝，古厝離我們的出發點走路至少要20分鐘，而且那邊還沒有Ubike可以騎，有夠慘，但我們還是走到了，那段路程，成為了暑輔最美好的回憶。</p>
+                <p>暑輔結束後，就是給小高一們的新生訓練了，一般來說，小高一們第一次見到同學是在新生訓練那三天，所以會超級不熟＋尷尬，但因為我們班已經上課上了四個禮拜，所以我們在新生訓練那三天超級吵，但後來好像就沒什麼存在感了QQ。</p>
+                <p>還有一件蠻值得提的就是我們暑輔後來熟到直接帶Nintendo Switch來學校，感謝丁安磊同學的友情贊助www (不過後來開學後就被班導強制撤離了QQ)</p>
+                <h2 id="被荼毒的開始"><a href="#被荼毒的開始" class="headerlink" title="被荼毒的開始"></a>被荼毒的開始</h2>
+                <p>武陵在開學那天都會考一個叫始業考的無意義考試，考試的成績算在平時考，所以其實基本上不用太認真準備，但其實大家都還是會稍微看一下拉。總而言之，我們的數學老師是全武陵都聞風喪膽的森森，他為普通班所出的段考考卷，基本上全校平均都只有30、40分。顯然我們的始業考數學考卷也是他出的，所以很顯然爆幹難，我跟朝語好像都只有20分左右ㄅ，反正考完就覺得完蛋了，這三年要被荼毒到死了，的確，森森出的考卷我從來沒有拿到好分數過QQ。</p>
+                <p>高一的第一個大活動是去中興大學參加彰中科學班的成發（彰中的合作大學是中興，結果中一中是跟交通大學），因為桃園離台中有點遠，所以大家就在遊覽車上面用小海螺（對，那時候小海螺還是很盛行）自己放音樂、唱歌，超high，我還記得丁安磊瘋狂唱日文歌嘻嘻。</p>
+                <p>我們到中興的時候，離成發開始還有一段時間，班導就放我們自己去中興外面吃東西，還記得那時候一堆人都跑去吃微波垃圾，我就堅持不要，跟一群人走了超久，走到都已經快沒時間吃午餐了，才在一家關東煮店停下來，雖然關東煮不用什麼處理時間，但剛上桌的時候真D燙，根本沒辦法吃，我們大概等五分鐘之後才能開吃，然後我因為太興奮不小心裝了太多，根本吃不完，最後好像離成發開始前五分鐘才離開餐廳，因為超怕遲到被關在外面，所以直接用衝的衝回去國際會議聽，還好成發後來很久才開始（久到我們都在打橋牌了）也就沒有被鎖在外面了。</p>
+                <h3 id="園遊會"><a href="#園遊會" class="headerlink" title="園遊會"></a>園遊會</h3>
+                <p>園遊會應該高一上學期最大的活動了，我們從一開始的討論、試做、買材料、設計logo、宣傳、畫海報、設計流程全部都是我們自己來，最原版的logo是我設計的，但有點小醜，所以美宣組的洪嘉聲就自己用小畫家用了比我用Ai做的好看50倍的logo QQ</p>
+                <p>我們班後來決定做鬆餅，而且不是一般的鬆餅，而是可以客製化的鬆餅，這樣做雖然很酷，但因為有大量客製化的過程，所以一個鬆餅要做非常、非常久，再加上我們是現點現做，到後來做一個鬆餅客人平均要等6、7分鐘，導致營業額沒有到那麼好，不過我覺得園遊會的重點不是營業額的多寡，而是準備的過程、辦園遊會的經驗等等。</p>
+
+              </div>
+
+
+
+
+
+              <footer class="post-footer">
+                <div class="post-tags">
+                  <a href="/tags/%E7%A7%91%E7%8F%AD/" rel="tag"># 科班</a>
+                  <a href="/tags/%E6%AD%A6%E9%99%B5/" rel="tag"># 武陵</a>
+                </div>
+
+
+
+
+
+                <div class="post-nav">
+                  <div class="post-nav-item">
+                    <a href="/%E6%9C%89%E9%97%9C%E8%AC%9D%E7%88%BE%E8%B3%93%E6%96%AF%E5%9F%BA%E4%B8%89%E8%A7%92%E5%BD%A2-aka-Sierpinski-triangle/" rel="prev" title="有關謝爾賓斯基三角形 aka Sierpinski triangle">
+                      <i class="fa fa-chevron-left"></i> 有關謝爾賓斯基三角形 aka Sierpinski triangle
+                    </a>
+                  </div>
+                  <div class="post-nav-item">
+                    <a href="/110-%E5%AD%B8%E6%B8%AC%E5%9B%9E%E9%A1%A7/" rel="next" title="110 學測回顧">
+                      110 學測回顧 <i class="fa fa-chevron-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </footer>
+
+            </article>
+
+
+
+
+
+
           </div>
 
-        
 
-
-        
-    <div class="post-nav">
-      <div class="post-nav-item">
-    <a href="/%E6%9C%89%E9%97%9C%E8%AC%9D%E7%88%BE%E8%B3%93%E6%96%AF%E5%9F%BA%E4%B8%89%E8%A7%92%E5%BD%A2-aka-Sierpinski-triangle/" rel="prev" title="有關謝爾賓斯基三角形 aka Sierpinski triangle">
-      <i class="fa fa-chevron-left"></i> 有關謝爾賓斯基三角形 aka Sierpinski triangle
-    </a></div>
-      <div class="post-nav-item">
-    <a href="/P-vs-NP/" rel="next" title="P vs NP">
-      P vs NP <i class="fa fa-chevron-right"></i>
-    </a></div>
-    </div>
-      </footer>
-    
-  </article>
-  
-  
-  
-
-
-
-          </div>
-          
-
-<script>
-  window.addEventListener('tabs:register', () => {
-    let { activeClass } = CONFIG.comments;
-    if (CONFIG.comments.storage) {
-      activeClass = localStorage.getItem('comments_active') || activeClass;
-    }
-    if (activeClass) {
-      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
-      if (activeTab) {
-        activeTab.click();
-      }
-    }
-  });
-  if (CONFIG.comments.storage) {
-    window.addEventListener('tabs:click', event => {
-      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
-      let commentClass = event.target.classList[1];
-      localStorage.setItem('comments_active', commentClass);
-    });
-  }
-</script>
+          <script>
+            window.addEventListener('tabs:register', () => {
+              let {
+                activeClass
+              } = CONFIG.comments;
+              if (CONFIG.comments.storage) {
+                activeClass = localStorage.getItem('comments_active') || activeClass;
+              }
+              if (activeClass) {
+                let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+                if (activeTab) {
+                  activeTab.click();
+                }
+              }
+            });
+            if (CONFIG.comments.storage) {
+              window.addEventListener('tabs:click', event => {
+                if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+                let commentClass = event.target.classList[1];
+                localStorage.setItem('comments_active', commentClass);
+              });
+            }
+          </script>
 
         </div>
-          
-  
-  <div class="toggle sidebar-toggle">
-    <span class="toggle-line toggle-line-first"></span>
-    <span class="toggle-line toggle-line-middle"></span>
-    <span class="toggle-line toggle-line-last"></span>
-  </div>
-
-  <aside class="sidebar">
-    <div class="sidebar-inner">
-
-      <ul class="sidebar-nav motion-element">
-        <li class="sidebar-nav-toc">
-          文章目錄
-        </li>
-        <li class="sidebar-nav-overview">
-          本站概要
-        </li>
-      </ul>
-
-      <!--noindex-->
-      <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#科學班小高一與他們的暑輔"><span class="nav-number">2.</span> <span class="nav-text">科學班小高一與他們的暑輔</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#被荼毒的開始"><span class="nav-number">3.</span> <span class="nav-text">被荼毒的開始</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#園遊會"><span class="nav-number">3.1.</span> <span class="nav-text">園遊會</span></a></li></ol></li></ol></div>
-      </div>
-      <!--/noindex-->
-
-      <div class="site-overview-wrap sidebar-panel">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <img class="site-author-image" itemprop="image" alt="jayinnn"
-      src="https://avatars.githubusercontent.com/u/11909159?s=460&u=7a5e9c66df2c3438150c6c1ef98df758bd74183c&v=4">
-  <p class="site-author-name" itemprop="name">jayinnn</p>
-  <div class="site-description" itemprop="description"></div>
-</div>
-<div class="site-state-wrap motion-element">
-  <nav class="site-state">
-      <div class="site-state-item site-state-posts">
-          <a href="/archives/">
-        
-          <span class="site-state-item-count">8</span>
-          <span class="site-state-item-name">文章</span>
-        </a>
-      </div>
-      <div class="site-state-item site-state-categories">
-            <a href="/categories/">
-          
-        <span class="site-state-item-count">8</span>
-        <span class="site-state-item-name">分類</span></a>
-      </div>
-      <div class="site-state-item site-state-tags">
-            <a href="/tags/">
-          
-        <span class="site-state-item-count">14</span>
-        <span class="site-state-item-name">標籤</span></a>
-      </div>
-  </nav>
-</div>
-  <div class="links-of-author motion-element">
-      <span class="links-of-author-item">
-        <a href="https://github.com/jayin92" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;jayin92" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
-      </span>
-      <span class="links-of-author-item">
-        <a href="https://t.me/jayinnn" title="Telegram → https:&#x2F;&#x2F;t.me&#x2F;jayinnn" rel="noopener" target="_blank"><i class="fab fa-telegram fa-fw"></i>Telegram</a>
-      </span>
-      <span class="links-of-author-item">
-        <a href="https://www.facebook.com/jayinnn" title="Facebook → https:&#x2F;&#x2F;www.facebook.com&#x2F;jayinnn" rel="noopener" target="_blank"><i class="fab fa-facebook fa-fw"></i>Facebook</a>
-      </span>
-      <span class="links-of-author-item">
-        <a href="https://instagram.com/jayinnn" title="Instagram → https:&#x2F;&#x2F;instagram.com&#x2F;jayinnn" rel="noopener" target="_blank"><i class="fab fa-instagram fa-fw"></i>Instagram</a>
-      </span>
-  </div>
 
 
+        <div class="toggle sidebar-toggle">
+          <span class="toggle-line toggle-line-first"></span>
+          <span class="toggle-line toggle-line-middle"></span>
+          <span class="toggle-line toggle-line-last"></span>
+        </div>
 
-      </div>
+        <aside class="sidebar">
+          <div class="sidebar-inner">
 
-    </div>
-  </aside>
-  <div id="sidebar-dimmer"></div>
+            <ul class="sidebar-nav motion-element">
+              <li class="sidebar-nav-toc">
+                文章目錄
+              </li>
+              <li class="sidebar-nav-overview">
+                本站概要
+              </li>
+            </ul>
+
+            <!--noindex-->
+            <div class="post-toc-wrap sidebar-panel">
+              <div class="post-toc motion-element">
+                <ol class="nav">
+                  <li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li>
+                  <li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%A7%91%E5%AD%B8%E7%8F%AD%E5%B0%8F%E9%AB%98%E4%B8%80%E8%88%87%E4%BB%96%E5%80%91%E7%9A%84%E6%9A%91%E8%BC%94"><span class="nav-number">2.</span> <span class="nav-text">科學班小高一與他們的暑輔</span></a></li>
+                  <li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%A2%AB%E8%8D%BC%E6%AF%92%E7%9A%84%E9%96%8B%E5%A7%8B"><span class="nav-number">3.</span> <span class="nav-text">被荼毒的開始</span></a>
+                    <ol class="nav-child">
+                      <li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9C%92%E9%81%8A%E6%9C%83"><span class="nav-number">3.1.</span> <span class="nav-text">園遊會</span></a></li>
+                    </ol>
+                  </li>
+                </ol>
+              </div>
+            </div>
+            <!--/noindex-->
+
+            <div class="site-overview-wrap sidebar-panel">
+              <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <img class="site-author-image" itemprop="image" alt="jayinnn" src="https://avatars.githubusercontent.com/u/11909159?s=460&u=7a5e9c66df2c3438150c6c1ef98df758bd74183c&v=4">
+                <p class="site-author-name" itemprop="name">jayinnn</p>
+                <div class="site-description" itemprop="description"></div>
+              </div>
+              <div class="site-state-wrap motion-element">
+                <nav class="site-state">
+                  <div class="site-state-item site-state-posts">
+                    <a href="/archives/">
+
+                      <span class="site-state-item-count">5</span>
+                      <span class="site-state-item-name">文章</span>
+                    </a>
+                  </div>
+                  <div class="site-state-item site-state-categories">
+                    <a href="/categories/">
+
+                      <span class="site-state-item-count">4</span>
+                      <span class="site-state-item-name">分類</span></a>
+                  </div>
+                  <div class="site-state-item site-state-tags">
+                    <a href="/tags/">
+
+                      <span class="site-state-item-count">8</span>
+                      <span class="site-state-item-name">標籤</span></a>
+                  </div>
+                </nav>
+              </div>
+              <div class="links-of-author motion-element">
+                <span class="links-of-author-item">
+                  <a href="https://github.com/jayin92" title="GitHub → https://github.com/jayin92" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+                </span>
+                <span class="links-of-author-item">
+                  <a href="https://t.me/jayinnn" title="Telegram → https://t.me/jayinnn" rel="noopener" target="_blank"><i class="fab fa-telegram fa-fw"></i>Telegram</a>
+                </span>
+                <span class="links-of-author-item">
+                  <a href="https://www.facebook.com/jayinnn" title="Facebook → https://www.facebook.com/jayinnn" rel="noopener" target="_blank"><i class="fab fa-facebook fa-fw"></i>Facebook</a>
+                </span>
+                <span class="links-of-author-item">
+                  <a href="https://instagram.com/jayinnn" title="Instagram → https://instagram.com/jayinnn" rel="noopener" target="_blank"><i class="fab fa-instagram fa-fw"></i>Instagram</a>
+                </span>
+              </div>
+
+
+
+            </div>
+
+          </div>
+        </aside>
+        <div id="sidebar-dimmer"></div>
 
 
       </div>
@@ -386,23 +485,23 @@
 
     <footer class="footer">
       <div class="footer-inner">
-        
 
-        
 
-<div class="copyright">
-  
-  &copy; 
-  <span itemprop="copyrightYear">2021</span>
-  <span class="with-love">
-    <i class="fa fa-heart"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">jayinnn</span>
-</div>
-  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 強力驅動
-  </div>
 
-        
+
+        <div class="copyright">
+
+          &copy;
+          <span itemprop="copyrightYear">2021</span>
+          <span class="with-love">
+            <i class="fa fa-heart"></i>
+          </span>
+          <span class="author" itemprop="copyrightHolder">jayinnn</span>
+        </div>
+        <div class="powered-by">由 <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 強力驅動
+        </div>
+
+
 
 
 
@@ -415,25 +514,20 @@
     </footer>
   </div>
 
-  
+
   <script src="/lib/anime.min.js"></script>
   <script src="/lib/velocity/velocity.min.js"></script>
   <script src="/lib/velocity/velocity.ui.min.js"></script>
 
-<script src="/js/utils.js"></script>
+  <script src="/js/utils.js"></script>
 
-<script src="/js/motion.js"></script>
-
-
-<script src="/js/schemes/pisces.js"></script>
+  <script src="/js/motion.js"></script>
 
 
-<script src="/js/next-boot.js"></script>
+  <script src="/js/schemes/pisces.js"></script>
 
 
-
-
-  
+  <script src="/js/next-boot.js"></script>
 
 
 
@@ -449,66 +543,86 @@
 
 
 
-  
 
-  
-      
 
-<script>
-  if (typeof MathJax === 'undefined') {
-    window.MathJax = {
-      loader: {
+
+
+
+
+
+
+
+
+  <script>
+    if (typeof MathJax === 'undefined') {
+      window.MathJax = {
+        loader: {
           load: ['[tex]/mhchem'],
-        source: {
-          '[tex]/amsCd': '[tex]/amscd',
-          '[tex]/AMScd': '[tex]/amscd'
+          source: {
+            '[tex]/amsCd': '[tex]/amscd',
+            '[tex]/AMScd': '[tex]/amscd'
+          }
+        },
+        tex: {
+          inlineMath: {
+            '[+]': [
+              ['$', '$']
+            ]
+          },
+          packages: {
+            '[+]': ['mhchem']
+          },
+          tags: 'ams'
+        },
+        options: {
+          renderActions: {
+            findScript: [10, doc => {
+              document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+                const display = !!node.type.match(/; *mode=display/);
+                const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+                const text = document.createTextNode('');
+                node.parentNode.replaceChild(text, node);
+                math.start = {
+                  node: text,
+                  delim: '',
+                  n: 0
+                };
+                math.end = {
+                  node: text,
+                  delim: '',
+                  n: 0
+                };
+                doc.math.push(math);
+              });
+            }, '', false],
+            insertedScript: [200, () => {
+              document.querySelectorAll('mjx-container').forEach(node => {
+                let target = node.parentNode;
+                if (target.nodeName.toLowerCase() === 'li') {
+                  target.parentNode.classList.add('has-jax');
+                }
+              });
+            }, '', false]
+          }
         }
-      },
-      tex: {
-        inlineMath: {'[+]': [['$', '$']]},
-          packages: {'[+]': ['mhchem']},
-        tags: 'ams'
-      },
-      options: {
-        renderActions: {
-          findScript: [10, doc => {
-            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
-              const display = !!node.type.match(/; *mode=display/);
-              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
-              const text = document.createTextNode('');
-              node.parentNode.replaceChild(text, node);
-              math.start = {node: text, delim: '', n: 0};
-              math.end = {node: text, delim: '', n: 0};
-              doc.math.push(math);
-            });
-          }, '', false],
-          insertedScript: [200, () => {
-            document.querySelectorAll('mjx-container').forEach(node => {
-              let target = node.parentNode;
-              if (target.nodeName.toLowerCase() === 'li') {
-                target.parentNode.classList.add('has-jax');
-              }
-            });
-          }, '', false]
-        }
-      }
-    };
-    (function () {
-      var script = document.createElement('script');
-      script.src = '//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
-      script.defer = true;
-      document.head.appendChild(script);
-    })();
-  } else {
-    MathJax.startup.document.state(0);
-    MathJax.texReset();
-    MathJax.typeset();
-  }
-</script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+      };
+      (function() {
+        var script = document.createElement('script');
+        script.src = '//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
+        script.defer = true;
+        document.head.appendChild(script);
+      })();
+    } else {
+      MathJax.startup.document.state(0);
+      MathJax.texReset();
+      MathJax.typeset();
+    }
+  </script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
 
-    
 
-  
+
+
 
 </body>
+
 </html>

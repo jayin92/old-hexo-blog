@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   var sidebarToggleLines = {
     lines: document.querySelector('.sidebar-toggle'),
-    init : function() {
+    init: function() {
       this.lines.classList.remove('toggle-arrow', 'toggle-close');
     },
     arrow: function() {
@@ -23,9 +23,9 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   var sidebarToggleMotion = {
-    sidebarEl       : document.querySelector('.sidebar'),
+    sidebarEl: document.querySelector('.sidebar'),
     isSidebarVisible: false,
-    init            : function() {
+    init: function() {
       sidebarToggleLines.init();
 
       window.addEventListener('mousedown', this.mousedownHandler.bind(this));
@@ -68,15 +68,15 @@ document.addEventListener('DOMContentLoaded', () => {
       if (typeof Velocity === 'function') {
         Velocity(document.querySelectorAll('.sidebar .motion-element'), isRight ? 'transition.slideRightIn' : 'transition.slideLeftIn', {
           stagger: 50,
-          drag   : true
+          drag: true
         });
       }
 
       sidebarToggleLines.close();
       NexT.utils.isDesktop() && window.anime(Object.assign({
-        targets : document.body,
+        targets: document.body,
         duration: SIDEBAR_DISPLAY_DURATION,
-        easing  : 'linear'
+        easing: 'linear'
       }, isRight ? {
         'padding-right': SIDEBAR_WIDTH
       } : {
@@ -89,9 +89,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
       sidebarToggleLines.init();
       NexT.utils.isDesktop() && window.anime(Object.assign({
-        targets : document.body,
+        targets: document.body,
         duration: SIDEBAR_DISPLAY_DURATION,
-        easing  : 'linear'
+        easing: 'linear'
       }, isRight ? {
         'padding-right': 0
       } : {

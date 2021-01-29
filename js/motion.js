@@ -5,9 +5,9 @@ if (window.$ && window.$.Velocity) window.Velocity = window.$.Velocity;
 NexT.motion = {};
 
 NexT.motion.integrator = {
-  queue : [],
+  queue: [],
   cursor: -1,
-  init  : function() {
+  init: function() {
     this.queue = [];
     this.cursor = -1;
     return this;
@@ -38,16 +38,22 @@ NexT.motion.middleWares = {
 
     brand && sequence.push({
       e: brand,
-      p: {opacity: 1},
-      o: {duration: 200}
+      p: {
+        opacity: 1
+      },
+      o: {
+        duration: 200
+      }
     });
 
     function getMistLineSettings(element, translateX) {
       return {
         e: element,
-        p: {translateX},
+        p: {
+          translateX
+        },
         o: {
-          duration     : 500,
+          duration: 500,
           sequenceQueue: false
         }
       };
@@ -56,29 +62,44 @@ NexT.motion.middleWares = {
     function pushImageToSequence() {
       sequence.push({
         e: image,
-        p: {opacity: 1, top: 0},
-        o: {duration: 200}
+        p: {
+          opacity: 1,
+          top: 0
+        },
+        o: {
+          duration: 200
+        }
       });
     }
 
-    CONFIG.scheme === 'Mist' && logoLineTop && logoLineBottom
-    && sequence.push(
-      getMistLineSettings(logoLineTop, '100%'),
-      getMistLineSettings(logoLineBottom, '-100%')
-    );
+    CONFIG.scheme === 'Mist' && logoLineTop && logoLineBottom &&
+      sequence.push(
+        getMistLineSettings(logoLineTop, '100%'),
+        getMistLineSettings(logoLineBottom, '-100%')
+      );
 
     CONFIG.scheme === 'Muse' && image && pushImageToSequence();
 
     title && sequence.push({
       e: title,
-      p: {opacity: 1, top: 0},
-      o: {duration: 200}
+      p: {
+        opacity: 1,
+        top: 0
+      },
+      o: {
+        duration: 200
+      }
     });
 
     subtitle && sequence.push({
       e: subtitle,
-      p: {opacity: 1, top: 0},
-      o: {duration: 200}
+      p: {
+        opacity: 1,
+        top: 0
+      },
+      o: {
+        duration: 200
+      }
     });
 
     (CONFIG.scheme === 'Pisces' || CONFIG.scheme === 'Gemini') && image && pushImageToSequence();
@@ -99,7 +120,7 @@ NexT.motion.middleWares = {
 
   menu: function(integrator) {
     Velocity(document.querySelectorAll('.menu-item'), 'transition.slideDownIn', {
-      display : null,
+      display: null,
       duration: 200,
       complete: function() {
         integrator.next();
@@ -133,8 +154,8 @@ NexT.motion.middleWares = {
 
     if (postBlock.length > 0) {
       var postMotionOptions = window.postMotionOptions || {
-        stagger : 100,
-        drag    : true,
+        stagger: 100,
+        drag: true,
         complete: function() {
           integrator.next();
         }
@@ -164,7 +185,7 @@ NexT.motion.middleWares = {
     // Only for Pisces | Gemini.
     if (sidebarAffixTransition && (CONFIG.scheme === 'Pisces' || CONFIG.scheme === 'Gemini')) {
       Velocity(sidebarAffix, 'transition.' + sidebarAffixTransition, {
-        display : null,
+        display: null,
         duration: 200,
         complete: function() {
           // After motion complete need to remove transform from sidebar to let affix work on Pisces | Gemini.

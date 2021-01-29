@@ -34,7 +34,7 @@ NexT.utils = {
 
     $.fancybox.defaults.hash = false;
     $('.fancybox').fancybox({
-      loop   : true,
+      loop: true,
       helpers: {
         overlay: {
           locked: false
@@ -157,9 +157,9 @@ NexT.utils = {
 
     backToTop && backToTop.addEventListener('click', () => {
       window.anime({
-        targets  : document.scrollingElement,
-        duration : 500,
-        easing   : 'linear',
+        targets: document.scrollingElement,
+        duration: 500,
+        easing: 'linear',
         scrollTop: 0
       });
     });
@@ -199,7 +199,9 @@ NexT.utils = {
 
   registerCanIUseTag: function() {
     // Get responsive height passed from iframe.
-    window.addEventListener('message', ({ data }) => {
+    window.addEventListener('message', ({
+      data
+    }) => {
       if ((typeof data === 'string') && data.includes('ciu_embed')) {
         var featureID = data.split(':')[1];
         var height = data.split(':')[2];
@@ -241,9 +243,9 @@ NexT.utils = {
         var target = document.getElementById(event.currentTarget.getAttribute('href').replace('#', ''));
         var offset = target.getBoundingClientRect().top + window.scrollY;
         window.anime({
-          targets  : document.scrollingElement,
-          duration : 500,
-          easing   : 'linear',
+          targets: document.scrollingElement,
+          duration: 500,
+          easing: 'linear',
           scrollTop: offset + 10
         });
       });
@@ -251,6 +253,7 @@ NexT.utils = {
     });
 
     var tocElement = document.querySelector('.post-toc-wrap');
+
     function activateNavByIndex(target) {
       if (target.classList.contains('active-current')) return;
 
@@ -265,9 +268,9 @@ NexT.utils = {
       }
       // Scrolling to center active TOC element if TOC content is taller then viewport.
       window.anime({
-        targets  : tocElement,
-        duration : 200,
-        easing   : 'linear',
+        targets: tocElement,
+        duration: 200,
+        easing: 'linear',
         scrollTop: tocElement.scrollTop - (tocElement.offsetHeight / 2) + target.getBoundingClientRect().top - tocElement.getBoundingClientRect().top
       });
     }
@@ -302,7 +305,7 @@ NexT.utils = {
         activateNavByIndex(navItems[index]);
       }, {
         rootMargin: marginTop + 'px 0px -100% 0px',
-        threshold : 0
+        threshold: 0
       });
       sections.forEach(element => {
         element && intersectionObserver.observe(element);
