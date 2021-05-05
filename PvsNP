@@ -94,13 +94,13 @@
   <meta name="description" content="前言這篇其實是為了資訊讀書會打的，打完之後發現可以充文章數，所以就把它打進來了。 這篇主要介紹P, NP, NP Complete 和 NP Hard。還有一些已經被證明是NP Complete 的問題。 時間複雜度就是一個函數，描述一個演算法的執行時間。 簡單來說，假設有一個演算法，你給這個演算法一個大小為n的輸入，它最多要 $6n^3+5n^2+2n+1$ 的時間才能執行完畢，我們就說這個演算">
   <meta property="og:type" content="article">
   <meta property="og:title" content="P vs NP">
-  <meta property="og:url" content="https://jayin92.github.io/P-vs-NP/index.html">
+  <meta property="og:url" content="https://jayin92.github.io/PvsNP">
   <meta property="og:site_name" content="jayinnn&#39;s blog">
   <meta property="og:description" content="前言這篇其實是為了資訊讀書會打的，打完之後發現可以充文章數，所以就把它打進來了。 這篇主要介紹P, NP, NP Complete 和 NP Hard。還有一些已經被證明是NP Complete 的問題。 時間複雜度就是一個函數，描述一個演算法的執行時間。 簡單來說，假設有一個演算法，你給這個演算法一個大小為n的輸入，它最多要 $6n^3+5n^2+2n+1$ 的時間才能執行完畢，我們就說這個演算">
   <meta property="og:locale" content="zh_TW">
   <meta property="og:image" content="https://jayin92.github.io/image/PNP.png">
   <meta property="article:published_time" content="2019-08-20T03:26:59.000Z">
-  <meta property="article:modified_time" content="2019-08-25T10:45:12.812Z">
+  <meta property="article:modified_time" content="2021-05-05T11:58:48.877Z">
   <meta property="article:author" content="jayinnn">
   <meta property="article:tag" content="資訊">
   <meta property="article:tag" content="數學">
@@ -108,7 +108,7 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:image" content="https://jayin92.github.io/image/PNP.png">
 
-  <link rel="canonical" href="https://jayin92.github.io/P-vs-NP/">
+  <link rel="canonical" href="https://jayin92.github.io/PvsNP">
 
 
   <script id="page-configurations">
@@ -266,7 +266,7 @@
 
 
             <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
-              <link itemprop="mainEntityOfPage" href="https://jayin92.github.io/P-vs-NP/">
+              <link itemprop="mainEntityOfPage" href="https://jayin92.github.io/PvsNP">
 
               <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
                 <meta itemprop="image" content="/images/avatar.jpg">
@@ -296,7 +296,7 @@
                       <i class="far fa-calendar-check"></i>
                     </span>
                     <span class="post-meta-item-text">更新於</span>
-                    <time title="修改時間：2019-08-25 18:45:12" itemprop="dateModified" datetime="2019-08-25T18:45:12+08:00">2019-08-25</time>
+                    <time title="修改時間：2021-05-05 19:58:48" itemprop="dateModified" datetime="2021-05-05T19:58:48+08:00">2021-05-05</time>
                   </span>
                   <span class="post-meta-item">
                     <span class="post-meta-item-icon">
@@ -317,8 +317,8 @@
                     </span>
                     <span class="post-meta-item-text">Disqus：</span>
 
-                    <a title="disqus" href="/P-vs-NP/#disqus_thread" itemprop="discussionUrl">
-                      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="P-vs-NP/" itemprop="commentCount"></span>
+                    <a title="disqus" href="/PvsNP#disqus_thread" itemprop="discussionUrl">
+                      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="/PvsNP" itemprop="commentCount"></span>
                     </a>
                   </span>
 
@@ -460,12 +460,12 @@
 
                 <div class="post-nav">
                   <div class="post-nav-item">
-                    <a href="/%E5%9C%A8%E7%A7%91%E5%AD%B8%E7%8F%AD%E7%9A%84%E4%B8%80%E5%B9%B4%E2%94%802018-6-2019-8%E7%9A%84%E5%9B%9E%E9%A1%A7/" rel="prev" title="在科學班的一年─2018/6~2019/8的回顧">
+                    <a href="/first-year-in-science-class" rel="prev" title="在科學班的一年─2018/6~2019/8的回顧">
                       <i class="fa fa-chevron-left"></i> 在科學班的一年─2018/6~2019/8的回顧
                     </a>
                   </div>
                   <div class="post-nav-item">
-                    <a href="/%E8%90%AC%E6%9C%89%E5%BC%95%E5%8A%9B%E5%AE%9A%E5%BE%8B-vs-%E5%BA%AB%E4%BE%96%E5%AE%9A%E5%BE%8B/" rel="next" title="萬有引力定律 vs 庫侖定律">
+                    <a href="/law-of-universal-gravitation-vs-Coulomb's-law" rel="next" title="萬有引力定律 vs 庫侖定律">
                       萬有引力定律 vs 庫侖定律 <i class="fa fa-chevron-right"></i>
                     </a>
                   </div>
@@ -781,8 +781,8 @@
   </script>
   <script>
     var disqus_config = function() {
-      this.page.url = "https://jayin92.github.io/P-vs-NP/";
-      this.page.identifier = "P-vs-NP/";
+      this.page.url = "https://jayin92.github.io/PvsNP";
+      this.page.identifier = "/PvsNP";
       this.page.title = "P vs NP";
     };
     NexT.utils.loadComments(document.querySelector('#disqus_thread'), () => {

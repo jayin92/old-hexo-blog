@@ -91,23 +91,24 @@
     };
   </script>
 
-  <meta name="description" content="昨天因為吃完飯後睡太飽，加上房間一直有蚊子在耳邊，所以搞到凌晨三點才睡。甚至無聊到算森森數學講義的機率part，數學能力似乎還沒退化。">
+  <meta name="description" content="介紹在上一篇文章中，我們知道Barnsley Fern與這次介紹的謝爾賓斯基三角形都是碎形 照慣例(XD)我們再次引用Wikipedia的內容謝爾賓斯基三角形（英語：Sierpinski triangle）是一種碎形，由波蘭數學家謝爾賓斯基在1915年提出。它是自相似集的例子。 Wikipediazh.wikipedia.org&#x2F;wiki&#x2F;謝爾賓斯基三角形我們這次所介紹的繪圖方法，維基百科把它稱作">
   <meta property="og:type" content="article">
-  <meta property="og:title" content="2021 TISF 台灣國際科展 Day 1">
-  <meta property="og:url" content="https://jayin92.github.io/2021-TISF-%E5%8F%B0%E7%81%A3%E5%9C%8B%E9%9A%9B%E7%A7%91%E5%B1%95-Day-1/index.html">
+  <meta property="og:title" content="有關謝爾賓斯基三角形 aka Sierpinski triangle">
+  <meta property="og:url" content="https://jayin92.github.io/sierpinski-triangle">
   <meta property="og:site_name" content="jayinnn&#39;s blog">
-  <meta property="og:description" content="昨天因為吃完飯後睡太飽，加上房間一直有蚊子在耳邊，所以搞到凌晨三點才睡。甚至無聊到算森森數學講義的機率part，數學能力似乎還沒退化。">
+  <meta property="og:description" content="介紹在上一篇文章中，我們知道Barnsley Fern與這次介紹的謝爾賓斯基三角形都是碎形 照慣例(XD)我們再次引用Wikipedia的內容謝爾賓斯基三角形（英語：Sierpinski triangle）是一種碎形，由波蘭數學家謝爾賓斯基在1915年提出。它是自相似集的例子。 Wikipediazh.wikipedia.org&#x2F;wiki&#x2F;謝爾賓斯基三角形我們這次所介紹的繪圖方法，維基百科把它稱作">
   <meta property="og:locale" content="zh_TW">
-  <meta property="og:image" content="https://i.imgur.com/pC0e08D.jpg">
-  <meta property="article:published_time" content="2021-02-01T12:33:23.000Z">
-  <meta property="article:modified_time" content="2021-02-01T12:56:34.959Z">
+  <meta property="og:image" content="https://jayin92.github.io/image/Sierpinski%20triangle.png">
+  <meta property="article:published_time" content="2018-05-10T15:04:05.000Z">
+  <meta property="article:modified_time" content="2021-05-05T11:59:57.558Z">
   <meta property="article:author" content="jayinnn">
-  <meta property="article:tag" content="武陵">
-  <meta property="article:tag" content="資訊">
+  <meta property="article:tag" content="數學">
+  <meta property="article:tag" content="Python">
+  <meta property="article:tag" content="碎形">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:image" content="https://i.imgur.com/pC0e08D.jpg">
+  <meta name="twitter:image" content="https://jayin92.github.io/image/Sierpinski%20triangle.png">
 
-  <link rel="canonical" href="https://jayin92.github.io/2021-TISF-%E5%8F%B0%E7%81%A3%E5%9C%8B%E9%9A%9B%E7%A7%91%E5%B1%95-Day-1/">
+  <link rel="canonical" href="https://jayin92.github.io/sierpinski-triangle">
 
 
   <script id="page-configurations">
@@ -120,7 +121,7 @@
     };
   </script>
 
-  <title>2021 TISF 台灣國際科展 Day 1 | jayinnn's blog</title>
+  <title>有關謝爾賓斯基三角形 aka Sierpinski triangle | jayinnn's blog</title>
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111430938-2"></script>
   <script>
@@ -265,7 +266,7 @@
 
 
             <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
-              <link itemprop="mainEntityOfPage" href="https://jayin92.github.io/2021-TISF-%E5%8F%B0%E7%81%A3%E5%9C%8B%E9%9A%9B%E7%A7%91%E5%B1%95-Day-1/">
+              <link itemprop="mainEntityOfPage" href="https://jayin92.github.io/sierpinski-triangle">
 
               <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
                 <meta itemprop="image" content="/images/avatar.jpg">
@@ -278,7 +279,7 @@
               </span>
               <header class="post-header">
                 <h1 class="post-title" itemprop="name headline">
-                  2021 TISF 台灣國際科展 Day 1
+                  有關謝爾賓斯基三角形 aka Sierpinski triangle
                 </h1>
 
                 <div class="post-meta">
@@ -288,8 +289,14 @@
                     </span>
                     <span class="post-meta-item-text">發表於</span>
 
-
-                    <time title="創建時間：2021-02-01 20:33:23 / 修改時間：20:56:34" itemprop="dateCreated datePublished" datetime="2021-02-01T20:33:23+08:00">2021-02-01</time>
+                    <time title="創建時間：2018-05-10 23:04:05" itemprop="dateCreated datePublished" datetime="2018-05-10T23:04:05+08:00">2018-05-10</time>
+                  </span>
+                  <span class="post-meta-item">
+                    <span class="post-meta-item-icon">
+                      <i class="far fa-calendar-check"></i>
+                    </span>
+                    <span class="post-meta-item-text">更新於</span>
+                    <time title="修改時間：2021-05-05 19:59:57" itemprop="dateModified" datetime="2021-05-05T19:59:57+08:00">2021-05-05</time>
                   </span>
                   <span class="post-meta-item">
                     <span class="post-meta-item-icon">
@@ -297,7 +304,11 @@
                     </span>
                     <span class="post-meta-item-text">分類於</span>
                     <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                      <a href="/categories/%E6%AD%A6%E9%99%B5/" itemprop="url" rel="index"><span itemprop="name">武陵</span></a>
+                      <a href="/categories/%E6%95%B8%E5%AD%B8/" itemprop="url" rel="index"><span itemprop="name">數學</span></a>
+                    </span>
+                    ，
+                    <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                      <a href="/categories/%E6%95%B8%E5%AD%B8/%E7%A2%8E%E5%BD%A2/" itemprop="url" rel="index"><span itemprop="name">碎形</span></a>
                     </span>
                   </span>
 
@@ -310,8 +321,8 @@
                     </span>
                     <span class="post-meta-item-text">Disqus：</span>
 
-                    <a title="disqus" href="/2021-TISF-%E5%8F%B0%E7%81%A3%E5%9C%8B%E9%9A%9B%E7%A7%91%E5%B1%95-Day-1/#disqus_thread" itemprop="discussionUrl">
-                      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2021-TISF-台灣國際科展-Day-1/" itemprop="commentCount"></span>
+                    <a title="disqus" href="/sierpinski-triangle#disqus_thread" itemprop="discussionUrl">
+                      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="/sierpinski-triangle" itemprop="commentCount"></span>
                     </a>
                   </span>
 
@@ -326,16 +337,40 @@
               <div class="post-body" itemprop="articleBody">
 
 
-                <p>昨天因為吃完飯後睡太飽，加上房間一直有蚊子在耳邊，所以搞到凌晨三點才睡。甚至無聊到算森森數學講義的機率part，數學能力似乎還沒退化。</p>
-                <a id="more"></a>
-                <p>早上六點半就被我媽挖起床，七點左右出門就去大湳公園搭228到武陵了。因為放著我們海報的圖書館八點才開，所以我先到路易莎買了鮮奶茶喝，今天貌似是武陵的補考，很多武陵學生跑來學校考試。</p>
-                <p>圖書館的阿姨人還是不錯，會關心我今天要去哪裡w。</p>
-                <p>大約八點我就坐上品奕媽媽的車。原本想說這樣到科教館會不會太早，殊不知今天國一大塞車（也許是常態啦，畢竟我很少那麼早去台北），我們大約九點四十分才到會場。</p>
-                <p>報到就填填資料，把該交的東西交一交就結束了。之後就跑到九樓怖展了，我們的展板在整個會場的最角落，蠻邊緣的，旁邊甚至不是資訊組的。而且會場還滿悶的，我們又在玻璃窗旁邊，在貼海報的過程中我差點暈倒 QQ。</p>
-                <p>貼完海報後就到處看看別人的展板，有些題目蠻有趣的，但有些人還沒有來怖展，沒看到他們的還滿可惜的。</p>
-                <p>後來中午就跑到士林捷運站附近吃 sukiya + 以利泡泡冰，之後因為自己實在是有點累，所以就請品奕媽媽載我們回家了。</p>
-                <p>p.s. 我還是覺得沒有報名到學生交流活動很白癡。</p>
-                <p><img src="https://i.imgur.com/pC0e08D.jpg" width=50% height=50%></p>
+                <h2 id="介紹"><a href="#介紹" class="headerlink" title="介紹"></a>介紹</h2>
+                <p>在上一篇文章中，我們知道Barnsley Fern與這次介紹的謝爾賓斯基三角形都是碎形</p>
+                <p>照慣例(XD)我們再次引用Wikipedia的內容<br>
+                <blockquote>
+                  <p>謝爾賓斯基三角形（英語：Sierpinski triangle）是一種碎形，由波蘭數學家謝爾賓斯基在1915年提出。它是自相似集的例子。</p>
+                  <footer><strong>Wikipedia</strong><cite><a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/謝爾賓斯基三角形">zh.wikipedia.org/wiki/謝爾賓斯基三角形</a></cite></footer>
+                </blockquote><br>我們這次所介紹的繪圖方法，維基百科把它稱作Chaos Game。也就是隨機的方法。<br><a id="more"></a><br>主要的方法如下:</p>
+                <ol>
+                  <li>隨便畫個三角形(原始的謝爾賓斯基三角形為正三角形)</li>
+                  <li>在三角形內部隨便找一個點P</li>
+                  <li>從三角形三個頂點隨機找一個頂點</li>
+                  <li>點出點P跟選定的頂點的中點</li>
+                  <li>把那個中點當作新的點P</li>
+                  <li>重複3.</li>
+                </ol>
+                <p>以下是執行的結果<br><img src="/image/Sierpinski triangle.png" alt=""><br>可以很清楚的看到這個圖形是用點點出來的</p>
+                <h2 id="程式碼介紹"><a href="#程式碼介紹" class="headerlink" title="程式碼介紹"></a>程式碼介紹</h2>
+                <p>這次的程式簡單到可以直接全部貼上來</p>
+                <figure class="highlight python">
+                  <table>
+                    <tr>
+                      <td class="gutter">
+                        <pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br></pre>
+                      </td>
+                      <td class="code">
+                        <pre><span class="line"><span class="comment"># import package</span></span><br><span class="line"><span class="keyword">import</span> turtle</span><br><span class="line"><span class="keyword">import</span> random</span><br><span class="line"><span class="keyword">import</span> math</span><br><span class="line">random.seed()</span><br><span class="line"><span class="comment"># 定義三角形三頂點</span></span><br><span class="line">pointa = (<span class="number">0</span>,<span class="number">400</span>)</span><br><span class="line">pointb = (-<span class="number">650</span>,-<span class="number">300</span>)</span><br><span class="line">pointc = (<span class="number">650</span>,-<span class="number">300</span>)</span><br><span class="line">point = [pointa, pointb, pointc]</span><br><span class="line"><span class="comment"># 定義第一個點(若這個點為隨機產出一樣對產出三角形完全沒有影響)</span></span><br><span class="line">firstpoint = (-<span class="number">200</span>,<span class="number">250</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 定義繪點函數(傳入tuple)</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">drawdot</span>(<span class="params">point, color=<span class="string">&#x27;black&#x27;</span></span>):</span></span><br><span class="line">	turtle.penup()</span><br><span class="line">	turtle.goto(point[<span class="number">0</span>],point[<span class="number">1</span>])</span><br><span class="line">	turtle.pendown()</span><br><span class="line">	turtle.dot(<span class="number">2</span>, color)</span><br><span class="line"><span class="comment"># 傳入兩個點(tuple)回傳兩點中點座標(tuple)</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">gohalf</span>(<span class="params">point1,point2</span>):</span></span><br><span class="line">	point = ((point1[<span class="number">0</span>] + point2[<span class="number">0</span>]) / <span class="number">2</span>, ((point1[<span class="number">1</span>] + point2[<span class="number">1</span>]) / <span class="number">2</span>))</span><br><span class="line">	<span class="keyword">return</span> point</span><br><span class="line"><span class="comment"># turtle package init</span></span><br><span class="line">turtle.speed(<span class="number">0</span>)</span><br><span class="line">turtle.delay(<span class="number">0</span>)</span><br><span class="line">turtle.hideturtle()</span><br><span class="line"><span class="comment"># 開始繪圖</span></span><br><span class="line">drawdot(pointa)</span><br><span class="line">drawdot(pointb)</span><br><span class="line">drawdot(pointc)</span><br><span class="line">drawdot(firstpoint, <span class="string">&#x27;green&#x27;</span>)</span><br><span class="line"><span class="comment"># 將追蹤點定義為起始點</span></span><br><span class="line">tracepoint = firstpoint</span><br><span class="line">i = <span class="number">1</span></span><br><span class="line"><span class="comment">#進入無限迴圈</span></span><br><span class="line"><span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">	print(i)</span><br><span class="line">	<span class="comment"># 從point(list)隨機拿出任一個三角形頂點</span></span><br><span class="line">	random_point = random.choice(point)</span><br><span class="line">	<span class="comment"># 產出中點座標</span></span><br><span class="line">	gopoint = gohalf(tracepoint, random_point)</span><br><span class="line">	<span class="comment"># 描點</span></span><br><span class="line">	drawdot(gopoint)</span><br><span class="line">	<span class="comment"># 將追蹤點定義為新產出的中點</span></span><br><span class="line">	tracepoint = gopoint</span><br><span class="line">	i += <span class="number">1</span></span><br><span class="line">turtle.exitonclick()</span><br></pre>
+                      </td>
+                    </tr>
+                  </table>
+                </figure>
+                <h2 id="參考資料"><a href="#參考資料" class="headerlink" title="參考資料"></a>參考資料</h2>
+                <p><a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/謝爾賓斯基三角形">https://zh.wikipedia.org/wiki/謝爾賓斯基三角形</a><br><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=kfXl5fsVBVY">https://www.youtube.com/watch?v=kfXl5fsVBVY</a> (中文翻譯)<br><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=kbKtFN71Lfs">https://www.youtube.com/watch?v=kbKtFN71Lfs</a> (原片)</p>
+                <h2 id="原始碼"><a href="#原始碼" class="headerlink" title="原始碼"></a>原始碼</h2>
+                <p><a target="_blank" rel="noopener" href="https://github.com/jayin92/Sierpinski-triangle">https://github.com/jayin92/Sierpinski-triangle</a></p>
 
               </div>
 
@@ -345,8 +380,9 @@
 
               <footer class="post-footer">
                 <div class="post-tags">
-                  <a href="/tags/%E6%AD%A6%E9%99%B5/" rel="tag"># 武陵</a>
-                  <a href="/tags/%E8%B3%87%E8%A8%8A/" rel="tag"># 資訊</a>
+                  <a href="/tags/%E6%95%B8%E5%AD%B8/" rel="tag"># 數學</a>
+                  <a href="/tags/Python/" rel="tag"># Python</a>
+                  <a href="/tags/%E7%A2%8E%E5%BD%A2/" rel="tag"># 碎形</a>
                 </div>
 
 
@@ -355,13 +391,13 @@
 
                 <div class="post-nav">
                   <div class="post-nav-item">
-                    <a href="/110-%E5%AD%B8%E6%B8%AC%E5%9B%9E%E9%A1%A7/" rel="prev" title="110 學測回顧">
-                      <i class="fa fa-chevron-left"></i> 110 學測回顧
+                    <a href="/Barnsley-Fern" rel="prev" title="有關Barnsley Fern">
+                      <i class="fa fa-chevron-left"></i> 有關Barnsley Fern
                     </a>
                   </div>
                   <div class="post-nav-item">
-                    <a href="/%E5%AD%B8%E6%B8%AC%E4%BA%8C%E9%9A%8E%E9%9D%A2%E8%A9%A6%E5%88%86%E4%BA%AB/" rel="next" title="110 成大電機普渡雙聯組 & 清交APCS組 個人申請分享">
-                      110 成大電機普渡雙聯組 & 清交APCS組 個人申請分享 <i class="fa fa-chevron-right"></i>
+                    <a href="/first-year-in-science-class" rel="next" title="在科學班的一年─2018/6~2019/8的回顧">
+                      在科學班的一年─2018/6~2019/8的回顧 <i class="fa fa-chevron-right"></i>
                     </a>
                   </div>
                 </div>
@@ -431,6 +467,14 @@
 
             <!--noindex-->
             <div class="post-toc-wrap sidebar-panel">
+              <div class="post-toc motion-element">
+                <ol class="nav">
+                  <li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BB%8B%E7%B4%B9"><span class="nav-number">1.</span> <span class="nav-text">介紹</span></a></li>
+                  <li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%A8%8B%E5%BC%8F%E7%A2%BC%E4%BB%8B%E7%B4%B9"><span class="nav-number">2.</span> <span class="nav-text">程式碼介紹</span></a></li>
+                  <li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%83%E8%80%83%E8%B3%87%E6%96%99"><span class="nav-number">3.</span> <span class="nav-text">參考資料</span></a></li>
+                  <li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8E%9F%E5%A7%8B%E7%A2%BC"><span class="nav-number">4.</span> <span class="nav-text">原始碼</span></a></li>
+                </ol>
+              </div>
             </div>
             <!--/noindex-->
 
@@ -643,9 +687,9 @@
   </script>
   <script>
     var disqus_config = function() {
-      this.page.url = "https://jayin92.github.io/2021-TISF-%E5%8F%B0%E7%81%A3%E5%9C%8B%E9%9A%9B%E7%A7%91%E5%B1%95-Day-1/";
-      this.page.identifier = "2021-TISF-台灣國際科展-Day-1/";
-      this.page.title = "2021 TISF 台灣國際科展 Day 1";
+      this.page.url = "https://jayin92.github.io/sierpinski-triangle";
+      this.page.identifier = "/sierpinski-triangle";
+      this.page.title = "有關謝爾賓斯基三角形 aka Sierpinski triangle";
     };
     NexT.utils.loadComments(document.querySelector('#disqus_thread'), () => {
       if (window.DISQUS) {

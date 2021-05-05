@@ -91,24 +91,27 @@
     };
   </script>
 
-  <meta name="description" content="介紹在上一篇文章中，我們知道Barnsley Fern與這次介紹的謝爾賓斯基三角形都是碎形 照慣例(XD)我們再次引用Wikipedia的內容謝爾賓斯基三角形（英語：Sierpinski triangle）是一種碎形，由波蘭數學家謝爾賓斯基在1915年提出。它是自相似集的例子。 Wikipediazh.wikipedia.org&#x2F;wiki&#x2F;謝爾賓斯基三角形我們這次所介紹的繪圖方法，維基百科把它稱作">
+  <meta name="description" content="前言引用英文版Wikipedia對Barnsley Fern的介紹:The Barnsley fern is a fractal named after the British mathematician Michael Barnsley who first described it in his book Fractals Everywhere. Wikipediaen.wikipedia.or">
   <meta property="og:type" content="article">
-  <meta property="og:title" content="有關謝爾賓斯基三角形 aka Sierpinski triangle">
-  <meta property="og:url" content="https://jayin92.github.io/%E6%9C%89%E9%97%9C%E8%AC%9D%E7%88%BE%E8%B3%93%E6%96%AF%E5%9F%BA%E4%B8%89%E8%A7%92%E5%BD%A2-aka-Sierpinski-triangle/index.html">
+  <meta property="og:title" content="有關Barnsley Fern">
+  <meta property="og:url" content="https://jayin92.github.io/Barnsley-Fern">
   <meta property="og:site_name" content="jayinnn&#39;s blog">
-  <meta property="og:description" content="介紹在上一篇文章中，我們知道Barnsley Fern與這次介紹的謝爾賓斯基三角形都是碎形 照慣例(XD)我們再次引用Wikipedia的內容謝爾賓斯基三角形（英語：Sierpinski triangle）是一種碎形，由波蘭數學家謝爾賓斯基在1915年提出。它是自相似集的例子。 Wikipediazh.wikipedia.org&#x2F;wiki&#x2F;謝爾賓斯基三角形我們這次所介紹的繪圖方法，維基百科把它稱作">
+  <meta property="og:description" content="前言引用英文版Wikipedia對Barnsley Fern的介紹:The Barnsley fern is a fractal named after the British mathematician Michael Barnsley who first described it in his book Fractals Everywhere. Wikipediaen.wikipedia.or">
   <meta property="og:locale" content="zh_TW">
-  <meta property="og:image" content="https://jayin92.github.io/image/Sierpinski%20triangle.png">
-  <meta property="article:published_time" content="2018-05-10T15:04:05.000Z">
-  <meta property="article:modified_time" content="2020-07-24T14:19:46.814Z">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/7/76/Barnsley_fern_plotted_with_VisSim.PNG">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/f/fd/Von_Koch_curve.gif">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Animated_construction_of_Sierpinski_Triangle.gif/300px-Animated_construction_of_Sierpinski_Triangle.gif">
+  <meta property="og:image" content="https://jayin92.github.io/image/barnsley-fern.png">
+  <meta property="article:published_time" content="2018-05-07T12:07:10.000Z">
+  <meta property="article:modified_time" content="2021-05-05T11:59:31.194Z">
   <meta property="article:author" content="jayinnn">
   <meta property="article:tag" content="數學">
   <meta property="article:tag" content="Python">
   <meta property="article:tag" content="碎形">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:image" content="https://jayin92.github.io/image/Sierpinski%20triangle.png">
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/7/76/Barnsley_fern_plotted_with_VisSim.PNG">
 
-  <link rel="canonical" href="https://jayin92.github.io/%E6%9C%89%E9%97%9C%E8%AC%9D%E7%88%BE%E8%B3%93%E6%96%AF%E5%9F%BA%E4%B8%89%E8%A7%92%E5%BD%A2-aka-Sierpinski-triangle/">
+  <link rel="canonical" href="https://jayin92.github.io/Barnsley-Fern">
 
 
   <script id="page-configurations">
@@ -121,7 +124,7 @@
     };
   </script>
 
-  <title>有關謝爾賓斯基三角形 aka Sierpinski triangle | jayinnn's blog</title>
+  <title>有關Barnsley Fern | jayinnn's blog</title>
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111430938-2"></script>
   <script>
@@ -266,7 +269,7 @@
 
 
             <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
-              <link itemprop="mainEntityOfPage" href="https://jayin92.github.io/%E6%9C%89%E9%97%9C%E8%AC%9D%E7%88%BE%E8%B3%93%E6%96%AF%E5%9F%BA%E4%B8%89%E8%A7%92%E5%BD%A2-aka-Sierpinski-triangle/">
+              <link itemprop="mainEntityOfPage" href="https://jayin92.github.io/Barnsley-Fern">
 
               <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
                 <meta itemprop="image" content="/images/avatar.jpg">
@@ -279,7 +282,7 @@
               </span>
               <header class="post-header">
                 <h1 class="post-title" itemprop="name headline">
-                  有關謝爾賓斯基三角形 aka Sierpinski triangle
+                  有關Barnsley Fern
                 </h1>
 
                 <div class="post-meta">
@@ -289,14 +292,14 @@
                     </span>
                     <span class="post-meta-item-text">發表於</span>
 
-                    <time title="創建時間：2018-05-10 23:04:05" itemprop="dateCreated datePublished" datetime="2018-05-10T23:04:05+08:00">2018-05-10</time>
+                    <time title="創建時間：2018-05-07 20:07:10" itemprop="dateCreated datePublished" datetime="2018-05-07T20:07:10+08:00">2018-05-07</time>
                   </span>
                   <span class="post-meta-item">
                     <span class="post-meta-item-icon">
                       <i class="far fa-calendar-check"></i>
                     </span>
                     <span class="post-meta-item-text">更新於</span>
-                    <time title="修改時間：2020-07-24 22:19:46" itemprop="dateModified" datetime="2020-07-24T22:19:46+08:00">2020-07-24</time>
+                    <time title="修改時間：2021-05-05 19:59:31" itemprop="dateModified" datetime="2021-05-05T19:59:31+08:00">2021-05-05</time>
                   </span>
                   <span class="post-meta-item">
                     <span class="post-meta-item-icon">
@@ -321,8 +324,8 @@
                     </span>
                     <span class="post-meta-item-text">Disqus：</span>
 
-                    <a title="disqus" href="/%E6%9C%89%E9%97%9C%E8%AC%9D%E7%88%BE%E8%B3%93%E6%96%AF%E5%9F%BA%E4%B8%89%E8%A7%92%E5%BD%A2-aka-Sierpinski-triangle/#disqus_thread" itemprop="discussionUrl">
-                      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="有關謝爾賓斯基三角形-aka-Sierpinski-triangle/" itemprop="commentCount"></span>
+                    <a title="disqus" href="/Barnsley-Fern#disqus_thread" itemprop="discussionUrl">
+                      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="/Barnsley-Fern" itemprop="commentCount"></span>
                     </a>
                   </span>
 
@@ -337,40 +340,147 @@
               <div class="post-body" itemprop="articleBody">
 
 
-                <h2 id="介紹"><a href="#介紹" class="headerlink" title="介紹"></a>介紹</h2>
-                <p>在上一篇文章中，我們知道Barnsley Fern與這次介紹的謝爾賓斯基三角形都是碎形</p>
-                <p>照慣例(XD)我們再次引用Wikipedia的內容<br>
+                <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2>
+                <p><img src="https://upload.wikimedia.org/wikipedia/commons/7/76/Barnsley_fern_plotted_with_VisSim.PNG" alt=""><br>引用英文版Wikipedia對Barnsley Fern的介紹:<br>
                 <blockquote>
-                  <p>謝爾賓斯基三角形（英語：Sierpinski triangle）是一種碎形，由波蘭數學家謝爾賓斯基在1915年提出。它是自相似集的例子。</p>
-                  <footer><strong>Wikipedia</strong><cite><a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/謝爾賓斯基三角形">zh.wikipedia.org/wiki/謝爾賓斯基三角形</a></cite></footer>
-                </blockquote><br>我們這次所介紹的繪圖方法，維基百科把它稱作Chaos Game。也就是隨機的方法。<br><a id="more"></a><br>主要的方法如下:</p>
-                <ol>
-                  <li>隨便畫個三角形(原始的謝爾賓斯基三角形為正三角形)</li>
-                  <li>在三角形內部隨便找一個點P</li>
-                  <li>從三角形三個頂點隨機找一個頂點</li>
-                  <li>點出點P跟選定的頂點的中點</li>
-                  <li>把那個中點當作新的點P</li>
-                  <li>重複3.</li>
-                </ol>
-                <p>以下是執行的結果<br><img src="/image/Sierpinski triangle.png" alt=""><br>可以很清楚的看到這個圖形是用點點出來的</p>
-                <h2 id="程式碼介紹"><a href="#程式碼介紹" class="headerlink" title="程式碼介紹"></a>程式碼介紹</h2>
-                <p>這次的程式簡單到可以直接全部貼上來</p>
+                  <p><em>The Barnsley fern is a fractal named after the British mathematician Michael Barnsley who first described it in his book Fractals Everywhere.</em></p>
+                  <footer><strong>Wikipedia</strong><cite><a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Barnsley_fern">en.wikipedia.org/wiki/Barnsley_fern</a></cite></footer>
+                </blockquote><br><a id="more"></a><br>翻譯成中文大概就是:<br>“<strong>Barnsley Fern</strong> 是一個由一位英國數學家 Michael Barnsley 在他所寫的書 Fractals Everywhere 中所描述的一種碎形”</p>
+                <p>那甚麼是碎形呢?<br>我們再次引用Wikipedia，不過這次是中文版(我懶得翻譯阿)<br>
+                <blockquote>
+                  <p><em>碎形（英語：Fractal），又稱分形、殘形，通常被定義為「一個粗糙或零碎的幾何形狀，可以分成數個部分，且每一部分都（至少近似地）是整體縮小後的形狀」，即具有自相似的性質。</em></p>
+                  <footer><strong>Wikipedia</strong><cite><a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/分形">zh.wikipedia.org/wiki/分形</a></cite></footer>
+                </blockquote>
+                </p>
+                <p>有名的碎形有: <strong>科赫雪花</strong> 與 <strong>謝爾賓斯基三角形</strong> (關於它我還會再寫一篇)<br><img src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Von_Koch_curve.gif" alt=""><br><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Animated_construction_of_Sierpinski_Triangle.gif/300px-Animated_construction_of_Sierpinski_Triangle.gif" alt=""><br>我們可以很容易的看到說不管你把一個碎形放大多少倍，它所呈現的圖形會跟原本一模一樣，這就是碎形自相似的性質。</p>
+                <p>不過我們今天不會太深入去講碎形，因為其實我也不太會😭</p>
+                <h2 id="Barnsley-Fern-介紹"><a href="#Barnsley-Fern-介紹" class="headerlink" title="Barnsley Fern 介紹"></a>Barnsley Fern 介紹</h2>
+                <p>其實Barnsley Fern的描繪過程可以由下面方程組 (Transmotions functions “變換函數?”) 決定:</p>
+                <script type="math/tex; mode=display">
+                  \begin{cases}
+f_1(x,y)=
+\begin{bmatrix}
+0.00 & 0.00 \\
+0.00 & 0.16 \\
+\end{bmatrix}
+\begin{bmatrix}
+x\\
+y\\
+\end{bmatrix}\\
+
+f_2(x,y)=
+\begin{bmatrix}
+0.85 & 0.04 \\
+-0.04 & 0.85 \\
+\end{bmatrix}
+\begin{bmatrix}
+x\\
+y\\
+\end{bmatrix}
++
+\begin{bmatrix}
+0.00\\
+0.16\\
+\end{bmatrix}\\
+
+f_3(x,y)=
+\begin{bmatrix}
+0.20 & -0.26 \\
+0.23 & 0.22 \\
+\end{bmatrix}
+\begin{bmatrix}
+x\\
+y\\
+\end{bmatrix}
++
+\begin{bmatrix}
+0.00\\
+1.60\\
+\end{bmatrix}\\
+
+f_4(x,y)=
+\begin{bmatrix}
+-0.15 & 0.28 \\
+0.26 & 0.24 \\
+\end{bmatrix}
+\begin{bmatrix}
+x\\
+y\\
+\end{bmatrix}
++
+\begin{bmatrix}
+0.00\\
+0.44\\
+\end{bmatrix}
+\end{cases}\\
+且\\
+P(f_1)=0.01\\
+P(f_2)=0.85\\
+P(f_3)=0.07\\
+P(f_4)=0.07\\</script>
+                <p align="center">其中$P()$代表此方程式在此方程組的發生機率</p>
+
+                <p>而$f_1$主要生成Barnsley Fern中的梗的部分<br> $f_2$為小的散葉<br> $f_3$為左邊的葉子<br> $f_4$為右邊的葉子</p>
+                <h2 id="利用Python內建的Turtle庫畫出Barnsley-Fern"><a href="#利用Python內建的Turtle庫畫出Barnsley-Fern" class="headerlink" title="利用Python內建的Turtle庫畫出Barnsley Fern"></a>利用Python內建的Turtle庫畫出Barnsley Fern</h2>
+                <p>不過在電腦科學裡，我們可以利用迭代(遞迴)的方式來繪出Barnsley Fern</p>
+                <script type="math/tex; mode=display">
+                  f_1:\\
+    x_n+1 = 0\\
+    y_n+1 = 0.16y_n\\</script>
+                <script type="math/tex; mode=display">
+                  f_2:\\
+    x_n+1 = 0.85x_n + 0.04y_n\\
+    y_n+1 = -0.04x_n + 0.85y_n + 1.6\\</script>
+                <script type="math/tex; mode=display">
+                  f_3:\\
+    x_n+1 = 0.2x_n - 0.26y_n\\
+    y_n+1 = 0.23x_n + 0.22y_n +1.6\\</script>
+                <script type="math/tex; mode=display">
+                  f_4:\\
+    x_n+1 = -0.15x_n + 0.28y_n\\
+    y_n+1 = 0.26x_n + 0.24y_n + 0.44\\</script>
+                <p>所以我們可以利用python寫出上面四個方程式 (函數傳入值及回傳值皆為tuple)<br>
                 <figure class="highlight python">
                   <table>
                     <tr>
                       <td class="gutter">
-                        <pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br></pre>
+                        <pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre>
                       </td>
                       <td class="code">
-                        <pre><span class="line"><span class="comment"># import package</span></span><br><span class="line"><span class="keyword">import</span> turtle</span><br><span class="line"><span class="keyword">import</span> random</span><br><span class="line"><span class="keyword">import</span> math</span><br><span class="line">random.seed()</span><br><span class="line"><span class="comment"># 定義三角形三頂點</span></span><br><span class="line">pointa = (<span class="number">0</span>,<span class="number">400</span>)</span><br><span class="line">pointb = (-<span class="number">650</span>,-<span class="number">300</span>)</span><br><span class="line">pointc = (<span class="number">650</span>,-<span class="number">300</span>)</span><br><span class="line">point = [pointa, pointb, pointc]</span><br><span class="line"><span class="comment"># 定義第一個點(若這個點為隨機產出一樣對產出三角形完全沒有影響)</span></span><br><span class="line">firstpoint = (-<span class="number">200</span>,<span class="number">250</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 定義繪點函數(傳入tuple)</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">drawdot</span>(<span class="params">point, color=<span class="string">&#x27;black&#x27;</span></span>):</span></span><br><span class="line">	turtle.penup()</span><br><span class="line">	turtle.goto(point[<span class="number">0</span>],point[<span class="number">1</span>])</span><br><span class="line">	turtle.pendown()</span><br><span class="line">	turtle.dot(<span class="number">2</span>, color)</span><br><span class="line"><span class="comment"># 傳入兩個點(tuple)回傳兩點中點座標(tuple)</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">gohalf</span>(<span class="params">point1,point2</span>):</span></span><br><span class="line">	point = ((point1[<span class="number">0</span>] + point2[<span class="number">0</span>]) / <span class="number">2</span>, ((point1[<span class="number">1</span>] + point2[<span class="number">1</span>]) / <span class="number">2</span>))</span><br><span class="line">	<span class="keyword">return</span> point</span><br><span class="line"><span class="comment"># turtle package init</span></span><br><span class="line">turtle.speed(<span class="number">0</span>)</span><br><span class="line">turtle.delay(<span class="number">0</span>)</span><br><span class="line">turtle.hideturtle()</span><br><span class="line"><span class="comment"># 開始繪圖</span></span><br><span class="line">drawdot(pointa)</span><br><span class="line">drawdot(pointb)</span><br><span class="line">drawdot(pointc)</span><br><span class="line">drawdot(firstpoint, <span class="string">&#x27;green&#x27;</span>)</span><br><span class="line"><span class="comment"># 將追蹤點定義為起始點</span></span><br><span class="line">tracepoint = firstpoint</span><br><span class="line">i = <span class="number">1</span></span><br><span class="line"><span class="comment">#進入無限迴圈</span></span><br><span class="line"><span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">	print(i)</span><br><span class="line">	<span class="comment"># 從point(list)隨機拿出任一個三角形頂點</span></span><br><span class="line">	random_point = random.choice(point)</span><br><span class="line">	<span class="comment"># 產出中點座標</span></span><br><span class="line">	gopoint = gohalf(tracepoint, random_point)</span><br><span class="line">	<span class="comment"># 描點</span></span><br><span class="line">	drawdot(gopoint)</span><br><span class="line">	<span class="comment"># 將追蹤點定義為新產出的中點</span></span><br><span class="line">	tracepoint = gopoint</span><br><span class="line">	i += <span class="number">1</span></span><br><span class="line">turtle.exitonclick()</span><br></pre>
+                        <pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">f1</span>(<span class="params">point</span>):</span> <span class="comment"># 1%</span></span><br><span class="line">	x = point[<span class="number">0</span>]</span><br><span class="line">	y = point[<span class="number">1</span>]</span><br><span class="line">	x1 = <span class="number">0</span></span><br><span class="line">	y1 = <span class="number">0.16</span> * y</span><br><span class="line">	<span class="keyword">return</span> (x1, y1)</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">f2</span>(<span class="params">point</span>):</span> <span class="comment"># 85%</span></span><br><span class="line">	x = point[<span class="number">0</span>]</span><br><span class="line">	y = point[<span class="number">1</span>]</span><br><span class="line">	x1 = <span class="number">0.85</span> * x + <span class="number">0.04</span> * y</span><br><span class="line">	y1 = -<span class="number">0.04</span> * x + <span class="number">0.85</span> * y + <span class="number">1.6</span></span><br><span class="line">	<span class="keyword">return</span> (x1, y1)</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">f3</span>(<span class="params">point</span>):</span> <span class="comment"># 7%</span></span><br><span class="line">	x = point[<span class="number">0</span>]</span><br><span class="line">	y = point[<span class="number">1</span>]</span><br><span class="line">	x1 = <span class="number">0.2</span> * x - <span class="number">0.26</span> * y</span><br><span class="line">	y1 = <span class="number">0.23</span> * x + <span class="number">0.22</span> * y + <span class="number">1.6</span></span><br><span class="line">	<span class="keyword">return</span> (x1, y1)</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">f4</span>(<span class="params">point</span>):</span> <span class="comment"># 7%</span></span><br><span class="line">	x = point[<span class="number">0</span>]</span><br><span class="line">	y = point[<span class="number">1</span>]</span><br><span class="line">	x1 = -<span class="number">0.15</span> * x + <span class="number">0.28</span> * y</span><br><span class="line">	y1 = <span class="number">0.26</span> * x  + <span class="number">0.24</span> * y + <span class="number">0.44</span></span><br><span class="line"><span class="keyword">return</span> (x1, y1)</span><br></pre>
                       </td>
                     </tr>
                   </table>
-                </figure>
+                </figure><br>然後我們用一個非常沒有效率的方法來決定方程式的發生機率<br>
+                <figure class="highlight python">
+                  <table>
+                    <tr>
+                      <td class="gutter">
+                        <pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre>
+                      </td>
+                      <td class="code">
+                        <pre><span class="line">choices = []</span><br><span class="line">choices.append(<span class="number">1</span>)</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">85</span>):</span><br><span class="line">	choices.append(<span class="number">2</span>)</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">7</span>):</span><br><span class="line">	choices.append(<span class="number">3</span>)</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">7</span>):</span><br><span class="line">    choices.append(<span class="number">4</span>)</span><br></pre>
+                      </td>
+                    </tr>
+                  </table>
+                </figure><br>然後利用random來從choices隨機取出1,2,3,4四個值<br>
+                <figure class="highlight python">
+                  <table>
+                    <tr>
+                      <td class="gutter">
+                        <pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre>
+                      </td>
+                      <td class="code">
+                        <pre><span class="line"><span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">	print(i)</span><br><span class="line">	function = random.choice(choices)</span><br><span class="line">	print(function)</span><br><span class="line">	<span class="keyword">if</span> function == <span class="number">1</span>:</span><br><span class="line">		tracepoint = f1(tracepoint)</span><br><span class="line">		drawdot(tracepoint)</span><br><span class="line">	<span class="keyword">elif</span> function == <span class="number">2</span>:</span><br><span class="line">		tracepoint = f2(tracepoint)</span><br><span class="line">		drawdot(tracepoint)</span><br><span class="line">	<span class="keyword">elif</span> function == <span class="number">3</span>:</span><br><span class="line">		tracepoint = f3(tracepoint)</span><br><span class="line">		drawdot(tracepoint)</span><br><span class="line">	<span class="keyword">elif</span> function == <span class="number">4</span>:</span><br><span class="line">		tracepoint = f4(tracepoint)</span><br><span class="line">		drawdot(tracepoint)</span><br><span class="line">	print(tracepoint)</span><br><span class="line">    i += <span class="number">1</span></span><br></pre>
+                      </td>
+                    </tr>
+                  </table>
+                </figure><br>drawdot 為利用turtle寫成的繪點函數 (回傳值及傳入值皆為tuple)<br>所以我們可以利用無限迴圈不斷迭代來繪出Barnsley Fern</p>
+                <p>這是畫出的結果<br><img src="/image/barnsley-fern.png" alt=""><br>可以明顯看到這張圖是全部用點點出來的，我的謝爾賓斯基三角形也會利用類似方法產生</p>
                 <h2 id="參考資料"><a href="#參考資料" class="headerlink" title="參考資料"></a>參考資料</h2>
-                <p><a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/謝爾賓斯基三角形">https://zh.wikipedia.org/wiki/謝爾賓斯基三角形</a><br><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=kfXl5fsVBVY">https://www.youtube.com/watch?v=kfXl5fsVBVY</a> (中文翻譯)<br><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=kbKtFN71Lfs">https://www.youtube.com/watch?v=kbKtFN71Lfs</a> (原片)</p>
+                <p><a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Barnsley_fern">https://en.wikipedia.org/wiki/Barnsley_fern</a><br><a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Affine_transformation">https://en.wikipedia.org/wiki/Affine_transformation</a><br><a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/分形">https://zh.wikipedia.org/wiki/分形</a></p>
                 <h2 id="原始碼"><a href="#原始碼" class="headerlink" title="原始碼"></a>原始碼</h2>
-                <p><a target="_blank" rel="noopener" href="https://github.com/jayin92/Sierpinski-triangle">https://github.com/jayin92/Sierpinski-triangle</a></p>
+                <p><a target="_blank" rel="noopener" href="https://github.com/jayin92/Barnsley-fern">https://github.com/jayin92/Barnsley-fern</a><br>請執行leaves.py</p>
 
               </div>
 
@@ -391,13 +501,13 @@
 
                 <div class="post-nav">
                   <div class="post-nav-item">
-                    <a href="/%E6%9C%89%E9%97%9CBarnsley-Fern/" rel="prev" title="有關Barnsley Fern">
-                      <i class="fa fa-chevron-left"></i> 有關Barnsley Fern
+                    <a href="/Pascal's-theorem" rel="prev" title="證明巴斯卡定理">
+                      <i class="fa fa-chevron-left"></i> 證明巴斯卡定理
                     </a>
                   </div>
                   <div class="post-nav-item">
-                    <a href="/%E5%9C%A8%E7%A7%91%E5%AD%B8%E7%8F%AD%E7%9A%84%E4%B8%80%E5%B9%B4%E2%94%802018-6-2019-8%E7%9A%84%E5%9B%9E%E9%A1%A7/" rel="next" title="在科學班的一年─2018/6~2019/8的回顧">
-                      在科學班的一年─2018/6~2019/8的回顧 <i class="fa fa-chevron-right"></i>
+                    <a href="/sierpinski-triangle" rel="next" title="有關謝爾賓斯基三角形 aka Sierpinski triangle">
+                      有關謝爾賓斯基三角形 aka Sierpinski triangle <i class="fa fa-chevron-right"></i>
                     </a>
                   </div>
                 </div>
@@ -469,10 +579,11 @@
             <div class="post-toc-wrap sidebar-panel">
               <div class="post-toc motion-element">
                 <ol class="nav">
-                  <li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BB%8B%E7%B4%B9"><span class="nav-number">1.</span> <span class="nav-text">介紹</span></a></li>
-                  <li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%A8%8B%E5%BC%8F%E7%A2%BC%E4%BB%8B%E7%B4%B9"><span class="nav-number">2.</span> <span class="nav-text">程式碼介紹</span></a></li>
-                  <li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%83%E8%80%83%E8%B3%87%E6%96%99"><span class="nav-number">3.</span> <span class="nav-text">參考資料</span></a></li>
-                  <li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8E%9F%E5%A7%8B%E7%A2%BC"><span class="nav-number">4.</span> <span class="nav-text">原始碼</span></a></li>
+                  <li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li>
+                  <li class="nav-item nav-level-2"><a class="nav-link" href="#Barnsley-Fern-%E4%BB%8B%E7%B4%B9"><span class="nav-number">2.</span> <span class="nav-text">Barnsley Fern 介紹</span></a></li>
+                  <li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%88%A9%E7%94%A8Python%E5%85%A7%E5%BB%BA%E7%9A%84Turtle%E5%BA%AB%E7%95%AB%E5%87%BABarnsley-Fern"><span class="nav-number">3.</span> <span class="nav-text">利用Python內建的Turtle庫畫出Barnsley Fern</span></a></li>
+                  <li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%83%E8%80%83%E8%B3%87%E6%96%99"><span class="nav-number">4.</span> <span class="nav-text">參考資料</span></a></li>
+                  <li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8E%9F%E5%A7%8B%E7%A2%BC"><span class="nav-number">5.</span> <span class="nav-text">原始碼</span></a></li>
                 </ol>
               </div>
             </div>
@@ -687,9 +798,9 @@
   </script>
   <script>
     var disqus_config = function() {
-      this.page.url = "https://jayin92.github.io/%E6%9C%89%E9%97%9C%E8%AC%9D%E7%88%BE%E8%B3%93%E6%96%AF%E5%9F%BA%E4%B8%89%E8%A7%92%E5%BD%A2-aka-Sierpinski-triangle/";
-      this.page.identifier = "有關謝爾賓斯基三角形-aka-Sierpinski-triangle/";
-      this.page.title = "有關謝爾賓斯基三角形 aka Sierpinski triangle";
+      this.page.url = "https://jayin92.github.io/Barnsley-Fern";
+      this.page.identifier = "/Barnsley-Fern";
+      this.page.title = "有關Barnsley Fern";
     };
     NexT.utils.loadComments(document.querySelector('#disqus_thread'), () => {
       if (window.DISQUS) {

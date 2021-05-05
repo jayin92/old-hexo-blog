@@ -91,26 +91,23 @@
     };
   </script>
 
-  <meta name="description" content="介紹大家都知道巴斯卡公式是排列組合中一個十分有用的公式，都叫做巴斯卡公式了，可想而知一定跟巴斯卡三角形有關係">
+  <meta name="description" content="引言萬有引力定律和庫侖定律分別是力學及電學中重要的定律，我們都知道萬有引力定律是由牛頓歸納出的，而庫侖定律顯然就是由庫侖。萬有引力定律的發表時間約早庫侖定律100年，且這兩條定律都與平方反比定律有關，這篇網誌主要描述這兩條定律，及為了驗證這兩條定律而發展出的實驗。 萬有引力定律萬有引力定律是由牛頓於1687年出版的《自然哲學的數學原理》首次發表的，他描述了任兩物體之間都會有吸引力，且此吸引力正比於">
   <meta property="og:type" content="article">
-  <meta property="og:title" content="證明巴斯卡定理">
-  <meta property="og:url" content="https://jayin92.github.io/%E8%AD%89%E6%98%8E%E5%B7%B4%E6%96%AF%E5%8D%A1%E5%AE%9A%E7%90%86/index.html">
+  <meta property="og:title" content="萬有引力定律 vs 庫侖定律">
+  <meta property="og:url" content="https://jayin92.github.io/law-of-universal-gravitation-vs-Coulomb's-law">
   <meta property="og:site_name" content="jayinnn&#39;s blog">
-  <meta property="og:description" content="介紹大家都知道巴斯卡公式是排列組合中一個十分有用的公式，都叫做巴斯卡公式了，可想而知一定跟巴斯卡三角形有關係">
+  <meta property="og:description" content="引言萬有引力定律和庫侖定律分別是力學及電學中重要的定律，我們都知道萬有引力定律是由牛頓歸納出的，而庫侖定律顯然就是由庫侖。萬有引力定律的發表時間約早庫侖定律100年，且這兩條定律都與平方反比定律有關，這篇網誌主要描述這兩條定律，及為了驗證這兩條定律而發展出的實驗。 萬有引力定律萬有引力定律是由牛頓於1687年出版的《自然哲學的數學原理》首次發表的，他描述了任兩物體之間都會有吸引力，且此吸引力正比於">
   <meta property="og:locale" content="zh_TW">
-  <meta property="og:image" content="https://jayin92.github.io/image/Pascal">
-  <meta property="og:image" content="https://jayin92.github.io/image/Pascal&#39;s%20trianglewithc.png">
-  <meta property="og:image" content="https://jayin92.github.io/image/Pascal&#39;s%20trianglepro.png">
-  <meta property="article:published_time" content="2018-05-05T00:02:50.000Z">
-  <meta property="article:modified_time" content="2020-07-24T14:19:46.814Z">
+  <meta property="og:image" content="https://jayin92.github.io/image/CavendishFig04.jpg">
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Bcoulomb.png/400px-Bcoulomb.png">
+  <meta property="article:published_time" content="2019-08-20T04:47:09.000Z">
+  <meta property="article:modified_time" content="2021-05-05T12:01:35.918Z">
   <meta property="article:author" content="jayinnn">
-  <meta property="article:tag" content="數學">
-  <meta property="article:tag" content="證明">
-  <meta property="article:tag" content="排列組合">
+  <meta property="article:tag" content="物理">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:image" content="https://jayin92.github.io/image/Pascal">
+  <meta name="twitter:image" content="https://jayin92.github.io/image/CavendishFig04.jpg">
 
-  <link rel="canonical" href="https://jayin92.github.io/%E8%AD%89%E6%98%8E%E5%B7%B4%E6%96%AF%E5%8D%A1%E5%AE%9A%E7%90%86/">
+  <link rel="canonical" href="https://jayin92.github.io/law-of-universal-gravitation-vs-Coulomb's-law">
 
 
   <script id="page-configurations">
@@ -123,7 +120,7 @@
     };
   </script>
 
-  <title>證明巴斯卡定理 | jayinnn's blog</title>
+  <title>萬有引力定律 vs 庫侖定律 | jayinnn's blog</title>
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111430938-2"></script>
   <script>
@@ -268,7 +265,7 @@
 
 
             <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
-              <link itemprop="mainEntityOfPage" href="https://jayin92.github.io/%E8%AD%89%E6%98%8E%E5%B7%B4%E6%96%AF%E5%8D%A1%E5%AE%9A%E7%90%86/">
+              <link itemprop="mainEntityOfPage" href="https://jayin92.github.io/law-of-universal-gravitation-vs-Coulomb's-law">
 
               <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
                 <meta itemprop="image" content="/images/avatar.jpg">
@@ -281,7 +278,7 @@
               </span>
               <header class="post-header">
                 <h1 class="post-title" itemprop="name headline">
-                  證明巴斯卡定理
+                  萬有引力定律 vs 庫侖定律
                 </h1>
 
                 <div class="post-meta">
@@ -291,14 +288,14 @@
                     </span>
                     <span class="post-meta-item-text">發表於</span>
 
-                    <time title="創建時間：2018-05-05 08:02:50" itemprop="dateCreated datePublished" datetime="2018-05-05T08:02:50+08:00">2018-05-05</time>
+                    <time title="創建時間：2019-08-20 12:47:09" itemprop="dateCreated datePublished" datetime="2019-08-20T12:47:09+08:00">2019-08-20</time>
                   </span>
                   <span class="post-meta-item">
                     <span class="post-meta-item-icon">
                       <i class="far fa-calendar-check"></i>
                     </span>
                     <span class="post-meta-item-text">更新於</span>
-                    <time title="修改時間：2020-07-24 22:19:46" itemprop="dateModified" datetime="2020-07-24T22:19:46+08:00">2020-07-24</time>
+                    <time title="修改時間：2021-05-05 20:01:35" itemprop="dateModified" datetime="2021-05-05T20:01:35+08:00">2021-05-05</time>
                   </span>
                   <span class="post-meta-item">
                     <span class="post-meta-item-icon">
@@ -306,11 +303,7 @@
                     </span>
                     <span class="post-meta-item-text">分類於</span>
                     <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                      <a href="/categories/%E6%95%B8%E5%AD%B8/" itemprop="url" rel="index"><span itemprop="name">數學</span></a>
-                    </span>
-                    ，
-                    <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                      <a href="/categories/%E6%95%B8%E5%AD%B8/%E8%AD%89%E6%98%8E/" itemprop="url" rel="index"><span itemprop="name">證明</span></a>
+                      <a href="/categories/%E7%89%A9%E7%90%86/" itemprop="url" rel="index"><span itemprop="name">物理</span></a>
                     </span>
                   </span>
 
@@ -323,8 +316,8 @@
                     </span>
                     <span class="post-meta-item-text">Disqus：</span>
 
-                    <a title="disqus" href="/%E8%AD%89%E6%98%8E%E5%B7%B4%E6%96%AF%E5%8D%A1%E5%AE%9A%E7%90%86/#disqus_thread" itemprop="discussionUrl">
-                      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="證明巴斯卡定理/" itemprop="commentCount"></span>
+                    <a title="disqus" href="/law-of-universal-gravitation-vs-Coulomb's-law#disqus_thread" itemprop="discussionUrl">
+                      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="/law-of-universal-gravitation-vs-Coulomb's-law" itemprop="commentCount"></span>
                     </a>
                   </span>
 
@@ -339,41 +332,29 @@
               <div class="post-body" itemprop="articleBody">
 
 
-                <h2 id="介紹"><a href="#介紹" class="headerlink" title="介紹"></a>介紹</h2>
-                <p>大家都知道巴斯卡公式是排列組合中一個十分有用的公式，都叫做巴斯卡公式了，可想而知一定跟巴斯卡三角形有關係<br><img src="/image/Pascal's triangle.png" width=50% height=50%><br><a id="more"></a><br>其實巴斯卡三角形也可以被寫成以下形式：<br><img src="/image/Pascal&#39;s trianglewithc.png" alt="" title="巴斯卡三角形&lt;組合形式&gt; source:https://www.quora.com/Why-does-Pascals-Triangle-work"><br>大家都知道巴斯卡三角形有以下性質:<br><img src="/image/Pascal&#39;s trianglepro.png" alt="" title="巴斯卡三角形的性質 source:https://www.quora.com/Why-does-Pascals-Triangle-work"><br>於是我們可以利用巴斯卡三角形推導出以下等式:</p>
-                <script type="math/tex; mode=display">\begin{equation}C_{k}^{n+1} = C_{k-1}^{n}+C_{k}^{n}\end{equation}</script>
-                <p>舉個例子來說的話就是:</p>
-                <script type="math/tex; mode=display">C_{5}^{10} = C_{4}^{9}+C_{5}^{9}</script>
-                <p>這個例子可以上面的巴斯卡三角形的組合形式中找到</p>
-                <h2 id="從結果推導出的證明"><a href="#從結果推導出的證明" class="headerlink" title="從結果推導出的證明"></a>從結果推導出的證明</h2>
-                <p>組合的定義:</p>
-                <script type="math/tex; mode=display">C_{k}^{n} = \frac{n!}{k!(n-k)!}</script>
-                <p>故(1)可改寫為:</p>
-                <script type="math/tex; mode=display">\begin{equation}\frac{(n+1)!}{k!(n-k+1)!}=\frac{n!}{(k-1)!(n-k+1)!}+\frac{n!}{k!(n-k)!}\end{equation}</script>
-                <p>開始推導:</p>
-                <script type="math/tex; mode=display">
-                  \frac{(n+1)!}{k!(n-k+1)!}=\frac{n!}{(k-1)!(n-k+1)!}+\frac{n!}{k!(n-k)!}\\
-(n+1)!=\frac{n!k!}{(k-1)!}+\frac{n!(n-k+1)!}{(n-k)!}\\
-\frac{(n+1)!}{n!}=\frac{k!}{(k-1)!}+\frac{(n-k+1)!}{(n-k)!}\\
-n+1=\frac{k!}{(k-1)!}+\frac{(n-k+1)!}{(n-k)!}\\
-n+1=k+\frac{(n-k)!(n-k+1)}{(n-k)!}\\
-n+1=k+(n-k+1)\\
-n+1=n+1</script>
-                <p>等號兩邊相等，故巴斯卡公式成立。</p>
-                <p>但是我認為這個證法不夠精確，我已經先假設巴斯卡公式成立再去證明它的確成立，正確的證法應該要從源頭來下手。</p>
-                <h2 id="從源頭推導出巴斯卡公式"><a href="#從源頭推導出巴斯卡公式" class="headerlink" title="從源頭推導出巴斯卡公式"></a>從源頭推導出巴斯卡公式</h2>
-                <p>我認為這個證明有點曲折，希望有更好的證法</p>
-                <script type="math/tex; mode=display">
-                  原式=C_{k-1}^{n}+C_{k}^{n}\\
-=\frac{n!}{(k-1)!(n-k+1)!}+\frac{n!}{k!(n-k)!}\\
-=\frac{n!}{\frac{k!}{k}(n-k)!(n-k+1)}+\frac{n!}{k!(n-k)!}\\
-=\frac{n!k}{k!(n-k)!(n-k+1)}+\frac{n!}{k!(n-k)!}\\
-=\frac{n!}{k!(n-k)!}(\frac{k}{n-k+1}+1)\\
-=\frac{n!}{k!(n-k)!}(\frac{k+(n-k+1)}{n-k+1})\\
-=\frac{n!}{k!(n-k)!}(\frac{n+1}{n-k+1})\\
-=\frac{n!(n+1)}{k!(n-k)!(n-k+1)}\\
-=\frac{(n+1)!}{k!((n+1)-k)!}\\
-=C_{k}^{n+1}</script>
+                <h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2>
+                <p>萬有引力定律和庫侖定律分別是力學及電學中重要的定律，我們都知道萬有引力定律是由牛頓歸納出的，而庫侖定律顯然就是由庫侖。萬有引力定律的發表時間約早庫侖定律100年，且這兩條定律都與平方反比定律有關，這篇網誌主要描述這兩條定律，及為了驗證這兩條定律而發展出的實驗。</p>
+                <h2 id="萬有引力定律"><a href="#萬有引力定律" class="headerlink" title="萬有引力定律"></a>萬有引力定律</h2>
+                <p>萬有引力定律是由牛頓於1687年出版的《自然哲學的數學原理》首次發表的，他描述了任兩物體之間都會有吸引力，且此吸引力正比於此兩物體質量乘積，反比於兩物體距離平方。</p>
+                <p>此定律是由牛頓之歸納推理的經驗觀察得出的一般物理規律，若萬有引力定律不是現在這個形式，則太陽系上的行星就不會以橢圓軌道運行了。</p>
+                <p>但知道其正比關係對實際的計算可說一點用也沒有，因為我們並不能計算出實際的數值，我們需要測量出一個常數，使我們能夠定量的計算出兩物體之間的作用力。</p>
+                <p>這個常數現在稱為萬有引力常數，代號為G，最早是由物理學及化學家卡文迪西於1797年間接測量出來。<br><a id="more"></a></p>
+                <h2 id="卡文迪西扭秤實驗"><a href="#卡文迪西扭秤實驗" class="headerlink" title="卡文迪西扭秤實驗"></a>卡文迪西扭秤實驗</h2>
+                <p>卡文迪西被稱作牛頓之後最偉大的科學家之一，因其首次發現庫侖定律及歐姆定律(但都沒有公布)，且精確的測量了地球的密度(透過這個實驗我們可以間接算出萬有引力常數G)。</p>
+                <p><img src="/image/CavendishFig04.jpg" alt="" title="卡文迪西扭秤實驗"></p>
+                <p>卡文迪西是透過一個稱作扭秤的實驗工具，其構造大概長這樣，由兩顆大球、兩顆小球、一條已知扭轉係數的絲線、光源及精準的游標尺所組成的。</p>
+                <p>因為萬有引力，所以大小球之間就會有一個吸引力，而這個吸引力就會對中間的絲線產生一個力矩，使絲線扭轉，因為絲線本身被扭轉的時候也會產生一個力矩，這個力矩的大小就是此時扭轉的角度乘上此絲線的扭轉係數。直到某個角度時，絲線產生的力矩剛好與萬有引力產生的力矩相等時，木棒就會停止轉動，這時只要測量絲線扭轉的角度，就可以知道萬有引力產生的力矩，進而反推吸引力，我們就可以透過這個數值測量出地球的重量，且因為當時的人已經知道地球的半徑，所以也可以推出密度。</p>
+                <p>後人用卡文迪西的數據反推萬有引力常數，發現其數值與2014年的數據差距不到1%，可以說是相當精準。</p>
+                <h2 id="庫侖定律"><a href="#庫侖定律" class="headerlink" title="庫侖定律"></a>庫侖定律</h2>
+                <p>庫侖定律是由法國物理學家查爾斯·庫侖於1785年發現，其指出了空間中兩個靜止的點電荷，其交互作用力與電量乘積成正比，與其距離平方成反比。</p>
+                <p>不難發現其形式與牛頓的萬有引力定律形式幾乎相等。</p>
+                <p>其實在1770年代早期，卡文迪西就利用巧秒的實驗得出了帶電體之間的作用力依賴於帶電量與距離，並得出靜電力與距離的$2\pm \frac{1}{50}$次方成反比，只是卡文迪什沒有公布這個結果。</p>
+                <p>後來庫侖在1785年使用庫侖扭秤，發現兩點電荷之間的交互作用力也是平方反比定律。</p>
+                <h2 id="庫侖扭秤"><a href="#庫侖扭秤" class="headerlink" title="庫侖扭秤"></a>庫侖扭秤</h2>
+                <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Bcoulomb.png/400px-Bcoulomb.png" alt="庫侖扭秤（torsion balance）示意圖。庫侖使用扭秤來測量兩個點電荷彼此互相作用的靜電力，因此發現庫侖定律。"></p>
+                <p>庫侖使用庫侖扭秤測量兩點電荷之間的作用力，因而發現庫侖定律。</p>
+                <p>其原理與卡文迪西的扭秤差不多，在此不再贅述</p>
+
               </div>
 
 
@@ -382,9 +363,7 @@ n+1=n+1</script>
 
               <footer class="post-footer">
                 <div class="post-tags">
-                  <a href="/tags/%E6%95%B8%E5%AD%B8/" rel="tag"># 數學</a>
-                  <a href="/tags/%E8%AD%89%E6%98%8E/" rel="tag"># 證明</a>
-                  <a href="/tags/%E6%8E%92%E5%88%97%E7%B5%84%E5%90%88/" rel="tag"># 排列組合</a>
+                  <a href="/tags/%E7%89%A9%E7%90%86/" rel="tag"># 物理</a>
                 </div>
 
 
@@ -392,10 +371,14 @@ n+1=n+1</script>
 
 
                 <div class="post-nav">
-                  <div class="post-nav-item"></div>
                   <div class="post-nav-item">
-                    <a href="/%E6%9C%89%E9%97%9CBarnsley-Fern/" rel="next" title="有關Barnsley Fern">
-                      有關Barnsley Fern <i class="fa fa-chevron-right"></i>
+                    <a href="/PvsNP" rel="prev" title="P vs NP">
+                      <i class="fa fa-chevron-left"></i> P vs NP
+                    </a>
+                  </div>
+                  <div class="post-nav-item">
+                    <a href="/UbikeAnywhereBot" rel="next" title="第一個Telegram Bot:@BikeAnywhereBot">
+                      第一個Telegram Bot:@BikeAnywhereBot <i class="fa fa-chevron-right"></i>
                     </a>
                   </div>
                 </div>
@@ -467,9 +450,11 @@ n+1=n+1</script>
             <div class="post-toc-wrap sidebar-panel">
               <div class="post-toc motion-element">
                 <ol class="nav">
-                  <li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BB%8B%E7%B4%B9"><span class="nav-number">1.</span> <span class="nav-text">介紹</span></a></li>
-                  <li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BE%9E%E7%B5%90%E6%9E%9C%E6%8E%A8%E5%B0%8E%E5%87%BA%E7%9A%84%E8%AD%89%E6%98%8E"><span class="nav-number">2.</span> <span class="nav-text">從結果推導出的證明</span></a></li>
-                  <li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BE%9E%E6%BA%90%E9%A0%AD%E6%8E%A8%E5%B0%8E%E5%87%BA%E5%B7%B4%E6%96%AF%E5%8D%A1%E5%85%AC%E5%BC%8F"><span class="nav-number">3.</span> <span class="nav-text">從源頭推導出巴斯卡公式</span></a></li>
+                  <li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BC%95%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">引言</span></a></li>
+                  <li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%90%AC%E6%9C%89%E5%BC%95%E5%8A%9B%E5%AE%9A%E5%BE%8B"><span class="nav-number">2.</span> <span class="nav-text">萬有引力定律</span></a></li>
+                  <li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8D%A1%E6%96%87%E8%BF%AA%E8%A5%BF%E6%89%AD%E7%A7%A4%E5%AF%A6%E9%A9%97"><span class="nav-number">3.</span> <span class="nav-text">卡文迪西扭秤實驗</span></a></li>
+                  <li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BA%AB%E4%BE%96%E5%AE%9A%E5%BE%8B"><span class="nav-number">4.</span> <span class="nav-text">庫侖定律</span></a></li>
+                  <li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BA%AB%E4%BE%96%E6%89%AD%E7%A7%A4"><span class="nav-number">5.</span> <span class="nav-text">庫侖扭秤</span></a></li>
                 </ol>
               </div>
             </div>
@@ -684,9 +669,9 @@ n+1=n+1</script>
   </script>
   <script>
     var disqus_config = function() {
-      this.page.url = "https://jayin92.github.io/%E8%AD%89%E6%98%8E%E5%B7%B4%E6%96%AF%E5%8D%A1%E5%AE%9A%E7%90%86/";
-      this.page.identifier = "證明巴斯卡定理/";
-      this.page.title = "證明巴斯卡定理";
+      this.page.url = "https://jayin92.github.io/law-of-universal-gravitation-vs-Coulomb's-law";
+      this.page.identifier = "/law-of-universal-gravitation-vs-Coulomb's-law";
+      this.page.title = "萬有引力定律 vs 庫侖定律";
     };
     NexT.utils.loadComments(document.querySelector('#disqus_thread'), () => {
       if (window.DISQUS) {
