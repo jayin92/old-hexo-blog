@@ -3,6 +3,7 @@ title: 有關謝爾賓斯基三角形 aka Sierpinski triangle
 date: 2018-05-10 23:04:05
 categories: ['數學', '碎形']
 tags: ['數學', 'Python', '碎形']
+permalink: sierpinski-triangle
 ---
 ## 介紹
 在上一篇文章中，我們知道Barnsley Fern與這次介紹的謝爾賓斯基三角形都是碎形

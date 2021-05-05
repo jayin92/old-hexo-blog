@@ -3,6 +3,7 @@ title: P vs NP
 date: 2019-08-20 11:26:59
 categories: [資訊]
 tags: [資訊, 數學, 演算法]
+permalink: PvsNP
 ---
 
 ## 前言

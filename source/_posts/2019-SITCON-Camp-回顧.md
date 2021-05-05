@@ -3,6 +3,7 @@ title: 2019 SITCON Camp 回顧
 date: 2019-08-25 18:16:02
 tags: [SITCON, 心得]
 categories: SITCON
+permalink: 2019-SITCON-Camp-look-back
 ---
 
 ## 前言

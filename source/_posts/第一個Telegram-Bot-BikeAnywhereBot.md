@@ -7,6 +7,7 @@ tags:
   - Chat Bot
 categories: [資訊, Python]
 date: 2019-08-22 15:59:05
+permalink: UbikeAnywhereBot
 ---
 
 > Github Repo: [https://github.com/jayin92/UBikeAnywhereBot](https://github.com/jayin92/UBikeAnywhereBot)

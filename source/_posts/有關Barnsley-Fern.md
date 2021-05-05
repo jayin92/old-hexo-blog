@@ -3,6 +3,7 @@ title: 有關Barnsley Fern
 date: 2018-05-07 20:07:10
 categories: ['數學', '碎形']
 tags: ['數學', 'Python', '碎形']
+permalink: Barnsley-Fern
 ---
 ## 前言
 ![](https://upload.wikimedia.org/wikipedia/commons/7/76/Barnsley_fern_plotted_with_VisSim.PNG)

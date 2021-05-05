@@ -3,6 +3,7 @@ title: 萬有引力定律 vs 庫侖定律
 date: 2019-08-20 12:47:09
 categories: [物理]
 tags: [物理]
+permalink: law-of-universal-gravitation-vs-Coulomb's-law
 ---
 ## 引言
 
